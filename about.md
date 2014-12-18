@@ -4,10 +4,10 @@ title: About me
 permalink: /about/
 ---
 
-I'm Riccardo, student in Computer Science University of Ferrara, Italy.
+I'm Riccardo, student in Computer Science at University of Ferrara, Italy.
 
 I'm an open source enthusiast, and in my free time I collaborate with Ubuntu
-Community. I think is very important as project to spread free software in the
+Community. I think it is a very important project to spread free software in the
 world, on every type of device.
 
 At the moment I focus mainly on Ubuntu for Phones, but I contributed to a lot
