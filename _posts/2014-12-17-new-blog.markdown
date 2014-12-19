@@ -14,6 +14,7 @@ after long time I return to write something about **changes** I made to my
 blog, and how I plan to use it in next months.
 
 ## From Wordpress to Jekyll
+
 So, first thing: I moved away from Wordpress!
 I find Wordpress annoying and to big for what I need: a place where I could
 write some things, without anything else.
@@ -22,7 +23,8 @@ I stopped to write because I find is a pain to write a new post in Wordpress:
 the editor isn't so good, and the admin interface is so slow.
 
 Some months ago an italian tech blogger, [Alessio Biancalana][dottorblaster],
-moved from Wordpress to [Jekyll][jekyll]. I was curious, so I tried it, and it's awesome!
+moved from Wordpress to [Jekyll][jekyll]. I was curious, so I tried it,
+and it's awesome!
 Only thing you need is a text editor and **BOOM**, you're ready.
 
 Also because you write post with markdown, and markdown rocks!
@@ -30,15 +32,57 @@ The site is hosted on Github Pages, so my workflow is definitely better: write
 a post, `git add, git commit, git push` and GitHub takes care of all!
 
 ## Contents
+
 Ok, you now have a new blog, and it's cool. But what about contents? A blog
 without contents is useless!
 
 Well, I want to try to use the blog to post all things I used to post on
 Google+.
 In last months I did a lot of things (attended a Canonical sprint, wrote a
-scope for Ubuntu for Phones, improved bookmarks in Ubuntu Browser and so on)
-but I wrote about them only on Google+, and this is a shame.
-Google+ is cool for a lot of things, but your contents belong to it,
+scope for Ubuntu for Phones, improved bookmarks in Ubuntu Browser, has been
+invited to the launch of the first Ubuntu Smartphone and so on) but I wrote about
+them only on Google+, and this is a shame. Google+ is cool for a lot of things,
+but your contents belong to it, and who hasn't an account could't read them,
+and things *fly away* after few days.
+
+So all posts I usually write on G+ I'll write here, so they will be also on
+Ubuntu Planet :-)
+
+## Comments
+
+As maybe you notice, there isn't a comment section. Well, Jekyll is a static
+content manager, so all solutions out of there are based on Disqus or some other
+cloud content manager. I totally don't like them, so I'll not use it.
+
+I found a plugin for Jekyll to manage them in a cool way, I' ll try to implement
+it during Christmas holidays.
+
+Meanwhile, write a mail to me, or leave a comment on G+ :-D
+
+## Donations
+
+Another thing I added in the restyling of the website is a [donation][donation] page.
+I'm an universitary student and I don't have any income, please help me to have
+free time to do what I love most: help others developing. First donations will
+be used to buy a VPS to host this blog (see below)
+
+## Privacy
+
+I talked a lot about privacy, but now I moved my contents from my hosting to
+GitHub. What?
+
+This is because I like very much Jekyll, and to use it I need Ruby, and I don't
+have a VPS where install it. So I prefer to have a blog where I'm happy to write
+hosted on a GitHub server rather a blog without content hosted on my hosting.
+
+But if I'll take some money with donations I'll buy a VPS, so I could also manage
+a mail server - at the moment I use an european provider - ovh - but I want to
+have full control on them
+
+So, for now it is all, and I hope this is the first of a long series of posts.
+
+Enjoy your holidays!
 
 [dottorblaster]: http://dottorblaster.it/
 [jekyll]: http://jekyllrb.com
+[donation]: https://rpadovani.github.io/donations
