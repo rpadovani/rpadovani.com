@@ -8,7 +8,7 @@ my contributions to the opensource world, please think about offer me a beer :-)
 
 Every month I'll do a post about what I did in opensource world that month,
 so you could know how I spent my time, and if I deserve a beer or a coffe.
-Also, I'll publish also the amount of donation in the previous month.
+Also, I'll publish the amount of donations I had in the previous month.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0 auto; width: 92px">
 <input type="hidden" name="cmd" value="_donations">
