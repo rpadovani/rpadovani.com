@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "New blog"
+date:   2014-12-17
+description: The new blog is arrived :-)
+categories:
+- blog
+permalink: new-blog
+tags: personal
+---
+
+Hey all folks,
+after long time I return to write something about **changes** I made to my
+blog, and how I plan to use it in next months.
+
+## From Wordpress to Jekyll
+So, first thing: I moved away from Wordpress!
+I find Wordpress annoying and to big for what I need: a place where I could
+write some things, without anything else.
+
+I stopped to write because I find is a pain to write a new post in Wordpress:
+the editor isn't so good, and the admin interface is so slow.
+
+Some months ago an italian tech blogger, [Alessio Biancalana][dottorblaster],
+moved from Wordpress to [Jekyll][jekyll]. I was curious, so I tried it, and it's awesome!
+Only thing you need is a text editor and **BOOM**, you're ready.
+
+Also because you write post with markdown, and markdown rocks!
+The site is hosted on Github Pages, so my workflow is definitely better: write
+a post, `git add, git commit, git push` and GitHub takes care of all!
+
+## Contents
+Ok, you now have a new blog, and it's cool. But what about contents? A blog
+without contents is useless!
+
+Well, I want to try to use the blog to post all things I used to post on
+Google+.
+In last months I did a lot of things (attended a Canonical sprint, wrote a
+scope for Ubuntu for Phones, improved bookmarks in Ubuntu Browser and so on)
+but I wrote about them only on Google+, and this is a shame.
+Google+ is cool for a lot of things, but your contents belong to it,
+
+[dottorblaster]: http://dottorblaster.it/
+[jekyll]: http://jekyllrb.com
