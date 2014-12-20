@@ -1,63 +1,87 @@
 ---
 layout: post
-title:  "Sample post from harmony"
-date:   2014-08-19 23:56:45
-description: Just a sample post to show some of the typography elements supported from harmony theme.
+title:  "New blog"
+date:   2014-12-17
+description: The new blog is arrived :-)
 categories:
 - blog
-permalink: sample-post
+permalink: new-blog
+tags: personal
 ---
 
-Just a sample post to show some of the *typography* elements supported from 
-**harmony** theme.
+Hey all folks, after long time I return to write something about **changes** I
+made to my blog, and how I plan to use it in next months.
 
-___
+## From Wordpress to Jekyll
 
-A blockquote:
+So, first thing: I moved away from Wordpress! I find Wordpress annoying and to
+big for what I need: a place where I could write some things, without anything
+else.
 
-> Donec in mollis eros, nec rutrum turpis. **Curabitur** sem elit, semper nec volutpat quis, laoreet et sapien. In felis erat, rhoncus sed pellentesque mollis, tincidunt quis elit.
-> - By Someone
+I stopped to write because I find is a pain to write a new post in Wordpress:
+the editor isn't so good, and the admin interface is so slow.
 
-## Header 2
+Some months ago an italian tech blogger, [Alessio Biancalana][dottorblaster],
+moved from Wordpress to [Jekyll][jekyll]. I was curious, so I tried it, and it's
+awesome! Only thing you need is a text editor and **BOOM**, you're ready.
 
-Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.
+Also because you write post with markdown, and markdown rocks! The site is
+hosted on Github Pages, so my workflow is definitely better: write a post, `git
+add, git commit, git push` and GitHub takes care of all!
 
+## Contents
 
-Example code: 
+Ok, you now have a new blog, and it's cool. But what about contents? A blog
+without contents is useless!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Well, I want to try to use the blog to post all things I used to post on
+Google+. In last months I did a lot of things (attended a Canonical sprint,
+wrote a scope for Ubuntu for Phones, improved bookmarks in Ubuntu Browser, has
+been invited to the launch of the first Ubuntu Smartphone and so on) but I wrote
+about them only on Google+, and this is a shame. Google+ is cool for a lot of
+things, but your contents belong to it, and who hasn't an account could't read
+them, and things *fly away* after few days.
 
+My plan is to write all posts I usually write on G+ here, so they will be also
+on Ubuntu Planet :-)
 
-A list: 
+## Comments
 
-- Praesent nisi elit, bibendum ut consectetur ac, aliquet in nunc
-- Donec ante est, volutpat in mi et, pulvinar congue dolor.
-- Quisque ultrices pulvinar sollicitudin.
-- Duis elementum odio eu euismod suscipit.
-- Integer enim lorem, interdum sit amet consectetur non, bibendum eget neque.
+As maybe you notice, there isn't a comment section. Well, Jekyll is a static
+content manager, so all solutions out of there are based on Disqus or some other
+cloud content manager. I totally don't like them, so at the moment I prefer to
+avoid to implement comments.
 
-A numbered list: 
+I found a plugin for Jekyll to manage them in a cool way, I' ll try to implement
+it during Christmas holidays.
 
-1. Praesent nisi elit, bibendum ut consectetur ac, aliquet in nunc. 
-2. Donec ante est, volutpat in mi et, pulvinar congue dolor.
-3. Quisque ultrices pulvinar sollicitudin.
-4. Duis elementum odio eu euismod suscipit.
-5. Integer enim lorem, interdum sit amet consectetur non, bibendum eget neque.
+Meanwhile, if you have any feedback, write a mail to me, or leave a comment on
+G+ :-D
 
-Definition list:
+## Donations
 
-Curabitur cursus magna eu sem cursus
-: ac ultrices urna pharetra.
-: Duis scelerisque ipsum eu luctus elementum. 
+Another thing I added in the restyling of the website is a [donation][donation]
+page. I'm an universitary student and I don't have any income, please help me to
+have free time to do what I love most: help others developing. First donations
+will be used to buy a VPS to host this blog (see below).
 
-Pellentesque habitant morbi tristique senectus
-: Curabitur malesuada lacus ac gravida porttitor
-: Duis sodales feugiat lorem et mollis. 
+## Privacy
 
-Want me to suggest something? Please [Send me a request](https://github.com/web-create/harmony/issues/new)
+I talked a lot about privacy in previous posts, but now I moved my contents from
+my hosting to GitHub. What?
+
+This is because I like very much Jekyll, and to use it I need Ruby, and I don't
+have a VPS where install it. So I prefer to have a blog where I'm happy to write
+hosted on a GitHub server rather a blog without contents hosted on my hosting.
+
+But if I'll take some money with donations I'll buy a VPS, so I could also
+manage a mail server - at the moment I use an european provider - ovh - but I
+want to have full control on the mails.
+
+So, for now it is all, and I hope this is the first of a long series of posts.
+
+Enjoy your holidays!
+
+[dottorblaster]: http://dottorblaster.it/
+[jekyll]: http://jekyllrb.com
+[donation]: https://rpadovani.github.io/donations
