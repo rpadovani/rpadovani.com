@@ -5,7 +5,7 @@ date:   2014-09-21
 description: Bacon2D is a very powerful framework to create 2D games in QML.
 categories:
 - blog
-permalink: new-blog
+permalink: create-your-first-game-with-bacon2d
 tags: bacon2d, qml, ubuntu touch
 ---
 
@@ -1189,6 +1189,7 @@ record: 763!
 ![Our first game finished](http://img.rpadovani.com/posts/100balls-final.png)
 
 ## And now?
+
 In this little tutorial I explained all Bacon2D components I used to build
 100balls game for Ubuntu for Phones. Of course, there are a lot of things you
 could implement to make the game funnier. Here some suggestions:
@@ -1204,11 +1205,13 @@ could implement to make the game funnier. Here some suggestions:
 If you’re stuck, take a look to my code on [GitHub][github]
 
 ## Bacon2D
+
 If you want an help on Bacon2D, or create a new game, or do a chat, go
 on #bacon2D channel on Freenode, join the [Google+ community][community],
 read the [documentation][documentation]
 
 ## Feedback
+
 I spent almost two weeks to write this article. You know, I’m not an english
 native speaker, so please forgive mistakes in the text. I hope all steps are
 clear enough. If you find an error, or something not clear, or whatever you
