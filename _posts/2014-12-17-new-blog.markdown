@@ -45,19 +45,20 @@ them only on Google+, and this is a shame. Google+ is cool for a lot of things,
 but your contents belong to it, and who hasn't an account could't read them,
 and things *fly away* after few days.
 
-So all posts I usually write on G+ I'll write here, so they will be also on
+My plan is to write all posts I usually write on G+ here, so they will be also on
 Ubuntu Planet :-)
 
 ## Comments
 
 As maybe you notice, there isn't a comment section. Well, Jekyll is a static
 content manager, so all solutions out of there are based on Disqus or some other
-cloud content manager. I totally don't like them, so I'll not use it.
+cloud content manager. I totally don't like them, so at the moment I prefer to
+avoid to implement comments.
 
 I found a plugin for Jekyll to manage them in a cool way, I' ll try to implement
 it during Christmas holidays.
 
-Meanwhile, write a mail to me, or leave a comment on G+ :-D
+Meanwhile, if you have any feedback, write a mail to me, or leave a comment on G+ :-D
 
 ## Donations
 
@@ -77,7 +78,7 @@ hosted on a GitHub server rather a blog without contents hosted on my hosting.
 
 But if I'll take some money with donations I'll buy a VPS, so I could also manage
 a mail server - at the moment I use an european provider - ovh - but I want to
-have full control on them.
+have full control on the mails.
 
 So, for now it is all, and I hope this is the first of a long series of posts.
 
