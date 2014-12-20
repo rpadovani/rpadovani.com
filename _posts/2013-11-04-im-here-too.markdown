@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I'm here too"
-date:   2014-12-17
+date:   2013-11-04
 description: My first post on my first personal website
 categories:
 - blog
