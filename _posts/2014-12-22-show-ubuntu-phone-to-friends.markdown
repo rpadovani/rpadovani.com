@@ -4,7 +4,7 @@ title:  "Ubuntu Phone seen by my friends"
 date:   2014-12-22 12:55:00
 description: It's time to show Ubuntu on a Nexus 4 to some friends, and collect feedback.
 categories:
-- blog
+- ubuntu touch
 permalink: ubuntu-phone-seen-by-friends
 ---
 

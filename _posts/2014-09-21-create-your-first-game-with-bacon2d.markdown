@@ -4,9 +4,10 @@ title:  "Create your first game with Bacon2D"
 date:   2014-09-21
 description: Bacon2D is a very powerful framework to create 2D games in QML.
 categories:
-- blog
+- bacon2d
+- qml
+- uubntu touch
 permalink: create-your-first-game-with-bacon2d
-tags: bacon2d, qml, ubuntu touch
 ---
 
 Hi all,

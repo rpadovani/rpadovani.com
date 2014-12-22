@@ -6,7 +6,6 @@ description: The new blog is arrived :-)
 categories:
 - blog
 permalink: new-blog
-tags: personal
 ---
 
 Hey all folks, after long time I return to write something about **changes** I

@@ -4,7 +4,7 @@ title:  "Farewell Google"
 date:   2013-12-23
 description: How to avoid Google and use open source software on Android
 categories:
-- blog
+- privacy
 permalink: farewell-google-welcome-f-droid
 tags: privacy
 ---

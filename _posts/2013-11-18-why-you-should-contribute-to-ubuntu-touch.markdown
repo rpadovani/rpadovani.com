@@ -4,9 +4,8 @@ title:  "Why you should contribute to Ubuntu Touch"
 date:   2013-11-20
 description: Contribute to an open-source project is awesome, for a lot of reasons
 categories:
-- blog
+- ubuntu touch
 permalink: why-you-should-contribute-to-ubuntu-touch
-tags: ubuntu touch
 ---
 
 *I’m going to talk about Ubuntu Touch because is the biggest open-source project in which I’m involved, but the following post is applicable to any open-source project.*

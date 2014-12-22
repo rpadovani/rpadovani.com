@@ -4,9 +4,10 @@ title:  "How to know proprieties and values of an object in QML"
 date:   2014-06-30
 description: A simple function to debug objects in QML
 categories:
-- blog
+- javascript
+- qml
+- ubuntu touch
 permalink: how-to-know-proprieties-and-values-of-an-object-in-qml
-tags: javascript, qml, ubuntu touch
 ---
 
 Hi all,

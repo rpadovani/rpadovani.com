@@ -4,9 +4,8 @@ title:  "One year later..."
 date:   2014-03-17
 description: How many changes and how many work have been done in one year on Ubuntu for Phones
 categories:
-- blog
+- ubuntu touch
 permalink: one-year-later
-tags: ubuntu-touch
 ---
 
 Lot of things has changed in last year in my life: I changed university, city,

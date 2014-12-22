@@ -6,7 +6,6 @@ description: My first post on my first personal website
 categories:
 - blog
 permalink: im-here-too
-tags: personal
 ---
 
 Hello world,
