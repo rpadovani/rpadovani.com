@@ -2,7 +2,7 @@
 layout: post
 title:  "Ubuntu Phone seen by my friends"
 date:   2014-12-22 12:55:00
-description: It's time to show Ubuntu on a Nexus 4 to some friends, and collect feedbacks.
+description: It's time to show Ubuntu on a Nexus 4 to some friends, and collect feedback.
 categories:
 - blog
 permalink: ubuntu-phone-seen-by-friends
@@ -19,7 +19,7 @@ So, they wanted to try the system, and I was more than happy to show them my
 phone. It's a Nexus 4 with RTM #12, and I use it as everyday phone, so it has
 lot of apps and stuffs on it.
 
-All feedbacks were more than positive, mainly on two topics:
+All feedback were more than positive, mainly on two topics:
 
  - **Fluidity**: compared to a phone with Android 2.x (*yes, there are some phones out of there with this old version of Android, sometimes it's very interesting how is technology out in real world*)
  Ubuntu on Nexus 4 is very very fast, and the same speed is on the BQ phone
@@ -31,7 +31,7 @@ All feedbacks were more than positive, mainly on two topics:
  (our brains are used to a physical button at the bottom) all guys seemed
  accustomed. But multitask was the most acclamate gesture, seriously
 
- Unfortunately, there are also two negative feedbacks:
+ Unfortunately, there are also two negative feedback:
  - **Unlock screen**: all my friends tried to unlock the phone doing a circle
  with the thumb, and all were disappointend to find that is needed a swype.
  There is a circle in the center of the screen, why do a swype?
