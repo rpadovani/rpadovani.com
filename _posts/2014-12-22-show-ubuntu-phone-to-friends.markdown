@@ -31,7 +31,8 @@ All feedback were more than positive, mainly on two topics:
  (our brains are used to a physical button at the bottom) all guys seemed
  accustomed. But multitask was the most acclamate gesture, seriously
 
- Unfortunately, there are also two negative feedback:
+Not all is so good, there are also two negative feedback:
+
  - **Unlock screen**: all my friends tried to unlock the phone doing a circle
  with the thumb, and all were disappointend to find that is needed a swype.
  There is a circle in the center of the screen, why do a swype?
