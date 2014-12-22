@@ -45,8 +45,8 @@ continue on that way, and we will change the world, bit by bit, mind by mind.
 
 Here my friends try Ubuntu on Nexus 4:
 
-![Friends try Ubuntu](http://img.rpadovani.com/posts/show_ubuntu_to_friends.png)
-![Friends try Nexus 4](http://img.rpadovani.com/posts/show_ubuntu_to_friends_2.png)
+![Friends try Ubuntu](http://img.rpadovani.com/posts/show_ubuntu_to_friends.jpg)
+![Friends try Nexus 4](http://img.rpadovani.com/posts/show_ubuntu_to_friends_2.jpg)
 
 Did you like the post? Consider to do a [donation][donation]
 
