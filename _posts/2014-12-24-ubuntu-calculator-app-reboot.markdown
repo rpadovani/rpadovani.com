@@ -2,8 +2,7 @@
 layout: post
 title:  "Ubuntu Calculator App Reboot"
 date:   2014-12-24 19:12:00
-description: The default calculator installed on Ubuntu for Phones is quite old...
-It's time for a reboot!
+description: The default calculator installed on Ubuntu for Phones is quite old... It's time for a reboot!
 categories:
 - ubuntu touch
 permalink: ubuntu-calculator-app-reboot
