@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "ubuntu-it had an awesome year!"
+date:   2015-01-03 19:35
+description: ubuntu-it promotes Ubuntu in Italy, and it's time to show to the world how much awesome it is :-)
+categories:
+- ubuntu-it
+permalink: ubuntu-it-2014
+---
+
+![ubuntu it community](http://ducc.it/img/duccit-2013.png)
+
+[Ubuntu-it][ubuntu-it] is, as the name said, the LoCo team that takes care to
+promote Ubuntu in Italy and to make available all resources (documentation,
+support, the system itself) in Italian. The LoCo itself hasn't any resource - we
+are all volounteer - and it isn't an association or any other recognized
+institution, so we can't accept donations.
+
+Our websites run on a Canonical server, and we don't have any other expenses.
+When some of us go to any conference to show Ubuntu to the world, the expenses
+are paid by the volunteer himself or, in the best cases, by the organizers of
+the conference. Despite lack of resources what ubuntu-it could achieve is
+awesome.
+
+To have some idea on what is our audience, according to [Wikipedia][wiki], Italy
+has ~61 million inhabitants, and in 2011 [54,5%][54] of Italian families had
+access to the internet. Definitely a little market compared to the world.
+
+## Events
+
+In 2014 ubuntu-it organized two main events: [DUCC-IT][duccit] and a community
+meeting.
+
+### DUCC-IT
+
+The **Debian/Ubuntu Community Conference Italia** is an event that wants to
+unite the Italian communities of Debian and Ubuntu but also Italian
+organizations working in Free Software, to exchange knowledge, discuss the
+current situation and meet other developers and community members.
+
+The conference had a lot of visitors, and the talks were pretty interesting,
+mainly about Debian and Ubuntu, but also about [PostgreSQL][pgsql],
+[Raspberry pi][pi] and others.
+
+Organize this event is complicated and requires a lot of work, so thanks to
+UIELinux and S.P.R.I.T.E for the help. We will try to organize another one for
+the next year.
+
+### Community meeting
+
+In November we organized an event for the contributors, to choose what to focus
+on until Ubuntu 15.04. The event was funny as usual, a day to drink beers
+together and to work on our favourite distro!
+
+## Some numbers
+
+The 2014 was huge also about numbers: this year we focused on social networks,
+because forums and mailing list aren't used so much anymore, and we need to
+advertise Ubuntu where people are: social network, indeed. So we have a
+[group on Facebook][fbgroup] with 3400 members and [a page][fbpage] with 7400
+likes. Group itself is quite good, but our page needs more like - we have some
+ideas for the new year, and we will try to boost it.
+
+The thing that indicates how much our community works well is stats about the
+website: it is static (we don't have news on it) so a user uses the website only
+to download Ubuntu or to find informations on Ubuntu. Indeed, 25.32% of
+pageviews are on homepage and 24.26% are on the download page.
+
+So, in 2014 we had **2,256,985** visits by **1,525,845** unique visitors
+(*65.84% are new visitors*) that have visited **7,237,480** pages.
+
+In 2015 we're planning to launch a new version of the website, mobile ready
+(sorry, we're very late on this, but you know, we do it in our little free
+time).
+
+With the launch of the new website and of Ubuntu Phone in February
+([and with a lot of people interested in it][oldpost]) I think we can do bigger
+numbers, and I hope we will have a fantastic year in the Free Software world.
+
+Ciao, <br/>
+R.
+
+[ubuntu-it]: http://www.ubuntu-it.org
+[wiki]: https://en.wikipedia.org/wiki/Italy
+[54]: https://en.wikipedia.org/wiki/Internet_in_Italy
+[duccit]: http://ducc.it/
+[pgsql]: http://www.postgresql.org/
+[pi]: http://www.raspberrypi.org/
+[fbgroup]: https://www.facebook.com/groups/ubuntu.it/
+[fbpage]: https://www.facebook.com/ubuntu.it
+[oldpost]: http://rpadovani.com/ubuntu-phone-seen-by-friends/
