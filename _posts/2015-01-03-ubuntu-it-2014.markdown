@@ -10,10 +10,10 @@ permalink: ubuntu-it-2014
 
 ![ubuntu it community](http://ducc.it/img/duccit-2013.png)
 
-[Ubuntu-it][ubuntu-it] is, as the name said, the LoCo team that takes care to
+[Ubuntu-it][ubuntu-it] is, as the name says, the LoCo team that takes care to
 promote Ubuntu in Italy and to make available all resources (documentation,
 support, the system itself) in Italian. The LoCo itself hasn't any resource - we
-are all volounteer - and it isn't an association or any other recognized
+are all volunteers - and it isn't an association or any other recognized
 institution, so we can't accept donations.
 
 Our websites run on a Canonical server, and we don't have any other expenses.
@@ -56,13 +56,13 @@ together and to work on our favourite distro!
 
 The 2014 was huge also about numbers: this year we focused on social networks,
 because forums and mailing list aren't used so much anymore, and we need to
-advertise Ubuntu where people are: social network, indeed. So we have a
+advertise Ubuntu where people are: social networks, indeed. So we have a
 [group on Facebook][fbgroup] with 3400 members and [a page][fbpage] with 7400
-likes. Group itself is quite good, but our page needs more like - we have some
-ideas for the new year, and we will try to boost it.
+likes. The group itself is quite good, but our page needs more *likes* - we have
+some ideas for the new year, and we will try to boost it.
 
-The thing that indicates how much our community works well is stats about the
-website: it is static (we don't have news on it) so a user uses the website only
+I think a good indicator about how much our community works well are website
+stats: it is static (we don't have news on it) so a user uses the website only
 to download Ubuntu or to find informations on Ubuntu. Indeed, 25.32% of
 pageviews are on homepage and 24.26% are on the download page.
 
