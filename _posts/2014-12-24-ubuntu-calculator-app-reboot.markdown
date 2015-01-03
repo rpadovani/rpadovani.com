@@ -36,7 +36,7 @@ didn't have that in the old app, and we think could be a very useful feature:
 
 ![landscape](http://img.rpadovani.com/posts/scientific-mode.png)
 
-Another interesting feature is the **favuorite history**. You can mark a calc as
+Another interesting feature is the **favourite history**. You can mark a calc as
 favourite and set a label, so you can easily access to it in a second moment,
 and remember why you saved it in first place.
 
@@ -46,7 +46,7 @@ The file with the new design specs is available [online][new-design].
 
 ## Current implementation
 
-We started to work on this at the end of november, and we do it in our free
+We started to work on this at the end of November, and we do it in our free
 time, so we're a bit slow, but we are quite happy with results. We found a
 Javascript library, named [MathJs][mathjs], that is very powerful. Indeed, we
 have already implemented scientific mode, and storage, so the base of the app is
