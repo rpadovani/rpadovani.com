@@ -51,6 +51,8 @@ Plus, if you like Unity, you can meet here a real rockstar: Unity 7 developer,
 have some good time talking about opensource and how to change the world, bit by
 bit.
 
+## Contacts
+
 If you need more informations, take a look to official pages:
 
  - [Facebook][fb]
@@ -73,3 +75,4 @@ await me. Do you mind to [buy me a coffee][coffee] to help me to stay awake? :-)
 [l]: https://www.linkedin.com/groups/QtDay-8224190?gid=8224190&mostPopular=&trk=tyah&trkInfo=tarId:1421062005092,tas:qtday,idx:1-1-1
 [g+]: https://plus.google.com/b/111911559482404932671/111911559482404932671/posts
 [blog]: http://www.qtday.it/blog/
+[coffee]: http://rpadovani.com/donations/
