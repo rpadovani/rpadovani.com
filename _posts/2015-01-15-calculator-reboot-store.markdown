@@ -12,6 +12,10 @@ permalink: ubuntu-calculator-app-reboot-store
 and I worked hard on [Calculator Reboot][reboot] in last month, and finally it is
 available in the Ubuntu Touch Store :-)
 
+This is possible also thanks to [Alan Pope][popey], [Mihir Soni][mihir] and a
+lot of other guys, designers and testers. I started to do a credits list, but
+wow, how many people for a single app. So thanks to all!
+
 ![reboot](http://img.rpadovani.com/posts/calculator-reboot.png)
 
 The app is still being worked, so in next weeks will have new features and
@@ -51,3 +55,5 @@ Do you mind to [buy me a coffee][donation] to work all night long? :-)
 [branch]: https://code.launchpad.net/~ubuntu-calculator-dev/ubuntu-calculator-app/reboot
 [donation]: http://rpadovani.com/donations/
 [ddg]: http://rpadovani.com/why-opensource-rocks/
+[popey]: http://popey.com/
+[mihir]: https://plus.google.com/+MihirSoni/
