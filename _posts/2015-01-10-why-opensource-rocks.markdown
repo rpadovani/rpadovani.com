@@ -16,7 +16,7 @@ emphasizes protecting searchers' privacy and avoiding filter bubble of
 personalized search results (Wikipedia dixit).
 
 A couple of months ago I published a [scope][scope] for Ubuntu Touch, called
-[Discerning Duck][discerning]: it's like a personal assisten, based on DDG
+[Discerning Duck][discerning]: it's like a personal assistent, based on DDG
 [Instant Answers][ia]. The scope it's still limited, because only few of these
 Instant Answers are available via API (only *goodies* and *fathead*. *Spice*,
 the most interactive, will be available in next months).
@@ -31,7 +31,7 @@ address, and there is no way to set a location by yourself, so I can't use
 device location to look for sunrise. How long this worked well for me, someone
 has wrong location in his homepage, so some days ago someone opened an
 [issue][issue] on Discernig Duck GitHub project to complain about this. I
-could't do anything but open a bug [upstream][upstream].
+couldn't do anything but open a bug [upstream][upstream].
 
 And you know what? In less than 4 days the bug has been fixed, and in next days
 will be live. I will fix Discerning Duck to use phone location to look for
