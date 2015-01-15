@@ -47,7 +47,7 @@ anyone?) but it's the first which harnesses the power of the convergence of Qt5.
 Moreover, all around is growing an amazing ecosystem with exciting features.
 
 Plus, if you like Unity, you can meet here a real rockstar: Unity 7 developer,
-**[Marco Trevino Trevisan][trevi]**. So, join us to be updated on Qt, Ubuntu and
+**[Marco Treviño Trevisan][trevi]**. So, join us to be updated on Qt, Ubuntu and
 have some good time talking about opensource and how to change the world, bit by
 bit.
 
