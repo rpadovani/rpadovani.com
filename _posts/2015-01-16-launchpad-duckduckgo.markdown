@@ -32,8 +32,8 @@ opensource world since a couple of months, so go to say thanks :-)
 
 Unfortunately this new functionality will not be available on Discerning Duck -
 my scope for Ubuntu Phone. At the moment DuckDuckGo API provides only *goodies*
-(things that don't require third parts API), and Launchpad is a *spice*.
-DuckDuckGo team said they will provide spices too to third parts app, so I hope
+(things that don't require third-party API), and Launchpad is a *spice*.
+DuckDuckGo team said they will provide spices too to third-party app, so I hope
 we could have them soon.
 
 You don't use DuckDuckGo yet? It's time to change! You can see [here][donttrack]
