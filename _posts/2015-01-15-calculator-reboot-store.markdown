@@ -50,7 +50,7 @@ Do you mind to [buy me a coffee][donation] to work all night long? :-)
 [gcollura]: https://plus.google.com/+GiulioCollura/posts
 [mzanetti]: http://notyetthere.org/
 [reboot]: http://rpadovani.com/ubuntu-calculator-app-reboot/
-[launchpad]: https://code.launchpad.net/ubuntu-calculator-app
+[lp]: https://code.launchpad.net/ubuntu-calculator-app
 [autopilot]: https://bugs.launchpad.net/ubuntu-calculator-app/+bugs/?field.tag=needs-autopilot-test
 [branch]: https://code.launchpad.net/~ubuntu-calculator-dev/ubuntu-calculator-app/reboot
 [donation]: http://rpadovani.com/donations/
