@@ -4,7 +4,7 @@ title:  "Canonical Sprint in Malta"
 date:   2014-05-28
 description: A fantastic adventure with awesome people
 categories:
-- ubuntu touch
+- ubuntu phone
 permalink: canonical-sprint-in-malta
 ---
 

@@ -4,7 +4,7 @@ title:  "Why you should contribute to Ubuntu Touch"
 date:   2013-11-20
 description: Contribute to an open-source project is awesome, for a lot of reasons
 categories:
-- ubuntu touch
+- ubuntu phone
 permalink: why-you-should-contribute-to-ubuntu-touch
 ---
 

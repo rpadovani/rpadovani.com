@@ -6,7 +6,7 @@ description: A simple function to debug objects in QML
 categories:
 - javascript
 - qml
-- ubuntu touch
+- ubuntu phone
 permalink: how-to-know-proprieties-and-values-of-an-object-in-qml
 ---
 

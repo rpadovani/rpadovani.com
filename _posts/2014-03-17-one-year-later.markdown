@@ -4,7 +4,7 @@ title:  "One year later..."
 date:   2014-03-17
 description: How many changes and how many work have been done in one year on Ubuntu for Phones
 categories:
-- ubuntu touch
+- ubuntu phone
 permalink: one-year-later
 ---
 

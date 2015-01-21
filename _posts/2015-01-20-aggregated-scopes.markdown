@@ -4,7 +4,7 @@ title:  "Ubuntu Phone Glimpse: Aggregated Scopes"
 date:   2015-01-20 19:15
 description: The Today scope let's you see your most important interactions on one screen. Personalise it to see what's most important to you, right at your fingertips.
 categories:
-- ubuntu touch
+- ubuntu phone
 permalink: ubuntu-phone-glimpse-aggregated-scopes
 ---
 

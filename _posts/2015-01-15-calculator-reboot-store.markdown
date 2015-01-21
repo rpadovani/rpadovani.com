@@ -4,7 +4,7 @@ title:  "Ubuntu Calculator App Reboot is in the store"
 date:   2015-01-15 07:15
 description: Calculator App Reboot is in the store, so now you can try it and give us a feedback
 categories:
-- ubuntu touch
+- ubuntu phone
 permalink: ubuntu-calculator-app-reboot-store
 ---
 

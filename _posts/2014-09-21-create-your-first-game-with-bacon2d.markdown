@@ -6,7 +6,7 @@ description: Bacon2D is a very powerful framework to create 2D games in QML.
 categories:
 - bacon2d
 - qml
-- ubuntu touch
+- ubuntu phone
 permalink: create-your-first-game-with-bacon2d
 ---
 
