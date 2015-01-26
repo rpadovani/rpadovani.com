@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Ubuntu Phone Glimpse: The Hardware"
-date:   2015-01-26 19:30
-description: Ubuntu Phone: let's have a look on the hardware of the first phone!
+date:   2015-01-26 19:42
+description: Ubuntu Phone: let's have a look on hardware of the first phone!
 categories:
 - ubuntu phone
 permalink: ubuntu-phone-glimpse-hardware
@@ -19,7 +19,8 @@ very accurated), but now it's time to clarify: it's time to see what's
 
 ## The Hardware
 
-Next up in this Phone Glimpse, we'll be shining the spotlight on our hardware device for the Ubuntu phone.
+Next up in this Phone Glimpse, we'll be shining the spotlight on our hardware
+device for the Ubuntu phone.
 
 We are confident and excited to be partnering with Spanish mobile device
 manufacturers bq for the Ubuntu phone. bq is dedicated to designing and
