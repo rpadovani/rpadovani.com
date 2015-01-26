@@ -2,7 +2,7 @@
 layout: post
 title:  "Ubuntu Phone Glimpse: The Hardware"
 date:   2015-01-26 19:30
-description: Ubuntu Phone: let have a look on the hardware of the first phone!
+description: Ubuntu Phone: let's have a look on the hardware of the first phone!
 categories:
 - ubuntu phone
 permalink: ubuntu-phone-glimpse-hardware
@@ -16,6 +16,8 @@ very accurated), but now it's time to clarify: it's time to see what's
 **the hardware** of the first Ubuntu Phone!
 
 ![The hardware](http://img.rpadovani.com/posts/hardware.jpg)
+
+## The Hardware
 
 Next up in this Phone Glimpse, we'll be shining the spotlight on our hardware device for the Ubuntu phone.
 
