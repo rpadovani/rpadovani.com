@@ -17,3 +17,8 @@ Furthermore, I'll publish the amount of donations received in the previous month
 <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+## My contributions
+
+### 2015
+
+- [January][jan15]: http://rpadovani.com/my-contributions-jan-15/
