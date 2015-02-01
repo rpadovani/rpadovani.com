@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "My opensource contributions in January 15"
+date:   2015-02-01 09:00
+description: What did I do in January to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-jan-15
+---
+
+Wow, it's already a month I *rebooted* my [blog][reboot], and this is the
+twelveth article I write. Whereas since the launch of the blog, during November
+'13, I wrote 7 articles, well, this is a record for myself!
+
+
+## Stats
+
+But it's thanks to you I write, because I see you are a lot who read me.
+Actually, number of visits to the blog are astonishing. Without calculating who
+read articles on [Ubuntu Planet][planet] or in a RSS Reader, this blog had
+**37,482 page views** by **11,702 unique visitors** in 35 days. WHAT? Thanks to
+all, it's incredible!
+
+Stats are calculated by CloudFare, I don't have Analytics or others trackers on
+the site. It just counts the number of request it has.
+
+## Donations
+
+Another thing I inserted in the website during the reboot of last month it's the
+[donations][donation] page. And in this month I received my firsts two donations
+(*total amount is €18,54*). Thanks, it's really nice to see that your work is
+appreciated.
+
+## What I did
+
+Now, it's time to describe what I did in Jan (plus last week of Dec, just to
+start from the reboot of the blog). I had also to do exams at Uni, so I did less
+than I wanted. I hope to do more next month!
+
+### Calculator Reboot
+
+I used most of the time to work on Calculator Reboot for Ubuntu Phone - adding
+features, fixing bugs and reviewing code. If you want to go through its history,
+you can read [about the project][c0], when it first [hit the store][c1] on Jan,
+15 and the last [two][c2] [updates][c3].
+
+### Browser app
+
+I never talked about the **Ubuntu Browser App** on this blog, but it's a project
+I like a lot. It has some interesting concepts (like how it manages bookmarks)
+and it's one of the app I use more on the phone. It isn't a *core app*, so I
+contribute to it only when I have a lot of free time, because the priority are
+core apps (like Calculator). But in the last week I had some free time and I
+wanted to contribute a bit more (it was since last Oct I didn't write code for
+browser). So in next weeks you'll see landing an improvement in the [history page]
+[b0] UI, a new design for [new tab page][b1] and an [animation][b2] to have
+address bar with the same width of the app when you insert a link.
+
+Thanks to Olivier for the support and the patience :-)
+
+### Other
+
+I did other little things: some promotion to DuckDuckGo and Ubuntu Touch on this
+blog and on social networks, I reported all bugs I found using Ubuntu Phone as
+main phone, I wrote a little patch for clock app and did some reviews, and,
+mainly, supported Ubuntu Italy activities (promotion and support). Everyone who
+works in opensource world knows what I mean when I say that these contributions
+*are routine*. When you contribute for some years to the opensource world then
+becomes natural report bugs and help someone if he tries to achieve something we
+already achieved.
+
+Next month I hope to finalize calculator app reboot and, if I have enough time,
+implement a very interesting feature in the browser.
+
+You know, I'm a student and I do all this in my free time. So, if you like my
+work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a coffee :-)
+
+Ciao,<br/>
+R.
+
+[reboot]: http://rpadovani.com/new-blog/
+[planet]: http://planet.ubuntu.com
+[donation]: http://rpadovani.com/donations/
+[c0]: http://rpadovani.com/ubuntu-calculator-app-reboot/
+[c1]: http://rpadovani.com/ubuntu-calculator-app-reboot-store/
+[c2]: http://rpadovani.com/calculator-reboot-translations/
+[c3]: http://rpadovani.com/calculator-reboot-favourite/
+[b0]: https://code.launchpad.net/~rpadovani/webbrowser-app/fixBookmarkDesign
+[b1]: https://code.launchpad.net/~rpadovani/webbrowser-app/newTabRefactoring
+[b2]: https://code.launchpad.net/~rpadovani/webbrowser-app/addressBarFullWidth
