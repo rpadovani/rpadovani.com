@@ -28,7 +28,7 @@ the site. It just counts the number of request it has.
 
 Another thing I inserted in the website during the reboot of last month it's the
 [donations][donation] page. And in this month I received my firsts two donations
-(*total amount is €18,54*). Thanks, it's really nice to see that your work is
+(*total amount is €18,54*). Thanks, it's really nice to see that my work is
 appreciated.
 
 ## What I did
