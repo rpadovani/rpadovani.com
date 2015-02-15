@@ -21,9 +21,10 @@ impressions short. At the end of the article I write my personal opinion on the
 project, and what this phone means for the free software world.
 
 # The phone
-## The good
 
 ![bq][bq-phone]
+
+## The good
 
 I'm quite happy with the phone itself. Performances are better than on Nexus 4,
 sizes are right for me, and I don't go out crazy for super hardware, so it
