@@ -74,15 +74,16 @@ innovative features, we're building something that could be a game changer in
 the IT world.
 
 Will we able to change world? I don't know. Maybe we will not. Maybe will be
-someone else. But doesn't matter. Because we are the ones who dream of changing
-the world, and we enjoy when someone succeeds. Because yes, sometimes someone
+someone else. But doesn't matter. Because *we are the ones who dream of changing
+the world*, and we enjoy when someone succeeds. Because yes, sometimes someone
 stand it.
 
 Ciao,<br/>
 R.
 
-*Do you like this article? Please consider to buy me an English course, so I can improve or just send me a feedback at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).*
+*Do you like this article? Please consider to [buy me an English course][donation], so I can improve it or just send me a feedback at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).*
 
 [bq-phone]: http://img.rpadovani.com/posts/bq_phone.jpg
 [bq-vs-samsung]: http://img.rpadovani.com/posts/bq_size.jpg
 [they-hate-us]: http://img.rpadovani.com/posts/they_hate_us.jpg
+[donation]: http://rpadovani.com/donations/
