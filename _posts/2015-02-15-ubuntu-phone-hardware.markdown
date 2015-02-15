@@ -74,9 +74,9 @@ innovative features, we're building something that could be a game changer in
 the IT world.
 
 Will we able to change world? I don't know. Maybe we will not. Maybe will be
-someone else. But doesn't matter. Because *we are the ones who dream of changing
-the world*, and we enjoy when someone succeeds. Because yes, sometimes someone
-stand it.
+someone else. But doesn't matter. Because **we are the ones who dream of
+changing the world**, and we enjoy when someone succeeds. Because yes, sometimes
+someone stand it.
 
 Ciao,<br/>
 R.
