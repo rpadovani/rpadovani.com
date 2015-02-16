@@ -2,14 +2,14 @@
 layout: post
 title:  "Ubuntu Phone: The hardware"
 date:   2015-02-15 20:02
-description: A personal review after a week with BQ Aquarius E4.5 Ubuntu Edition
+description: A personal review after a week with BQ Aquaris E4.5 Ubuntu Edition
 categories:
 - ubuntu phone
 permalink: ubuntu-phone-hardware
 ---
 
 Hey all,<br/> finally I have time to do a review for the first Ubuntu Phone -
-the **BQ Aquarius E4.5 Ubuntu Edition**. I joined the *Insider Launch Event*
+the **BQ Aquaris E4.5 Ubuntu Edition**. I joined the *Insider Launch Event*
 (thanks to Canonical for the invite), on Friday 6th Feb, so today is more than
 one week I use it as main phone, and it's time to do a first review. The system
 itself wasn't a surprise for me, I use Ubuntu as main phone (on a Nexus 4) since
@@ -39,7 +39,7 @@ performances. So, it's ok for me.
 There are two things I wish will be improved in next Ubuntu Phones:
 
  - *Borders*: I love Ubuntu hasn't soft touch buttons. So why we have borders? And not only borders, we have *huge* borders. Look to the photo above: the phone size it's the same of a S4, but the screen is smaller - so borders are bigger. This hasn't any sense, I want a phone (almost) borderless
- - *Branding*: nowhere on the phone there is a Ubuntu logo or something like this. Seriously? Luckly I have some stickers at home, but I think a little Ubuntu logo should be in the back of the phone
+ - *Branding*: nowhere on the phone there is a Ubuntu logo or something like this. Seriously? Luckily I have some stickers at home, but I think a little Ubuntu logo should be in the back of the phone
 
 # They hate us 'cause they ain't us
 
