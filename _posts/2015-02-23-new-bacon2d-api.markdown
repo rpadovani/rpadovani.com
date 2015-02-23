@@ -163,8 +163,8 @@ Component {
 This should be easy to understand, there is nothing related to Bacon2D: we
 created a Rectangle with a radius that is half of its size: a circle.
 
-<font color="blue">_Differences with the previous version: the Entity is called
-PhysicsEntity_</font>
+<font color="blue">Differences with the previous version: the Entity is called
+PhysicsEntity</font>
 
 We could easily add 100 of them in our scene:
 
@@ -213,8 +213,8 @@ world that the scene creates. Althought you'll don't use the world component on
 its own again, it's important this distinction: objects that you want to add in
 a scene have to be attached to the world component.
 
-<font color="blue">_Differences with the previous version: the ball object has
-been added to gameScene and not to gameScene.world_</font>
+<font color="blue">Differences with the previous version: the ball object has
+been added to gameScene and not to gameScene.world</font>
 
 Now, if you run your app you should have something like this:
 ![Our first game](http://img.rpadovani.com/posts/100balls-first.png)
@@ -243,7 +243,7 @@ Of all properties I'm interested in only 3:
 
 We add this fixtures to Ball.qml, along with other 2 properties: *bodyType*,
 that could be Body.Static, Body.Kinematic or Body.Dynamic (<font
-color="blue">_in the previous version was Entity instead of Body_</font>) and
+color="blue">_in the previous version was Entity instead of Body</font>) and
 *sleepingAllowed*. What does sleep mean? Well it is expensive to simulate
 bodies, so the less we have to simulate the better. When a body comes to rest we
 would like to stop simulating it. Unfortunately, our balls can't sleep, because
@@ -285,7 +285,7 @@ Component {
 }
 {% endhighlight %}
 
-<font color="blue">_Differences with the previous version: the fixtures objects don't need the anchors property anymore, and they use target instead of parent_</font>
+<font color="blue">Differences with the previous version: the fixtures objects don't need the anchors property anymore, and they use target instead of parent</font>
 
 Now, if you start the app you'll see the balls fall! Yeah! Things are becoming
 pretty interesting, aren't them?
@@ -495,7 +495,7 @@ If it's a sensor, it doesn't interfere with others entities. So, when our bool
 property isDoorOpen becomes true, this element becomes a sensor, and balls can
 fall.
 
-<font color="blue">_Differences with the previous version: the fixtures object now is an Edge and not a Box with an Edge inside_</font>
+<font color="blue">Differences with the previous version: the fixtures object now is an Edge and not a Box with an Edge inside</font>
 
 When is the door open? Simple, when the user is pressing anywhere on the screen.
 We only need a MouseArea to set this behavior:
@@ -685,7 +685,7 @@ bool var in Ball.qml that manages contacts, like this:
 property bool glassContact: false
 {% endhighlight %}
 
-<font color="blue">_Differences with the previous version: how onBeginContact is managed is different: we need to take the other body and then use target to manage the contact_</font>
+<font color="blue">Differences with the previous version: how onBeginContact is managed is different: we need to take the other body and then use target to manage the contact</font>
 
 This is awesome, because we could change all what we want of entities that touch
  a sensor.
@@ -993,7 +993,7 @@ You should know almost all here, we inserted a sensor at the bottom of the
 scene, and thanks to onBeginContact we check if the balls is gone throught a
 glass.
 
-<font color="blue">_Differences with the previous version: anchors are changed because centerIn doesn't work anymore_</font>
+<font color="blue">Differences with the previous version: anchors are changed because centerIn doesn't work anymore</font>
 
 The only two new things are score and settings.highScore. Score is a simple var
 in game:
