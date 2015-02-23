@@ -41,6 +41,15 @@ If you are on Ubuntu 15.04 (or later) you have just to install one package:
 sudo apt-get install qtdeclarative5-bacon2d1.0
 {% endhighlight %}
 
+If you have Ubuntu 14.04 or 14.10 you can add the Bacon2D repository to your
+system:
+
+{% highlight bash %}
+sudo apt-add-repository ppa:bacon2d-team/ppa
+sudo apt-get update
+sudo apt-get install qtdeclarative5-bacon2d1.0
+{% endhighlight %}
+
 Otherwise we need to take source and compile it:
 
 {% highlight bash %}
