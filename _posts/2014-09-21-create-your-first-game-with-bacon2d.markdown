@@ -10,6 +10,8 @@ categories:
 permalink: create-your-first-game-with-bacon2d
 ---
 
+**This guide is outdated, please take a look to the [new one][new]**
+
 Hi all,
 after long time I return to write to show you how to create a simple game for
 Ubuntu for Phones (but also for Android) with [Bacon2D][bacon2d].
@@ -1228,3 +1230,4 @@ A big thanks to Ken VanDine for his support to my approach to Bacon2D
 [fixture]: http://bacon2d.com/docs/qml-bacon2d-fixture.html
 [canvas]: http://qt-project.org/doc/qt-5/qml-qtquick-canvas.html
 [community]: https://plus.google.com/communities/104485147844809689114
+[new]: http://rpadovani.com/new-bacon2d-api/
