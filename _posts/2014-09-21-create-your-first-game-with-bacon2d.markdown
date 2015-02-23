@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Create your first game with Bacon2D"
-date:   2014-09-21
+date:   2015-02-23
 description: Bacon2D is a very powerful framework to create 2D games in QML.
 categories:
 - bacon2d
