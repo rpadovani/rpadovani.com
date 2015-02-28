@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scopes aren't widgets (they are better)"
+title:  "Scopes are not widgets (they are better)"
 date:   2015-02-28 13:00
 description: One of the main feature of new Ubuntu Phones are scopes: why are they so cool?
 categories:
