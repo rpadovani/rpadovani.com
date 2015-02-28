@@ -2,7 +2,7 @@
 layout: post
 title:  "Scopes are not widgets (they are better)"
 date:   2015-02-28 13:00
-description: One of the main feature of new Ubuntu Phones are scopes: they are amazing
+description: One of the main feature of new Ubuntu Phones are scopes. They are amazing, and very simple to use.
 categories:
 - ubuntu phone
 permalink: scopes-arent-widgets
