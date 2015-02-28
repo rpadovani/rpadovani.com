@@ -97,7 +97,8 @@ And I can go on on this way for a lot of things.
 
 Okay, I hope is clear my point here: the concept of scopes it the same of Google
 Now, but scopes are opensource and more powerful, now we only need developers to
-implement them. And a couple of features.
+implement them. Luckily, it's very easy to develop them, as Carla [wrote][carla]
+on her blog.
 
 ## What's missing?
 
@@ -122,5 +123,6 @@ R.
 [home-scope]: http://img.rpadovani.com/posts/scope_home.png
 [orval]: http://img.rpadovani.com/posts/orval.png
 [python]: http://img.rpadovani.com/posts/python.png
+[carla]: http://carla-sella.blogspot.it/2015/02/my-first-ubuntu-touch-scope.html
 
 [donation]: http://rpadovani.com/donations/
