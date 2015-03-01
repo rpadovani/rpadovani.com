@@ -21,7 +21,9 @@ Furthermore, I'll publish the amount of donations received in the previous month
 
 ### 2015
 
+- [February][feb15]
 - [January][jan15]
 
 
 [jan15]: http://rpadovani.com/my-contributions-jan-15/
+[feb15]: http://rpadovani.com/my-contributions-feb-15/
