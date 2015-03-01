@@ -108,7 +108,7 @@ gamechanger in mobile world:
  - **Voice search**: voice search is critical nowadays: the less I have to look to the screen, the better is.
  - **Scope of scopes**: one thing I miss a lot is a scope using reply to my query by all scopes and returns me best results. At the moment I have to swype to choose the right scope (like, for beers, untappd): I prefer to do a search, without swiping, and have the best result.
 
-But this is only the start of a great adventure. We have room to improve.
+But this is only the start of a great adventure. We have room for improvements.
 
 Because, remember, on long run **opensource wins. Always.**
 

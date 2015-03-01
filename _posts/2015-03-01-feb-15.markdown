@@ -46,7 +46,7 @@ I started to work, with oSoMoN, on settings for the browser app. I haven't a
 timeline for this, but we did some progress, and in next weeks we'll land first
 branches.
 
-This is a screenshot on how it will appear the first version when we'll have
+This screenshot shows how the first version will appear when we'll have
 implemented all features we want for the first land.
 
 ![browser][browser]
@@ -59,21 +59,21 @@ this side will arrive in next weeks
 ### Reviews
 
 I spent a lot of time this month reviewing code of other guys, mainly for
-reminders and docviewer app. Reviews are fundamentally for Ubuntu: every change
-to the code has to be approved by someone after a careful review: in this way
-we're sure we have a good codebase and a good implementation of things. Reviews
-are very timeconsuming: you've to read and understand the code, then you have to
-test it and think how the change impacts the user experience.
+reminders and docviewer app. Reviews are really important for Ubuntu: every
+change to the code has to be approved by someone after a careful review: in this
+way we're sure we have a good codebase and a good implementation of things.
+Reviews are very time consuming: you've to read and understand the code, then
+you have to test it and think how the change impacts the user experience.
 
 Other than that, I did usual things: bug report, some code for ubuntu-it,
 promotion of Ubuntu on social networks, support on italian forum and on IRC and
 so on.
 
-Have you ever thought to help the Ubuntu development? There are a lot of things
-to do, and you don't have to be a developer: we need translators, tester,
-promoter and so. Try to take a look [here][community], and, if you have any
-doubt, write me. I'll be more than happy to address you to the right place to
-start to contribute.
+Have you ever thought about helping the Ubuntu development? There are a lot of
+things to do, and you don't have to be a developer: we need translators,
+testers, promoters and so. Try to take a look [here][community], and, if you
+have any doubt, write me. I'll be more than happy to address you to the right
+place to start to contribute.
 
 You know, I'm a student and I do all this in my free time. So, if you like my
 work and want to support me, just send me a *Thank you!* by
