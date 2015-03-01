@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "My opensource contributions in February 15"
+date:   2015-03-01 13:00
+description: What did I do in February to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-feb-15
+---
+
+What a month for Ubuntu! First Ubuntu Phone has been announced and sales have
+started! Finally, after two years of work, we will have feedbacks from real
+consumers.
+
+Also, on a personal level, it has been a great month. I went to London for the
+Ubuntu Phone launch. I did laser surgery to my right eye to correct myopia (I
+had 8 diopters), and in March I'll do the left one. And I also had time to do
+some articles and a lot of code.
+
+## Stats
+
+First of all, thanks to all you who follow me, this blog has a number of
+visitors I never expect. Without calculating who read articles on [Ubuntu
+Planet][planet] or in a RSS Reader, this blog had **24,797 page views** by
+**6,098 unique visitors** in 28 days. Thanks to all! And I only wrote 4
+articles!
+
+Stats are calculated by CloudFare, I don't have Analytics or others trackers on
+the site. It just counts the number of request it has.
+
+## Donations
+
+More than visit, what astonished me is the number of donations: I had 3
+donations for an amount of 30 euros! I'll use them to buy a VPS, so thanks to
+all!
+
+## What I did
+
+Now, it's time to describe what I did in Feb. Considering the surgery, the uni
+and the journey to London for the Ubuntu Phone launch I'm quite satisfied for
+what I did.
+
+### Browser app
+
+I started to work, with oSoMoN, on settings for the browser app. I haven't a
+timeline for this, but we did some progress, and in next weeks we'll land first
+branches.
+
+This is a screenshot on how it will appear the first version when we'll have
+implemented all features we want for the first land.
+
+![browser][browser]
+
+### Calculator Reboot
+
+We're working hard to replace the default calculator with the new one, news on
+this side will arrive in next weeks
+
+### Reviews
+
+I spent a lot of time this month reviewing code of other guys, mainly for
+reminders and docviewer app. Reviews are fundamentally for Ubuntu: every change
+to the code has to be approved by someone after a careful review: in this way
+we're sure we have a good codebase and a good implementation of things. Reviews
+are very timeconsuming: you've to read and understand the code, then you have to
+test it and think how the change impacts the user experience.
+
+Other than that, I did usual things: bug report, some code for ubuntu-it,
+promotion of Ubuntu on social networks, support on italian forum and on IRC and
+so on.
+
+Have you ever thought to help the Ubuntu development? There are a lot of things
+to do, and you don't have to be a developer: we need translators, tester,
+promoter and so. Try to take a look [here][contributions], and, if you have any
+doubt, write me. I'll be more than happy to address you to the right place to
+start to contribute.
+
+You know, I'm a student and I do all this in my free time. So, if you like my
+work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a coffee :-)
+
+Ciao,<br/>
+R.
+
+[planet]: http://planet.ubuntu.com
+[donation]: http://rpadovani.com/donations/
+[browser]: http://img.rpadovani.com/posts/browser.png
+[community]: http://community.ubuntu.com/contribute/
