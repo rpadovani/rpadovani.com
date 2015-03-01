@@ -71,7 +71,7 @@ so on.
 
 Have you ever thought to help the Ubuntu development? There are a lot of things
 to do, and you don't have to be a developer: we need translators, tester,
-promoter and so. Try to take a look [here][contributions], and, if you have any
+promoter and so. Try to take a look [here][community], and, if you have any
 doubt, write me. I'll be more than happy to address you to the right place to
 start to contribute.
 
