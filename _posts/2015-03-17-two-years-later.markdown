@@ -46,6 +46,7 @@ So, why don’t you start to [contribute][contribute] to Ubuntu?
 [post]: https://plus.google.com/114561563937821301416/posts/6M3zAhCgyPs
 [patch]: https://code.launchpad.net/~rpadovani/phablet-tools/fix-for-1139999/+merge/153419
 [contribute]: https://rpadovani.github.io/why-you-should-contribute-to-ubuntu-touch/
+[donation]: http://rpadovani.com/donations/
 
 You know, I'm a student and I do all this in my free time. So, if you like my
 work and want to support me, just send me a *Thank you!* by
