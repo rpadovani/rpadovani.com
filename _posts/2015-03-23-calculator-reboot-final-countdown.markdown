@@ -43,7 +43,7 @@ You want to reuse a old calc you did? Just try to swipe left the calc ;-)
 We have some new design specs: we will implement them after the release of
 actual reboot. Meanwhile, we changed the keyboard accordingly.
 
-[New design][img0]
+![New design][img0]
 
 ### Empty state in favourite
 
@@ -51,7 +51,7 @@ We added an Empty state in favourite mode so now users know how to use that
 feature. I know it's a bit confusing, we will improve it with *new* new design
 in next weeks.
 
-[Blank][img1]
+![Blank][img1]
 
 ### Translations
 
