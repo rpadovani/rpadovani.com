@@ -1,0 +1,149 @@
+---
+layout: post
+title:  "My opensource contributions in March 15"
+date:   2015-04-01 09:54
+description: What did I do in March to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-mar-15
+---
+
+This month was amazing: first Ubuntu Phones reached users, and so now we have
+feedbacks from actual customers, and we're seeing platform growing.
+
+If you have published any app on the Ubuntu Store you know what I'm talking
+about: in last two weeks there were a lot of new downloads by new users. In this
+moment [100 balls][100balls], a little game I published, has more than 1200
+download by something like 1000 users (actually, 936).
+
+If I think where we were [2 years ago][years], it all seems a miracle: community
+and Canonical are doing a great work together, and we finally reached the market
+with a real device, and others are coming. Wow!
+
+## Stats
+
+First of all, thanks to all you who follow me, this blog has a number of
+visitors I never expect. I know I say that every month, but every month is a
+surprise. When I *reboot* this blog three months ago, my expectation was to have
+4000 page view every month.  Without calculating who read articles on [Ubuntu
+Planet][planet] or in a RSS Reader, this blog had **26,866 page views** by
+**5,916  unique visitors** in 30 days. Thanks to all! And I only wrote 2
+articles!
+
+Stats are calculated by CloudFare, I don't have Analytics or others trackers on
+the site. It just counts the number of request it has. And I think this is the
+last month I use CloudFare, as I describe below
+
+## VPS
+
+As I mentioned last month, I used your donations to buy a VPS. I'm still
+configuring it, but I've already installed OwnCloud and an irc bouncer and a
+webmail. It still misses the website itself, and then some tests to see
+performances.
+
+When it will be live I'll write a post about the configuration, with all
+details.
+
+This is only thanks to your donations, I've no words to say how much grateful I
+am. I'll continue to do my best to make Ubuntu better, thanks for your support.
+
+## Donations
+
+In March I received 55 euros in donations. It's astonishing. I really, really
+appreciate to see my work is appreciated so much. I'll can pay a good VPS, and
+have some good Italian coffees to have more energy to contribute opensource
+projects :-)
+
+## What I did
+
+Some of you already know: in March I did surgery to the left eye to correct
+myopia: it was a success (also the one I did in February to right eye) and it's
+amazing to see without glasses.
+
+Now, it's time to describe what I did in March. Considering the surgery, the uni
+and life in general I'm satisfied about what I did.
+
+### Browser app
+
+The month start was a bit frustrating: I was working on new tab improvements,
+but I found a lot of upstream bugs in Qt, and I wasn't able to land improvements
+I did. I tried different approaches to the problem, but every approach hit a
+different upstream bug. Unfortunately, I'm not good enough to fix upstream bugs:
+I took a look, but Qt code isn't simple.
+
+Luckily, after a couple of weeks, Olivier (main browser app developer) said me
+to leave that branch, for now, and focus on settings. He implemented settings in
+the backend itself and found a very elegant qml solution to manage *search
+engines* (I was writing a long C++ class to do that), and I wrote the UI for
+settings.
+
+The [branch][branch] has been approved yesterday night: I know in some parts of
+the world was already April, but here was still March, so it's one of the
+March's contribution I'm most proud of.
+
+Thanks to oSoMoN for the mentorship and the patience reviewing my branches and
+suggesting me best practices.
+
+![browser][browser]
+
+### Calculator Reboot
+
+Do you think your app is perfect? Then [popey][popey] hasn't tested it yet! So
+you fix all bugs popey found, and you think you've done, but then there is Joe,
+the product manager. And he will find user cases you have never think to.
+
+So we're continuing to fix bugs, and I hope we will able to include it in the
+OTA update of next week. Quality of apps has to be very high to be included in
+the default image, so we want to fix all bugs before releasing it. It's not
+easy, but we're near enough.
+
+At the moment we have only one blocking bug about keyboard, and I hope to fix
+it today or tomorrow. If I'll able to fix it, then the calculator app will be
+pushed to thousands of phones next week. No pressure at all.
+
+Meanwhile, you can test it on your phone looking for *Ubuntu Calculator App
+Reboot* on the store.  Please leave us your feedbacks, so we can improve it :-)
+
+### Reminders
+
+[Michael Zanetti][mzanetti] worked hard on reminders last month, and a lot of improvements
+will land in next OTA image (we hope). I reviewed all its branches, and it's a
+luck for me: I learn lot of things doing reviews, probably it's the best way to
+improve my code skills: of course, then I have to try to use what I read!
+
+Other than that, I did usual things: bugs report, a very little patch for
+Telegram, some code for ubuntu-it, promotion of Ubuntu on social networks,
+support on Italian forum and on IRC and so on.
+
+Have you ever thought about helping the Ubuntu development? There are a lot of
+things to do, and you don't have to be a developer: we need translators,
+testers, promoters and so. Try to take a look [here][community], and, if you
+have any doubt, write me. I'll be more than happy to address you to the right
+place to start to contribute.
+
+Just think: two years ago, when I started to do things for Ubuntu Phone, I knew
+very little about developing world, and know I'm doing cool things that reach
+thousands of users. **Wow**!
+
+Someone asked me how to start, well, I have no good suggestion: find someone you
+like, and try to improve it. As soon as I've time I write a blog post with my
+story, maybe for someone could be useful: but remember, **you have to create
+your own story**, don't copy others, it's useless. Be yourself and try to change
+the world in your way :-)fi
+
+You know, I'm a student and I do all this in my free time. So, if you like my
+work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[100balls]: https://appstore.bhdouglass.com/app/com.ubuntu.developer.rpadovani.100balls
+[years]: http://rpadovani.com/two-years-later/
+[branch]: https://code.launchpad.net/~rpadovani/webbrowser-app/settings-page/+merge/253975
+[planet]: http://planet.ubuntu.com
+[donation]: http://rpadovani.com/donations/
+[browser]: http://img.rpadovani.com/posts/ubuntuSettings.png
+[community]: http://community.ubuntu.com/contribute/
+[popey]: http://popey.com/
+[mzanetti]: http://notyetthere.org/
