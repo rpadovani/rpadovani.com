@@ -125,9 +125,9 @@ Just think: two years ago, when I started to do things for Ubuntu Phone, I knew
 very little about developing world, and know I'm doing cool things that reach
 thousands of users. **Wow**!
 
-Someone asked me how to start, well, I have no good suggestion: find someone you
-like, and try to improve it. As soon as I've time I write a blog post with my
-story, maybe for someone could be useful: but remember, **you have to create
+Someone asked me how to start, well, I have no good suggestion: find something
+you like, and try to improve it. As soon as I've time I write a blog post with
+my story, maybe for someone could be useful: but remember, **you have to create
 your own story**, don't copy others, it's useless. Be yourself and try to change
 the world in your way :-)
 
