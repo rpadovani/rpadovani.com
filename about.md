@@ -13,7 +13,13 @@ world, on every type of device.
 At the moment I focus mainly on Ubuntu for Phones, but I contributed to a lot
 (maybe too many) different projects, with patches and bug reports.
 
-When I'm not busy with university or Ubuntu, I enjoy a beer with friends.
+When I'm not busy with university or Ubuntu or work, I enjoy a beer with
+friends.
+
+### My job
+
+I work as frontend developer at [Archon Dronistics][archon]. More information in
+this [blog post][archonpost].
 
 ### Side projects
 
@@ -32,8 +38,9 @@ so I just list projects I'm involved on daily basis at the moment.
 
 ### Contact me
 
-Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] or
-just say `Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
+Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
+[Linkedin][linkedin] or just say `Hello` at
+[riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 
 [github]: https://github.com/rpadovani
 [google]: https://plus.google.com/+RiccardoPadovani/posts
@@ -44,3 +51,6 @@ just say `Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 [reminders]: https://launchpad.net/reminders-app
 [calculator]: https://launchpad.net/ubuntu-calculator-app
 [ubuntuit]: http://www.ubuntu-it.org
+[archon]: http://www.archondronistics.com/
+[archonpost]: http://rpadovani.com/my-first-job/
+[linkedin]: http://it.linkedin.com/in/riccardopadovani
