@@ -1,0 +1,113 @@
+---
+layout: post
+title:  "My opensource contributions in April 15"
+date:   2015-05-01 22:26
+description: What did I do in April to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-apr-15
+---
+
+Another month is gone, so it's time to summarize what I did for the opensource
+world. I like to find half an hour to think to last month: it helps me to
+understand what I did, and where I can improve. Also, I always hope that this
+can be an inspiration for those two/three readers of this blog.
+
+This month was amazing: first Ubuntu Phones reached users, and so now we have
+feedbacks from actual customers, and we're seeing platform growing.
+
+If you have published any app on the Ubuntu Store you know what I'm talking
+about: in last two weeks there were a lot of new downloads by new users. In this
+moment [100 balls][100balls], a little game I published, has more than 1200
+download by something like 1000 users (actually, 936).
+
+If I think where we were [2 years ago][years], it all seems a miracle: community
+and Canonical are doing a great work together, and we finally reached the market
+with a real device, and others are coming. Wow!
+
+## Stats & VPS
+
+Since this month, no more stats about how many visitors this blog has. I dropped
+CloudFare when I configured my own [VPS][vps], and I choose to don't install any
+stats service/tracker/whatever
+
+## Donations
+
+In April I received 5 euros in donations, and a lot of mails to support my
+contributions to opensource world. Thanks to all! It's very important for me to
+see that my work is appreciated, and mails and donations are always a pleasure!
+
+I also found a [job][job] as frontend developer - I'm happy because after a
+month I can say I find an equilibrium between job, Ubuntu and life, so I can
+continue contributing to the opensource world!
+
+If you find valuable what I'm doing in Ubuntu, please consider to
+[make][donation] me a donation :-)
+
+## What I did
+
+April was a good month - first month of my first job, so it has been a bit
+strange, but I found also time for Ubuntu - let's see what I did!
+
+### Calculator app
+
+Finally we [published][calc] the calculator app reboot to the store as default
+Ubuntu Phone calculator. It has been a long journey, and it's far from the end!
+I hope you're enjoying it: please, if you find any bug, [report it][lp]. And if
+you have feedbacks, or you want to contribute to the development of the app,
+join us next week during the [Ubuntu Developer Summit][uds], we're waiting you!
+
+## Browser app
+
+Yay, good progress on this side! Settings page has been merged (if you are on
+vivid, you should have it), and then I worked on other four bugs (about
+suggestions list, supported webaddress and default size of the window) and
+mainly on the new tab - we changed a lot of things, and I improved the code.
+
+Since the browser is one of the app I use more on the phone, I find important to
+develop it. Also, I'm learning a lot of things, thanks to [oSoMoN][osomon] who
+help me in development. Having mentors is one of the best things of the
+opensource world :-)
+
+### Oxide
+
+Also, oSoMoN suggested me to start to contribute to [Oxide][oxide].
+
+_Oxide makes it possible for developers to embed a Chromium-powered webview in
+their application_
+
+It's a beast, (more than 6GB of code to download and compile on first run), but
+Olivier and Chris are helping me to make my first bugfix. I think I'll learn a
+lot contributing to Oxide - it's a C++ project without UI, and I like to develop
+without having to think to UI!
+
+Have you ever thought about helping the Ubuntu development? There are a lot of
+things to do, and you don't have to be a developer: we need translators,
+testers, promoters and so. Try to take a look [here][community], and, if you
+have any doubt, write me. I'll be more than happy to address you to the right
+place to start to contribute.
+
+Just think: two years ago, when I started to do things for Ubuntu Phone, I knew
+very little about developing world, and know I'm doing cool things that reach
+thousands of users. **Wow**!
+
+Someone asked me how to start, well, I have no good suggestion: find something
+you like, and try to improve it. As soon as I've time I write a blog post with
+my story, maybe for someone could be useful: but remember, **you have to create
+your own story**, don't copy others, it's useless. Be yourself and try to change
+the world in your way :-)
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[vps]: http://rpadovani.com/my-vps-configuration/
+[job]: http://rpadovani.com/my-first-job/
+[calc]: http://rpadovani.com/calculator-here-we-are/
+[lp]: https://bugs.launchpad.net/ubuntu-calculator-app/+filebug
+[uds]: http://summit.ubuntu.com/uos-1505/meeting/22416/calculator-planning/
+[osomon]: https://plus.google.com/100486649727917304321/posts
+[oxide]: https://code.launchpad.net/oxide
