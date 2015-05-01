@@ -13,4 +13,6 @@ Obviously I store in my server some informations about you, like your IP address
 and which page you're viewing, but these information are only used by the web
 server to serve you the page.
 
-You can find more about my server configuration [here][http://rpadovani.com/my-vps-configuration/]
+You can find more about my server configuration [here][vps]
+
+[vps]: http://rpadovani.com/my-vps-configuration/
