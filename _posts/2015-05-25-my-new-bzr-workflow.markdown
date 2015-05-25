@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My new bazaar workflow"
-date:   2015-05-256 22:55
+date:   2015-05-25 16:52
 description: How to (almost) use bzr as git
 categories:
 - ubuntu
