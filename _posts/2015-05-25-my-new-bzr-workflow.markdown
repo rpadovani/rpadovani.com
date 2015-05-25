@@ -57,6 +57,7 @@ Now some useful commands:
 - to create a new branch, type `bzr switch -b new-branch`
 - to list all branches, type `bzr branches`
 - to change branch, use `bzr switch branch-name`
+- to remove a local branch, use `bzr remove-branch branch-name`
 
 Taking a remote branch and deleting one is a bit more complicated (but I created a couple of alias, so it becomes really simple).
 
