@@ -27,4 +27,4 @@ We look forward to sharing the details with you!
 Best,<br/>
 The Ubuntu Team
 
-[img0]: http://img.rpadovani.com/two-new-ubuntu-phones.png
+[img0]: http://img.rpadovani.com/posts/two-new-ubuntu-phones.png
