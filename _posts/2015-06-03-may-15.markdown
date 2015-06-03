@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "My opensource contributions in May 15"
+date:   2015-05-03 10:00
+description: What did I do in May to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-may-15
+---
+
+I'm a bit late this month, but here my report about my contributions to opensource world in May '15.
+
+A couple of months ago, when I started to work for [Archon][archon], I was worried I wasn't able to manage my time to continue to contribute to Ubuntu.
+
+Luckily, I was wrong. Thanks to [Launchpad][lp] I've a good summary of what I did, and I can say I'm happy enough. Could I do better? Of course, and I'll try to do more and better.
+
+Meanwhile, [100balls][100balls] has reached **2000 downloads**. Amazing. After the land of OTA-4 on devices it will receive a couple of updates.
+
+But let's take a look on what I did last month:
+
+## Donations
+
+In May I didn't receive any donation. I fully understand that, now I've a part time work, so I don't need donations to buy coffee to write code at night :-)
+
+Anyway, if you find valuable my contribute to opensource world, please consider to make me a [donation][donation].
+
+## What I did
+
+In May I focused on Oxide and webbrowser
+
+### Browser app
+
+Another month, another branch landed: oSoMoN and I refactored the new tab, it will land with OTA-4 with a lot of other improvements made by the webbrowser team: private mode, settings, and a lot of minor bugfixes.
+
+### Oxide
+
+My first patch in Oxide has been accepted \o/ It introduces a new API to know the http status code of a page - I actually used that API in webbrowser to don't store 404 urls in history anymore.
+
+### Bugs and reviews
+
+Other than working on browser and oxide I did the usual work of bugs reporting (it's important to give feedbacks on a product you use) and reviews.
+
+In next days I should receive an Ubuntu MX4, I think I'll do a review about how Ubuntu works on that device, and let's see if I'll switch from my beloved Aquaris :-)
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[archon]: http://www.archondronistics.com/
+[lp]: https://launchpad.net/~rpadovani/+karma
+[100balls]: https://uappexplorer.com/app/com.ubuntu.developer.rpadovani.100balls
