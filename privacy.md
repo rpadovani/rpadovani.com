@@ -15,4 +15,8 @@ server to serve you the page.
 
 You can find more about my server configuration [here][vps]
 
+## Cookies
+
+This website doesn't install any cookie. 
+
 [vps]: http://rpadovani.com/my-vps-configuration/
