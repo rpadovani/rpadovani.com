@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Discerning Duck 0.1.3: call for developers"
+date:   2015-06-18 11:00
+description: A little update to Discerning Duck
+categories:
+- ubuntu phone
+permalink: ddg-013
+---
+
+## New feature
+
+Thanks to [Niklas Wenzel][nik] [Discerning Duck][ddg] has an update after months.
+As you may know, the scope doesn't do a search on the web, but tries to provide you an Instant Answer, taking the information from various sources.
+So some times scope doesn't provide anything useful to you, but maybe a search on DuckDuckGo could give you some result. Now there is a button *Search on DuckDuckGo* when no results are available, so you don't have to perform the same search again in the browser, but you only have to press the button :-)
+
+![ddg-013][ddg-013]
+
+## Call for developers
+
+The Discerning Duck scope has a lot of potential, unfortunately I don't have enough time to develop it.
+If you want to help me, drop me an [email](mailto:riccardo@rpadovani.com) or go on [GitHub][git] and leave a pull request ;-)
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[nik]: https://github.com/nikwen
+[ddg]: https://uappexplorer.com/app/com.ubuntu.developer.rpadovani.discerningduck
+[ddg-013]: http://img.rpadovani.com/posts/ddg013.png
+[git]: https://github.com/rpadovani/discerning-duck
