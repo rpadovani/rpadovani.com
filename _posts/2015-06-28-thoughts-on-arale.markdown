@@ -40,7 +40,7 @@ you're doing.
 ### The screen
 
 The screen of this phone is something so beautiful, so perfect, so *whatever
-positive adjective you can think*, that I fallen in love with it. It was the
+positive adjective you can think*, that I fall in love with it. It was the
 worst thing on the BQ, and it's the best here: lateral borders are little, the
 screen is big, there are so much pixels you don't see them, and everything is so
 perfect sized. You know, *size matters* ;-)
