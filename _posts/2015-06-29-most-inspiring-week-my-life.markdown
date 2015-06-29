@@ -52,7 +52,7 @@ I spent most of the time at our stand, where I explained what is our product to
 both potentially investors and casual visitors. As you can read, my English
 isn't so good, so I was quite surprised everyone understood what I was saying.
 
-Anyway, was amazing to meet so many people from all around the world, everyone
+Anyway, meet so many people from all around the world was amazing, everyone
 with incredible experiences and cool backgrounds. I spent a lot of time talking
 about the future, and how to do things that could impact the world. I listened
 to a lot of stories, and I remember each of them, because everyone was
@@ -84,7 +84,7 @@ what they do or for the stories of their founders.
 I leave here a little list about the ones that I liked more, which it is far
 from complete (you can [read][read] the entire list on the Hello Tomorrow website).
 
-- [Blitab][bli] is a braille tablet helping blind people. I love howntechnologies nowadays could help less lucky people to live a better life
+- [Blitab][blitab] is a braille tablet helping blind people. I love howntechnologies nowadays could help less lucky people to live a better life
 - [BioCarbon Engineering][bio] is changing the world 1 billion trees at a time. They use drones to make precision planting and optimize reforestation. You know, trees don't give free wifi, but they give oxigen, so they are useuful. Indeed, BioCarbon won the competition.
 - [Artomatix][art] builds a software to automating the generation of art, to enable digital graphic artists to focus on being creative, in addition to reducing project times and costs. Ok, it's not a world changer, but the gamer that is in me loves the software, so I really hope they could have success
 - [Solenica][solenica] is building Lucy. Lucy’s mirror follows the sun and reflects sunlight into your rooms, creating a beautiful natural glow. Other than the product (they allow you to reduce your carbon footprint by up to 1 ton/year by saving electricity, I like things that help the ecology), I like the story of the startup, founded by 3 Italians. It's sad they had to go to the U.S. to follow their dream, but I love their stubbornness in going forward. Only people as their go forward, and make the world a better place.
