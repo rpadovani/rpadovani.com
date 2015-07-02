@@ -34,7 +34,8 @@ so I just list projects I'm involved on daily basis at the moment.
 
 - [Ubuntu Core Apps][coreapps]: developer, tester and early adopter (mainly
 [Reminders][reminders] and [Calculator][calculator])
-- [Ubuntu Italy Website][ubuntuit]: administrator and developer
+- [Ubuntu webbrowser][browser]: developer and tester
+- [Ubuntu Italy Website][ubuntuit]: developer
 
 ### Contact me
 
@@ -54,3 +55,4 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [archon]: http://www.archondronistics.com/
 [archonpost]: http://rpadovani.com/my-first-job/
 [linkedin]: http://it.linkedin.com/in/riccardopadovani
+[browser]: https://launchpad.net/webbrowser-app

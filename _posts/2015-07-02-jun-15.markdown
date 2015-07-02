@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "My opensource contributions in Jun 15"
+date:   2015-07-02 12:00
+description: What did I do in Jun to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-jun-15
+---
+
+June has been a great month. A new Ubuntu device, the Meizu MX4, reached the
+market. I wrote a [little review][mx4] about it, and now I use it as mainly
+phone.
+
+Also, I went to the Hello Tomorrow Conference. An incredible
+[experience][htc15].
+
+And last but not least, the [Discerning Duck scope][ddg] had an update.
+
+But now let's see what I did in the last month for the opensource world :-)
+
+## Donations
+
+In June I received 5 euros of donations. I'll spare them to renew the VPS later
+this year.
+
+If you find valuable my contribute to opensource world, please
+consider to make me a [donation][donation].
+
+## What I did
+
+In June I focused mainly on webbrowser. Now there are 8 branches waiting for a
+review ready to land in the browser app, with little and big improvements!
+
+I also created a new branch for Oxide, should be merged in next days.
+
+Other than that, I did a lot of code reviews, both for the webbrowser, to have
+the best experience possible, and for some core apps (calculator and reminders).
+
+Also, I'm working on a new app that I hope to publish in a couple of weeks ;-)
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[mx4]: http://rpadovani.com/thoughts-on-arale/
+[htc]: http://rpadovani.com/htc-2015/
+[ddg]: http://rpadovani.com/ddg-013/
