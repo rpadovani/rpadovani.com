@@ -9,63 +9,65 @@ permalink: arale-ota5
 ---
 
 One month ago I wrote my [first review][first] about Meizu MX4 and I was
-disappointed about the optimization of the phone and some of the problems the
-phone had.
+disappointed about the lack of optimization that the phone received and some of
+the problems as well.
 
-Now, after a month, there is an update that makes the phone working as it should
-have from the beginning. It's a shame they started to sell it before this
-update, because a lot of reviews out of there are bad due its problems - now it
-seems another phone.
+Now with the OTA-5 the phone is working as it should have from the very
+beginning. It’s a real shame that Meizu started selling them before this update,
+because a lot of reviews currently online are bad due to problems fixed in this
+update. It’s like a whole new phone!
 
 ## Meizu MX4 specific improvements
 
 ### Battery
 
-One of the thing I most appreciated in the BQ Aquaris E4.5 was the battery
-duration. Unfortunately the MX4 wasn't at its level. Until two days ago.
+One of the things that I most appreciated in the BQ Aquaris E4.5 was the battery
+life which the MX4 was not on par with, until two day ago that is.
 
-After the update I did a full recharge and I didn't have to do another one for
-**36 hours**. Maybe for some of you isn't a lot, but for me it's much longer
-than I was used to with Android. I always had *4G* turned on, I watched at least
-30 minutes of videos on Youtube, I received and replied to more than 500
-messagges, plus mails, surfing the net, a couple of calls and so on.
+After the update I did a full recharge and I didn't have to charge again for
+**36 hours**. Maybe for some of you that is not a lot but for me it’s much
+longer than I was used to from Android. I always had 4G turned, watched at least
+30 mins of videos on YouTube, received and replied to more than 500 messages,
+received and replied to emails, surfed the web, a couple of calls and more.
 
 Battery life could be a killer feature of Ubuntu, and there is still a lot to
 improve.
 
 ### Optimization
 
-Now the phone doesn't lag and doesn't become too hot. And the new size of things
-(*they change the value for a grid unit*) it's definitely better.
+With this update the phone doesn’t lag and doesn’t get too hot. There’s also an
+increase of icons per row (following a change with the grid units) which is much
+better!
 
-And now the led for notifications works! Yeah!
+Oh yea and the the LED for notifications work! Yes!
 
 ![new gu][photo]
 
 ## General improvements
 
-The speed of improvement is terrific: every time there is an update a lot of
-things change, and you can spend hours finding all the differences. If you're
-passionate about technology you definitely have to buy an Ubuntu Phone (the MX4
-or the Aquaris only depends on the price range you are interested in).
+The speed improvement is terrific. With every update a lot of things change and
+you can spend hours finding all of them. If you’re passionate about technology
+you definitely have to buy an Ubuntu Phone (the MX4 or the Aquaris depending on
+your price range).
 
-Some of the most interesting I found:
-- [Unity Rotation][rotation]: finally isn't weird anymore to use the phone in landscape mode. Unfortunately there is still a bug and dash doesn't rotate, I hope they fix it soon!
-- [New icons][icons]: a great work by the design team: new icons are clearer and with a better resolution. Kudos!
-- You can change reviews you left in the store! Time to update some old feedacks I left when some apps were still not so good as today :-)
-- New tab in browser has been improved - this was one of the contributions I worked on in last months. I love webbrowser, and I love to see how many updates it's receiving, also on desktop!
 
-Now I'm very happy with the phone, and I still miss nothing of Android. Yes, of
-course it isn't for everyone (yet) but the number of improvements it has every
-month is astonishing, and I think it will become product for the mass market
-very soon.
+Some of the most interesting I found are:
+- [Unity Rotation][rotation]: finally it isn’t weird to use the phone in landscape mode. Though there are still some bugs and the dash doesn't rotate which I hope they fix soon!
+- [New icons][icons]: which look great, awesome job Design Team! they also look much clear and have better in the MX4’s resolution. Kudos!
+- Change reviews: time to update some old feedback I left when the apps where still in development.
+- New Tab in Browser: has been improved with some of the contributions I worked on in the last few months. I love the Browser and I love all the updates it is getting as well as in the Desktop
 
-But it still misses some apps, I hope some other big app company joins this
-awesome travel! 
+Now I’ve very happy with the phone and I still miss nothing from Android. Yes of
+it isn’t for everyone (yet) but the number of improvements it has every month is
+astonishing and I think it will become available to the masses very soon.
 
-*Do you like this article? Please consider [to buy me an English
-*course][donation], so I can improve it or just send me a feedback at
-*[riccardo@rpadovani.com](mailto:riccardo@rpadovani.com)*.
+But it is still missing from apps which can be filled in when some big companies
+come and join on this trip!
+
+*Thanks to [Aaron Honeycutt][aaron] for helping me writing this article.*
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
 
 Ciao,<br/>
 R.
@@ -75,3 +77,4 @@ R.
 [photo]: http://img.rpadovani.com/posts/newgu.png
 [rotation]: https://unity.ubuntu.com/2015/07/15/whats-new-in-ota-5/
 [icons]: http://design.canonical.com/2015/07/the-monochromatic-makeover/
+[aaron]: http://usefoss.com/
