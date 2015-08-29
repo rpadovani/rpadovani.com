@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CCCamp 2015"
-date:   2015-08-20 11:45
+date:   2015-08-30 01:17
 description: I spent one week at CCCamp 2015, and it was awesome
 categories:
 - personal
