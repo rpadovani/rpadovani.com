@@ -1,0 +1,115 @@
+---
+layout: post
+title:  "CCCamp 2015"
+date:   2015-08-20 11:45
+description: I spent one week at CCCamp 2015, and it was awesome
+categories:
+- personal
+permalink: cccamp2015
+---
+
+I’d like to give a big thank you to Ubuntu Community who paid for my entrance
+ticket which let me take part in [CCCamp 2015][cccamp2015]. The Chaos
+Communication Camp is an international meeting of hackers that takes place every
+four years and organized by the Chaos Computer Club (CCC).
+
+![cccamp][photo2]
+
+My experience was amazing from the people who I talked to and the people I met.
+
+## Talks
+
+There was quite a bit of talks so I’ll highlight some of them:
+
+### How to make your software build reproducibly
+
+Lunar, a Debian Developer, explained why it's important to make reproducible the
+build of packages from source code. The main issue in the chain of trust at the
+moment is we can read the source code of the packages we install, but we trust
+third party servers where packages has been build. To make the things secure we
+need to build packages in a deterministic way, so everyone could check if the
+package was build from the source without editing.
+
+While the problem seems easy to solve, it isn't. Debian has worked on that
+problem for two years, and still haven’t completed the fix to this issue.
+
+### How to organize a CTF
+
+CTF - Capture the flag - are contests where the task is to maintain a server
+running multiple services, while simultaneously trying to get access to the
+other team's servers. Each successful penetration gains points, as well as
+keeping services up and functional during the course of the game.
+
+At the camp itself there was a CTF contest, and it's incredible how some people
+could hack in a system and find vulnerabilities with very complicated way to
+bypass security system.
+
+### Towards Universal Access to All Knowledge: Internet Archive
+
+Archive.org is a well-known service: their goal is to backup all the world!
+Brewster Kahle explained how they're working to take as much data as possible,
+and why it's important.
+
+### TLS interception considered harmful
+
+With the more widespread use of encrypted HTTPS connections many software
+vendors intercept these connections by installing a certificate into the user's
+browser. This is widely done by Antivirus applications, parental filter software
+or ad injection software. This can go horribly wrong, as the examples of
+Superfish and Privdog have shown. But even if implemented properly these
+solutions almost always decrease the security of HTTPS.
+
+The talk explains how bad some of these Software Companies are  which reduce
+your security for their gains.
+
+### Let's encrypt
+
+Let's Encrypt is a new free and automated certificate authority, launching in
+summer 2015.
+
+In these dark times security and privacy are more important than ever. EFF,
+Mozilla, Cisco, Akamai, IdenTrust, and a team at the University of Michigan are
+working to make the web a safer place, adopting HTTPS everywhere. I really hope
+this project will have a large adoption.
+
+## People
+
+![be excellent][photo]
+
+As usual, the best part of events like this are meeting new people, listening to
+different stories and acquire a common knowledge.  I'm not going to report them
+here: lot of them value their privacy (at the camp there were 'No photos' signs
+everywhere). I had an awesome time talking to people and learning new things
+from them.
+
+A big thanks to my travel friends, Ruio and Bardo, for their knowledge and even
+more for their company in that long trip.
+
+Also, a thanks to all the Italian Embassy - good guys, with a lot of free
+grappa. Awesome!
+
+![italian embassy][photo1]
+
+## CCC Angels
+
+The event is organized by volunteers so a big thanks goes to all of them, they
+were able to provide energy and Internet for everyone all 5000 plus of us.
+
+I want to say thanks again to the Ubuntu Community for sponsoring me, and to all
+guys I met.
+
+The next CCCamp is in 4 years, I hope I'll be able to join again, 'cause it's a
+very strong experience.
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[aaron]: http://usefoss.com/
+[photo]: http://img.rpadovani.com/posts/be_excellent.jpg
+[photo1]: http://img.rpadovani.com/posts/italian_embassy.jpg
+[photo2]: http://img.rpadovani.com/posts/cccamp15.jpg
+[cccamp2015]: https://events.ccc.de/camp/2015/wiki/Main_Page
