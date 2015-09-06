@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "My opensource contributions in Jul&Aug 15"
+date:   2015-09-06 17:20
+description: What did I do in Jul&Aug to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-aug-15
+---
+
+Hey all,<br/>
+it's a bit since the last time I wrote my summary - indeed I skipped the July
+blog post. This is due two big reasons: holidays and laziness. During summer I
+take a break from all computer-related things, I need to restore a bit, so the
+amount of my contributions goes down drastically.
+
+Anyway, I did some things, and I'm here to do a little summary!
+
+## Donations
+
+This summer I haven't received any donation.
+
+If you find valuable my contribute to opensource world, please
+consider to make me a [donation][donation].
+
+## What I did
+
+### Spread Ubuntu
+
+I met a lot of people this summer and I tried to talk about Ubuntu as much as I
+can. Mainly, I went to [CCCamp][ccc] and here we talked a lot about Ubuntu Core
+and Snappy.
+
+### Launchpad
+
+Since Launchpad isn't in maintenance mode anymore, I chose to start to
+contribute to it. I love that portal, so I think I can help its development. So
+long I did just a patch, but I'm planning to starting to contribute on ongoing
+base.
+
+### Falldown
+
+I worked hard on [Falldown][falldown] with a couple of other guys - more news on
+this in next days :-)
+
+## Other things
+
+Other than that I wrote some code for the browser and did a lot of reviews of
+other's code. I also fix a couple of bugs in Calculator and Reminders.
+
+Also, to help the sharing of Ubuntu for Phones, I'm very active again on Italian
+Forum: I take feedbacks and open bugs on Launchpad, and support new developers.
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[aaron]: http://usefoss.com/
+[ccc]: http://rpadovani.com/cccamp2015/
+[Falldown]: http://news.softpedia.com/news/exclusive-first-look-at-falldown-a-fast-paced-and-addictive-game-for-ubuntu-touch-489975.shtml
