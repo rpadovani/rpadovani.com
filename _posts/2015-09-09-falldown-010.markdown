@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Falldown for Ubuntu Phone is here!"
+date:   2015-09-09 22:20
+description: Falldown for Ubuntu Phone is here! Go, download it and waste your days playing with it, as we did last 2 months
+categories:
+- ubuntu phone
+- games
+permalink: falldown-010
+---
+
+Hello all, <br/>
+I'm happy to announce Falldown hit the Ubuntu Phone market!
+
+Falldown is a cartoon game where you have to tilt your phone to make ball fall
+down quickly with rhythmic music. Don't get squashed!
+
+![Falldown][img0]
+
+There are a lot of different powerups and malus, they'll help you (or maybe
+not...) to make a great score!
+
+## The team
+
+The game has been developed by Michał Prędotka, Tyrel Parker and me. We worked
+on it in last two months, and we hope we was able to create a funny game for
+everyone.
+
+And we enjoyed working together, so expect other games in future by us ;-)
+
+A big thanks goes also to mzanetti, kenvandine and Elleo for suggestions!
+
+![The team][img1]
+
+## Translations
+
+Thanks to community translators the game, other than English US, it's available
+in English (United Kingdom), French, German, Italian and Polish.
+
+If you want to have it in your languages, feel free to help us translating it
+[here][translations].
+
+## Code and bugs
+
+Code is available under GPLv3 on [Launchpad][code].
+
+The game has been tested on Meizu MX4, Bq Aquaris E4.5 and Nexus 4, but we think
+it could work on every official Ubuntu Phone.
+
+If you find any bug, feel free to [contact us][bug].
+
+## Donations
+
+If you enjoy the game, please consider to make us a [donation][donation]. Please
+specify it's for this game, we will use money to create other games ;-)
+
+We hope you have as much fun playing as we had developing! And we have already
+planned some updates, so stay tuned :-)
+
+By the way, the record in our team is by Michal, 737.<br/>
+Could you beat it?
+
+[img0]: http://img.rpadovani.com/posts/falldown0.png
+[img1]: http://img.rpadovani.com/posts/falldown1.png
+[translations]: https://translations.launchpad.net/falldown
+[code]: https://code.launchpad.net/falldown
+[bug]: https://bugs.launchpad.net/falldown/+filebug
+[donation]: http://rpadovani.com/donations/
