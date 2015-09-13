@@ -26,6 +26,7 @@ this [blog post][archonpost].
 - [100 Balls][100balls]: An open-source clone for Ubuntu for Phones of 100
 Balls, based on Bacon2D
 - [Discerning Duck][discerningduck]: A Ubuntu scope to query DuckDuckGo
+- [Falldown][falldown]: Falldown is a cartoon game where you have to tilt your phone to make ball fall down quickly with rhythmic music. Don't get squashed!
 
 ### Ubuntu contributions
 
@@ -56,3 +57,4 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [archonpost]: http://rpadovani.com/my-first-job/
 [linkedin]: http://it.linkedin.com/in/riccardopadovani
 [browser]: https://launchpad.net/webbrowser-app
+[falldown]: https://uappexplorer.com/app/falldown.rpadovani
