@@ -82,7 +82,7 @@ Ciao<br/>
 R.
 
 [img0]: http://img.rpadovani.com/posts/falldown-settings.png
-[img0]: http://img.rpadovani.com/posts/falldown-record.jpg
+[img1]: http://img.rpadovani.com/posts/falldown-record.jpg
 [first]: http://rpadovani.com/falldown-010/
 [translations]: https://translations.launchpad.net/falldown
 [bug]: https://bugs.launchpad.net/falldown/+filebug
