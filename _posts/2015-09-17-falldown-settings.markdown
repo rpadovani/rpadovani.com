@@ -32,9 +32,10 @@ Also, we added a slider so you can set the sensitivity you prefer: no more a too
 fast ball that jumps away as soon as you move your phone :-)
 
 Furthermore, some minor improvement including:
-  - When you lost a life, powerups' effects are reset
-  - Fix a bug where audio starts playing also if it's in mute mode
-  - Some code optimization
+
+- When you lost a life, powerups' effects are reset
+- Fix a bug where audio starts playing also if it's in mute mode
+- Some code optimization
 
 ## Translations
 
