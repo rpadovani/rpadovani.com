@@ -10,10 +10,8 @@ permalink: how-many-ubuntu-phone
 ---
 
 **How many Ubuntu Phones there are?**
-
 As app developer, and mainly as big supporter of the project, it's a question I
 ask myself often.
-
 I don't have the answer, but I can try to make a guess using a useful statistic
 I have: **the number of times the Calculator App has been updated**.
 
@@ -54,7 +52,7 @@ Okay, I think I wrote enough, let's see this graphic:
 ![download][img0]
 
 **17979 users**. So I suppose we can say that at the end of September '15, *6
-**months after the first phone hit the market*, there are **~25k** users.
+months after the first phone hit the market*, there are **~25k** users.
 
 ## They are so few / so many
 
