@@ -41,7 +41,7 @@ One more thing: Bq Aquaris E4.5 is available since mid of March, but other
 phones like Meizu MX4 and Bq Aquaris E5 are available only since the start of
 June.
 
-Considered all these elements, I think is credible taking the number of users
+Considered all these elements, I think it is credible taking the number of users
 that have downloaded an update of the calculator and increase them by 30% to
 have an educated guess of how many phones there are.
 
