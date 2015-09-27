@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "How many Ubuntu Phones there are? An educated guess"
+title:  "How many Ubuntu Phones there are?"
 date:   2015-09-27 16:38
 description: "How many Ubuntu Phones there are in the world? I don't know, but we can try to make a guess"
 categories:
 - ubuntu phone
-- games
 permalink: how-many-ubuntu-phone
 ---
 
-**How many Ubuntu Phones there are?**
+**How many Ubuntu Phones there are?**<br/>
 As app developer, and mainly as big supporter of the project, it's a question I
 ask myself often.
+
 I don't have the answer, but I can try to make a guess using a useful statistic
 I have: **the number of times the Calculator App has been updated**.
 
