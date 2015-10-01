@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "My opensource contributions in Sep 15"
+date:   2015-10-01 15:30
+description: What did I do in Sep to change the world bit by bit? Take a look!
+categories:
+- personal
+permalink: my-contributions-sep-15
+---
+
+Aha, summer is finished, it's time to be full active in the opensource wolrd
+again! I'm very happy about my contributions in September, I found myself very
+active.
+
+## Donations
+
+In September I received 20 euros of donations. Thanks so much, I'll use them to
+buy coffee and spent nights writing code :-)
+
+For Falldown (see below) we received 30 euros of donations. We're still thinking
+how to invest them (buying a domain for the team, doing a contest to create a
+theme for the game, and some others cool ideas).
+
+If you find valuable my contribute to opensource world, or you're enjoying
+Falldown, please consider to make me a [donation][donation].
+
+Please write if the donation is for me or for Falldown (we'll provide a separate
+donation mail in the future).
+
+## What I did
+
+Other than the release of [Falldown][falldown] and working on some updates
+(themes are coming, and more), I wrote (and tested and merged) another patch for
+Launchpad.
+
+Also, I wrote a couple of patches for the webbrowser and started new patches for
+reminders app.
+
+More, I spent a lot of time reviewing code - I'm quite good finding small errors
+in implementations - in that way the quality of updates is always high :-)
+
+## Your turn
+
+Hey, now it's your turn to start changing the world with the opensource
+software.
+
+Why don't you [start to contribute][old]?
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: http://rpadovani.com/donations/
+[falldown]: http://rpadovani.com/falldown-010/
+[old]: http://rpadovani.com/how-to-start-to-contribute-to-ubuntu/
