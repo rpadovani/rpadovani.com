@@ -23,7 +23,7 @@ I wrote too much, let me introduce the big news for this release...
 
 ## The news
 
-Theme support! Yay!
+Themes support! Yay!
 
 Now you can choose your theme, and you can create your own and include in the
 app! To do so, please download [this package][download] and follow the
@@ -69,7 +69,6 @@ Jolla phone, you can enjoy this funny game :-)
 Oh, btw, do you know we spend a lot of time playing Falldown? I'm not very good
 at it (my record is only 679) but Tyrel and Michał set the new records every day:
 Michał is currently at 1138, and Tyrel at **1202**!
-**823**!
 
 ![Falldown][img1]
 
