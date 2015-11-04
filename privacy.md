@@ -17,6 +17,6 @@ You can find more about my server configuration [here][vps]
 
 ## Cookies
 
-This website doesn't install any cookie. 
+This website doesn't install any cookie.
 
-[vps]: http://rpadovani.com/my-vps-configuration/
+[vps]: https://rpadovani.com/my-vps-configuration/

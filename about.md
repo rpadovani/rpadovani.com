@@ -53,8 +53,8 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [reminders]: https://launchpad.net/reminders-app
 [calculator]: https://launchpad.net/ubuntu-calculator-app
 [ubuntuit]: http://www.ubuntu-it.org
-[archon]: http://www.archondronistics.com/
-[archonpost]: http://rpadovani.com/my-first-job/
+[archon]: http://www.archondronics.com/
+[archonpost]: https://rpadovani.com/my-first-job/
 [linkedin]: http://it.linkedin.com/in/riccardopadovani
 [browser]: https://launchpad.net/webbrowser-app
 [falldown]: https://uappexplorer.com/app/falldown.rpadovani

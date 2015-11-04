@@ -32,10 +32,10 @@ previous month.
 - [January][jan15]
 
 
-[jan15]: http://rpadovani.com/my-contributions-jan-15/
-[feb15]: http://rpadovani.com/my-contributions-feb-15/
-[mar15]: http://rpadovani.com/my-contributions-mar-15/
-[apr15]: http://rpadovani.com/my-contributions-apr-15/
-[may15]: http://rpadovani.com/my-contributions-may-15/
-[jun15]: http://rpadovani.com/my-contributions-jun-15/
-[aug15]: http://rpadovani.com/my-contributions-aug-15/
+[jan15]: https://rpadovani.com/my-contributions-jan-15/
+[feb15]: https://rpadovani.com/my-contributions-feb-15/
+[mar15]: https://rpadovani.com/my-contributions-mar-15/
+[apr15]: https://rpadovani.com/my-contributions-apr-15/
+[may15]: https://rpadovani.com/my-contributions-may-15/
+[jun15]: https://rpadovani.com/my-contributions-jun-15/
+[aug15]: https://rpadovani.com/my-contributions-aug-15/
