@@ -16,7 +16,7 @@ fantastic things.
 But what happened exatly one year ago? Well, I [posted][post] this image in
 Ubuntu community on Google+:
 
-![Ubuntu Core Apps](http://img.rpadovani.com/posts/Ubuntu-App.png)
+![Ubuntu Core Apps](https://img.rpadovani.com/posts/Ubuntu-App.png)
 
 Seems like another era! How much work the community (and Canonical guys) have
 done!
@@ -31,7 +31,7 @@ it in my free time. I want to continue on this way for long time :-)
 But take a look on where we are. This is a screenshot on Ubuntu 14.04, on a
 smaller screen:
 
-![New Ubuntu Apps](http://img.rpadovani.com/posts/New-Ubuntu-Apps.png)
+![New Ubuntu Apps](https://img.rpadovani.com/posts/New-Ubuntu-Apps.png)
 
 Awesome! In only one year so much improvements!
 

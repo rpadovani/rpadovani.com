@@ -61,7 +61,7 @@ Ciao, <br/>
 R.
 
 [archon]: http://www.archondronistics.com/
-[img0]: http://img.rpadovani.com/posts/drones.jpg
+[img0]: https://img.rpadovani.com/posts/drones.jpg
 [angular]: https://angularjs.org/
 [leaflet]: http://leafletjs.com/
 [contribute]: http://rpadovani.com/why-you-should-contribute-to-ubuntu-touch/

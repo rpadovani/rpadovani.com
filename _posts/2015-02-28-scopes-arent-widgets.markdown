@@ -117,12 +117,12 @@ R.
 
 *I made this article (and other opensource contributions) in my spare time because I love what I'm doing. If you are enjoying it and you want to buy me a beer click [here][donation].*
 
-[youtube-scope]: http://img.rpadovani.com/posts/youtube_scope.png
-[telegram-scope]: http://img.rpadovani.com/posts/telegram_scope.png
-[poi-scope]: http://img.rpadovani.com/posts/poi_scope.png
-[home-scope]: http://img.rpadovani.com/posts/scope_home.png
-[orval]: http://img.rpadovani.com/posts/orval.png
-[python]: http://img.rpadovani.com/posts/python.png
+[youtube-scope]: https://img.rpadovani.com/posts/youtube_scope.png
+[telegram-scope]: https://img.rpadovani.com/posts/telegram_scope.png
+[poi-scope]: https://img.rpadovani.com/posts/poi_scope.png
+[home-scope]: https://img.rpadovani.com/posts/scope_home.png
+[orval]: https://img.rpadovani.com/posts/orval.png
+[python]: https://img.rpadovani.com/posts/python.png
 [carla]: http://carla-sella.blogspot.it/2015/02/my-first-ubuntu-touch-scope.html
 
 [donation]: http://rpadovani.com/donations/

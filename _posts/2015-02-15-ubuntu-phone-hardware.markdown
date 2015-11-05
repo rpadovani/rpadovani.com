@@ -83,7 +83,7 @@ R.
 
 *Do you like this article? Please consider to [buy me an English course][donation], so I can improve it or just send me a feedback at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).*
 
-[bq-phone]: http://img.rpadovani.com/posts/bq_phone.jpg
-[bq-vs-samsung]: http://img.rpadovani.com/posts/bq_size.jpg
-[they-hate-us]: http://img.rpadovani.com/posts/they_hate_us.jpg
+[bq-phone]: https://img.rpadovani.com/posts/bq_phone.jpg
+[bq-vs-samsung]: https://img.rpadovani.com/posts/bq_size.jpg
+[they-hate-us]: https://img.rpadovani.com/posts/they_hate_us.jpg
 [donation]: http://rpadovani.com/donations/

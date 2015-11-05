@@ -98,8 +98,8 @@ awake? :-)
 
 [bugs]: https://bugs.launchpad.net/ubuntu-calculator-app
 [gang66]: https://plus.google.com/105782724017692708794/posts
-[img0]: http://img.rpadovani.com/posts/newCalculatorDesign.jpg
-[img1]: http://img.rpadovani.com/posts/favouritesBlank.jpg
+[img0]: https://img.rpadovani.com/posts/newCalculatorDesign.jpg
+[img1]: https://img.rpadovani.com/posts/favouritesBlank.jpg
 [i18n]: https://translations.launchpad.net/ubuntu-calculator-app
 [coffee]: http://rpadovani.com/donations/
 [86]: https://bazaar.launchpad.net/~ubuntu-calculator-dev/ubuntu-calculator-app/reboot/revision/86

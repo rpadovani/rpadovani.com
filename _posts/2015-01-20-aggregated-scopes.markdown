@@ -18,7 +18,7 @@ details about the phone and the system. It isn't anything secret, but these
 mails give some good informations on the phone. I think *information wants to be
 free*, so I share them with the world.
 
-![Aggregated scopes](http://img.rpadovani.com/posts/aggregated-scopes.jpg)
+![Aggregated scopes](https://img.rpadovani.com/posts/aggregated-scopes.jpg)
 
 [In our initial Phone Glimpse mail][first] we'd introduced scopes for the Ubuntu
 phone - an integrated approach to delivering content and services. We touched on

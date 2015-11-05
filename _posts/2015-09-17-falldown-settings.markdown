@@ -82,8 +82,8 @@ We're sure you will enjoy this update ;-)
 Ciao<br/>
 R.
 
-[img0]: http://img.rpadovani.com/posts/falldown-settings.png
-[img1]: http://img.rpadovani.com/posts/falldown-record.jpg
+[img0]: https://img.rpadovani.com/posts/falldown-settings.png
+[img1]: https://img.rpadovani.com/posts/falldown-record.jpg
 [first]: http://rpadovani.com/falldown-010/
 [translations]: https://translations.launchpad.net/falldown
 [bug]: https://bugs.launchpad.net/falldown/+filebug

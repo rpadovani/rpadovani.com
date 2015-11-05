@@ -13,7 +13,7 @@ Just a couple of days ago I [said][post] how much rocks opensource and
 DuckDuckGo Team. And since today there is integration between DuckDuckGo and
 [Launchpad][lp] bugs.
 
-![launchpad on ddg](http://img.rpadovani.com/posts/lp-ddg.png)
+![launchpad on ddg](https://img.rpadovani.com/posts/lp-ddg.png)
 
 ## How does it work?
 

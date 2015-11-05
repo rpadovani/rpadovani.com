@@ -111,7 +111,7 @@ R.
 
 [donation]: http://rpadovani.com/donations/
 [aaron]: http://usefoss.com/
-[photo]: http://img.rpadovani.com/posts/be_excellent.jpg
-[photo1]: http://img.rpadovani.com/posts/italian_embassy.jpg
-[photo2]: http://img.rpadovani.com/posts/cccamp15.jpg
+[photo]: https://img.rpadovani.com/posts/be_excellent.jpg
+[photo1]: https://img.rpadovani.com/posts/italian_embassy.jpg
+[photo2]: https://img.rpadovani.com/posts/cccamp15.jpg
 [cccamp2015]: https://events.ccc.de/camp/2015/wiki/Main_Page

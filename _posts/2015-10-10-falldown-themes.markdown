@@ -84,8 +84,8 @@ Ciao<br/>
 R.
 
 [contest]: http://ubucon.de/node/971
-[img0]: http://img.rpadovani.com/posts/falldown-new-theme.png
-[img1]: http://img.rpadovani.com/posts/falldown-1202.jpg
+[img0]: https://img.rpadovani.com/posts/falldown-new-theme.png
+[img1]: https://img.rpadovani.com/posts/falldown-1202.jpg
 [download]: http://people.ubuntu.com/~rpadovani/falldown.tar.gz
 [translations]: https://translations.launchpad.net/falldown
 [code]: https://code.launchpad.net/falldown

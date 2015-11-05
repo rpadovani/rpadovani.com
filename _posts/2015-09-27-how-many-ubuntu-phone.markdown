@@ -91,6 +91,6 @@ I hope this article gives you some useful data.
 Ciao<br/>
 R.
 
-[img0]: http://img.rpadovani.com/posts/calculator-downloads.png
+[img0]: https://img.rpadovani.com/posts/calculator-downloads.png
 [donation]: http://rpadovani.com/donations/
 [contact]: http://rpadovani.com/about/

@@ -24,7 +24,7 @@ the most interactive, will be available in next months).
 So, every scope has an homepage, and I put in the homepage one of the available
 goodies: sunrise and sunset in your location.
 
-![discerning duck homepage](http://img.rpadovani.com/posts/ddg.png)
+![discerning duck homepage](https://img.rpadovani.com/posts/ddg.png)
 
 Unfortunately, DuckDuckGo tries to understand your location from your IP
 address, and there is no way to set a location by yourself, so I can't use

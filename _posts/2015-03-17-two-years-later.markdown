@@ -19,7 +19,7 @@ Well, it's incredible to say looking to what I'm doing now, but there was my
 first contact with international Ubuntu Community. I [posted][post] this image
 in the Ubuntu community on Google+:
 
-![Ubuntu Core Apps](http://img.rpadovani.com/posts/Ubuntu-App.png)
+![Ubuntu Core Apps](https://img.rpadovani.com/posts/Ubuntu-App.png)
 
 Seems like another era! How much work the community (and Canonical guys) have
 done since then! Then I started to contribute to Ubuntu for Phones: few days
@@ -31,13 +31,13 @@ never programmed before and I do it in my free time. Plus, I made one app, one s
 But take a look on where we are. This is a screenshot on Ubuntu 15.04, on a
 smaller screen:
 
-![New Ubuntu Apps](http://img.rpadovani.com/posts/New-Ubuntu-Apps-15.png)
+![New Ubuntu Apps](https://img.rpadovani.com/posts/New-Ubuntu-Apps-15.png)
 
 Awesome! In two years so much improvements! And calendar has the desktop mode!
 
 Just to do a compare, take a look on the same screen last year:
 
-![Ubuntu Apps 14](http://img.rpadovani.com/posts/New-Ubuntu-Apps.png)
+![Ubuntu Apps 14](https://img.rpadovani.com/posts/New-Ubuntu-Apps.png)
 
 We’re building the future :-)
 

@@ -12,7 +12,7 @@ Hey all, a new version of Ubuntu Calculator App Reboot is on the store, ready
 for the your tries! As usual, please report any bug you find on
 [Launchpad][bugs], so we can fix them!
 
-![translations stats](http://img.rpadovani.com/posts/translations-reboot.png)
+![translations stats](https://img.rpadovani.com/posts/translations-reboot.png)
 
 Don't worry about the number of version, I know it is passed from *0.1.4* to
 *2.0.73*, it's a bit strange but now makes more sense: the major release is 2,

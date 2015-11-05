@@ -60,8 +60,8 @@ planned some updates, so stay tuned :-)
 By the way, the record in our team is by Michal, 737.<br/>
 Could you beat it?
 
-[img0]: http://img.rpadovani.com/posts/falldown0.png
-[img1]: http://img.rpadovani.com/posts/falldown1.png
+[img0]: https://img.rpadovani.com/posts/falldown0.png
+[img1]: https://img.rpadovani.com/posts/falldown1.png
 [translations]: https://translations.launchpad.net/falldown
 [code]: https://code.launchpad.net/falldown
 [bug]: https://bugs.launchpad.net/falldown/+filebug

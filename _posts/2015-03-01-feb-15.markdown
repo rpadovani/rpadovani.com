@@ -84,5 +84,5 @@ R.
 
 [planet]: http://planet.ubuntu.com
 [donation]: http://rpadovani.com/donations/
-[browser]: http://img.rpadovani.com/posts/browser.png
+[browser]: https://img.rpadovani.com/posts/browser.png
 [community]: http://community.ubuntu.com/contribute/

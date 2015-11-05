@@ -99,8 +99,8 @@ awake? :-)
 [gcollura]: https://plus.google.com/+GiulioCollura/posts
 [be]: http://design.canonical.com/2014/03/loving-the-bottom-edge/
 [design]: http://rpadovani.com/ubuntu-calculator-app-reboot/
-[img1]: http://img.rpadovani.com/posts/answer.png
-[img2]: http://img.rpadovani.com/posts/inline-copy.png
+[img1]: https://img.rpadovani.com/posts/answer.png
+[img2]: https://img.rpadovani.com/posts/inline-copy.png
 [dwood]: https://plus.google.com/+DanielWood/posts
 [i18n]: https://translations.launchpad.net/ubuntu-calculator-app
 [coffee]: http://rpadovani.com/donations/

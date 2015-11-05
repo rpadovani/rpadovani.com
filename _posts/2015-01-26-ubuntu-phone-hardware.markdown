@@ -15,7 +15,7 @@ In last month there were a lot of rumors and speculations (some of them were
 very accurated), but now it's time to clarify: it's time to see what's
 **the hardware** of the first Ubuntu Phone!
 
-![The hardware](http://img.rpadovani.com/posts/hardware.jpg)
+![The hardware](https://img.rpadovani.com/posts/hardware.jpg)
 
 ## The Hardware
 

@@ -30,5 +30,5 @@ R.
 [donation]: http://rpadovani.com/donations/
 [nik]: https://github.com/nikwen
 [ddg]: https://uappexplorer.com/app/com.ubuntu.developer.rpadovani.discerningduck
-[ddg-013]: http://img.rpadovani.com/posts/ddg013.png
+[ddg-013]: https://img.rpadovani.com/posts/ddg013.png
 [git]: https://github.com/rpadovani/discerning-duck

@@ -143,7 +143,7 @@ R.
 [branch]: https://code.launchpad.net/~rpadovani/webbrowser-app/settings-page/+merge/253975
 [planet]: http://planet.ubuntu.com
 [donation]: http://rpadovani.com/donations/
-[browser]: http://img.rpadovani.com/posts/ubuntuSettings.png
+[browser]: https://img.rpadovani.com/posts/ubuntuSettings.png
 [community]: http://community.ubuntu.com/contribute/
 [popey]: http://popey.com/
 [mzanetti]: http://notyetthere.org/

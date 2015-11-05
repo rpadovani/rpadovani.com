@@ -202,7 +202,7 @@ its own again, it’s important this distinction: objects that you want to add i
 a scene have to be attached to the world component.
 
 Now, if you run your app you should have something like this:
-![Our first game](http://img.rpadovani.com/posts/100balls-first.png)
+![Our first game](https://img.rpadovani.com/posts/100balls-first.png)
 
 Yes, nothing so exciting. Maybe we need to add some physic to the balls.
 First of all, we need to say to Bacon 2D what are the outlines of our balls:
@@ -1189,7 +1189,7 @@ Game {
 Congrats, now your first game is ready! Try to start it and beat my personal
 record: 763!
 
-![Our first game finished](http://img.rpadovani.com/posts/100balls-final.png)
+![Our first game finished](https://img.rpadovani.com/posts/100balls-final.png)
 
 ## And now?
 

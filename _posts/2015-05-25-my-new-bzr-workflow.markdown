@@ -96,4 +96,4 @@ R.
 [zsh]: https://github.com/robbyrussell/oh-my-zsh
 [numix]: https://numixproject.org/
 [bzrsupport]: https://github.com/robbyrussell/oh-my-zsh/pull/3884
-[img0]: http://img.rpadovani.com/posts/bzr-improve.png
+[img0]: https://img.rpadovani.com/posts/bzr-improve.png

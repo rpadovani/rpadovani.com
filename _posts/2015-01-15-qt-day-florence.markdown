@@ -11,7 +11,7 @@ permalink: qtday-2015
 Have you ever visited *Florence*? Next **March 14th** would be the ideal day,
 because there will be the **Qt Day**.
 
-![QtDay 2015](http://img.rpadovani.com/posts/qtday15.png)
+![QtDay 2015](https://img.rpadovani.com/posts/qtday15.png)
 
 ## What is it?
 

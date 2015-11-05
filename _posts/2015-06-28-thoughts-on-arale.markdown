@@ -119,4 +119,4 @@ R.
 [bq]: http://bq.com/gb/aquaris-e4-5-ubuntu-edition
 [meizu]: http://www.meizu.com/en/ubuntu/index.html
 [feb]: http://rpadovani.com/ubuntu-phone-hardware/
-[photo]: http://img.rpadovani.com/posts/meizu.jpg
+[photo]: https://img.rpadovani.com/posts/meizu.jpg

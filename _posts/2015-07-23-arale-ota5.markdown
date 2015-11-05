@@ -74,7 +74,7 @@ R.
 
 [donation]: http://rpadovani.com/donations/
 [first]: http://rpadovani.com/thoughts-on-arale/
-[photo]: http://img.rpadovani.com/posts/newgu.png
+[photo]: https://img.rpadovani.com/posts/newgu.png
 [rotation]: https://unity.ubuntu.com/2015/07/15/whats-new-in-ota-5/
 [icons]: http://design.canonical.com/2015/07/the-monochromatic-makeover/
 [aaron]: http://usefoss.com/

@@ -58,6 +58,6 @@ thanks to all!
 So, thanks for all guys, hope to see you all soon, and continue to make
 Ubuntu rocking!
 
-![All together](http://img.rpadovani.com/posts/maltasprint.jpg)
+![All together](https://img.rpadovani.com/posts/maltasprint.jpg)
 
 **Wow!**

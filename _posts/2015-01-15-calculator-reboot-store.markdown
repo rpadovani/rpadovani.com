@@ -16,7 +16,7 @@ This is possible also thanks to [Alan Pope][popey], [Mihir Soni][mihir] and a
 lot of other guys, designers and testers. I started to do a credits list, but
 wow, how many people for a single app. So thanks to all!
 
-![reboot](http://img.rpadovani.com/posts/calculator-reboot.png)
+![reboot](https://img.rpadovani.com/posts/calculator-reboot.png)
 
 The app is still being worked, so in next weeks will have new features and
 improvements! Meanwhile, if you want to test it, just look for

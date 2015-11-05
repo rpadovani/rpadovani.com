@@ -27,20 +27,20 @@ features we will implement.
 
 So, this is the initial state of the app:
 
-![initial state](http://img.rpadovani.com/posts/initial_state.png)
+![initial state](https://img.rpadovani.com/posts/initial_state.png)
 
 As you can see, it's all clean and essential.
 
 One of the new feature we're going to implement is the **scientific mode**. We
 didn't have that in the old app, and we think could be a very useful feature:
 
-![landscape](http://img.rpadovani.com/posts/scientific-mode.png)
+![landscape](https://img.rpadovani.com/posts/scientific-mode.png)
 
 Another interesting feature is the **favourite history**. You can mark a calc as
 favourite and set a label, so you can easily access to it in a second moment,
 and remember why you saved it in first place.
 
-![favourite](http://img.rpadovani.com/posts/favorites.png)
+![favourite](https://img.rpadovani.com/posts/favorites.png)
 
 The file with the new design specs is available [online][new-design].
 
