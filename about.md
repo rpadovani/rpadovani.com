@@ -18,8 +18,8 @@ friends.
 
 ### My job
 
-I work as frontend developer at [Archon Dronistics][archon]. More information in
-this [blog post][archonpost].
+I work as developer at [Archon Dronistics][archon]. More information in this
+[blog post][archonpost].
 
 ### Side projects
 
@@ -41,8 +41,8 @@ so I just list projects I'm involved on daily basis at the moment.
 ### Contact me
 
 Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
-[Linkedin][linkedin] or just say `Hello` at
-[riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
+[Linkedin][linkedin] / [Twitter][twitter] / [Instagram][instagram] or just say
+`Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 
 [github]: https://github.com/rpadovani
 [google]: https://plus.google.com/+RiccardoPadovani/posts
@@ -58,3 +58,5 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [linkedin]: http://it.linkedin.com/in/riccardopadovani
 [browser]: https://launchpad.net/webbrowser-app
 [falldown]: https://uappexplorer.com/app/falldown.rpadovani
+[instagram]: https://instagram.com/padowan42/
+[twitter]: https://twitter.com/rpadovani93
