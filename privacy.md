@@ -13,10 +13,14 @@ Obviously I store in my server some informations about you, like your IP address
 and which page you're viewing, but these information are only used by the web
 server to serve you the page.
 
-You can find more about my server configuration [here][vps]
+You can find more about my server configuration [here][vps].
+
+Also, all the connections to this website are crypted, as explained in [this
+blogpost][crypt].
 
 ## Cookies
 
 This website doesn't install any cookie.
 
 [vps]: https://rpadovani.com/my-vps-configuration/
+[crypt]: https://rpadovani.com/encrypt-the-world/
