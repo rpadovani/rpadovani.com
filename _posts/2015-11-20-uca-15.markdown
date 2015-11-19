@@ -74,12 +74,16 @@ have no much more time to contribute to Ubuntu, and he's keeping the calculator
 updated and bugs free.
 
 He's a pleasure to work with him: he's talented and very patient, sometimes he
-waits weeks before I review his code (blame on me!), but he never complains.
+waits weeks before I review his code (shame on me!), but he never complains.
 
 I know he also contributes to clock app and weather app and reports bug about
 the experience on the phone.
 
 So **THANKS Bartosz**, and keep up the awesome work :-)
+
+And now it's your turn, choose someone in the Ubuntu Community, and write a
+mail, a tweet, a G+ post and say **Thanks**. Volunteers do it for free, and your
+gratitude is what's need to make them happy!
 
 Ciao<br/>
 R.
