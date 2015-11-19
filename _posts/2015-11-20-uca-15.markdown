@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "Ubuntu Community Appreciation Day"
+date:   2015-11-05 10:45
+description: "Ubuntu is not just an Operating System, it is a whole community in which everybody collaborates with everybody to bring to the life a wonderful Human experience"
+categories:
+- ubuntu
+permalink: uca-15
+---
+
+It's **Nov, 20th** again, and as every year it's time for the Ubuntu Community
+Appreciation Day :-)
+
+![uca][uca]
+
+## The spirit of UCA
+
+And, as the [wiki page][wiki] of the event says, Ubuntu is not just an Operating
+System, it is a whole community in which everybody collaborates with everybody
+to bring to the life a wonderful Human experience. When you download the iso,
+burn it, install it and start to enjoy it, you know that a lot of people made
+magnificent efforts to deliver the best Ubuntu OS possible.
+
+For all the effort exerted, for every minute of the year, some gave of their
+time talent or treasure. There's the Ubuntu Community Appreciation Day, when
+everybody -- whether user, developer, or non-developer contributor anyone who
+gives a hand making Ubuntu what it is today -- everybody takes a moment to thank
+someone for their contribution. Every contribution counts! Take time to say,
+"**Thank you!**"
+
+The word **Thank You** inspires and gives a huge amount of motivation to
+encourage people to become even better contributors thus making Ubuntu and the
+community even better.
+
+## Choose someone to thank
+
+While a global thanks to all contributors it is a must, I prefer to thank
+someone in particular, to show all my support to him/her.
+
+Now, choosing someone is very difficult, because I met a lot of amazing people
+in the Ubuntu Community, and a lot more contribute to Ubuntu in some way.
+
+So it's a very hard task to choose someone.
+
+Last year [I said][mzanetti] **Thank you** to _mzanetti_. I'm sure you know who
+he is, and he totally deserves our gratitude.
+
+As him, a lot of other Canonical employers - I was lucky enough to contribute
+side by side with _popey_ and _oSoMoN_ and _dpm_ and _dholbach_ and a lot of
+other guys, from a lot of different teams. To all of you, and you know who you
+are, **THANKS**.
+
+And then there a lot of guys from community, an I should thank each one of them.
+
+But I want, for a day, turn the spotlight to someone who is not so well known in
+the community.
+
+I chose that guy because I think he's the perfect example of the perfect
+contributor: someone who works hard, day by day, without seeking fame and glory.
+
+And as him there are a lot of contributors: people who work hard to make Ubuntu
+better every day. You never hear of them, but they are essential to create this
+dream called Ubuntu.
+
+To all of you unknown hard-working contributors, **thanks**.
+
+And my biggest thanks goes to [Bartosz][gang66]!
+
+## Who's Bartosz
+
+I (virtually) met Bartosz working on the calculator app for Ubuntu for Phones.
+Together we crafted the calculator reboot. But since the end of the Summer I
+have no much more time to contribute to Ubuntu, and he's keeping the calculator
+updated and bugs free.
+
+He's a pleasure to work with him: he's talented and very patient, sometimes he
+waits weeks before I review his code (blame on me!), but he never complains.
+
+I know he also contributes to clock app and weather app and reports bug about
+the experience on the phone.
+
+So **THANKS Bartosz**, and keep up the awesome work :-)
+
+Ciao<br/>
+R.
+
+[wiki]: https://wiki.ubuntu.com/UCADay
+[mzanetti]: https://plus.google.com/+RiccardoPadovani/posts/8mk1EcNGCx1
+[uca]: https://img.rpadovani.com/posts/uca.png
+[gang66]: https://launchpad.net/~gang65
