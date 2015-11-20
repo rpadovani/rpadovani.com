@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ubuntu Community Appreciation Day"
-date:   2015-11-05 10:45
+date:   2015-11-20 09:00
 description: "Ubuntu is not just an Operating System, it is a whole community in which everybody collaborates with everybody to bring to the life a wonderful Human experience"
 categories:
 - ubuntu
