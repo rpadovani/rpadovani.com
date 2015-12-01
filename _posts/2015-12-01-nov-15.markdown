@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My opensource contributions in Oct and Nov 15"
-date:   2015-10-01 22:45
+date:   2015-12-01 22:45
 description: Two months in one, my laziness is growing a bit too much
 categories:
 - personal
