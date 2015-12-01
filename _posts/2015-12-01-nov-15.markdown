@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "My opensource contributions in Oct and Nov 15"
+date:   2015-10-01 22:45
+description: Two months in one, my laziness is growing a bit too much
+categories:
+- personal
+permalink: my-contributions-nov-15
+---
+
+Hey all, it has been a while since last time I updated my blog.
+In last two months I did not contribute much to the opensource world, both for
+time issues (work and uni take a lot of my free time) but mainly because I lost
+motivation.
+
+I tried to analyze a bit myself, and I think one of the reasons was I tried to
+contribute to too many projects. So I took a break, and now I'm starting all
+over again, contributing to just a couple of them, as I'll describe later.
+
+But let's start taking a look to last two months:
+
+## Donations
+
+Falldown team received 100 euros in donations. Thanks so much, we love your
+support and we're working hard to bring you new updates :-)
+
+We spent money during UbuCon, in Germany last Oct, where mivoligo and I met for
+the first time in person! We discussed about future plans for Falldown, and we
+drank a couple of beers to thanks all you for your enormous support to our app!
+
+## What I did
+
+Before taking my break I finalized a couple of patches for Oxide and webbrowser
+app, back in October.
+
+Meanwhile, I worked on [theme support][themes] for Falldown; I totally like
+Falldown, and I never stopped writing code for it: I'm very proud of it, and I
+think as team we did a great work: this is why I'm continue to add features :-)
+
+Next big update will land (we hope) before Christmas, with achievements support
+and also support to In App Purchasing: don't worry, will be only a donation
+button, the app will be always all free. But we want to help Ubuntu team to
+develop this important platform feature.
+
+Other than Falldown I would like to contribute to Ubuntu itself, but I need
+motivation and to start something not too broad.
+
+So I thought to Calculator App: something I already know, and I like :-) Since
+mid of November I reviewed a lot of code which was waiting (thanks Bartosz!) and
+start again to write patches, porting the calculator to the Ubuntu SDK 1.3 and
+fixing old bugs.
+
+I don't want to take too much work and burning out again, so for next months
+I'll focus only on Calculator and Falldown (and my job, and uni).
+
+I'll try to write a bit more on the blog, there are some cool things that are
+going in the Ubuntu world!
+
+## Your turn
+
+Hey, now it's your turn to start changing the world with the opensource
+software.
+
+Why don't you [start to contribute][old]?
+
+If you like my work and want to support me, just send me a *Thank you!* by
+[email](mailto:riccardo@rpadovani.com) or [offer me][donation] a beer:-)
+
+Ciao,<br/>
+R.
+
+[donation]: https://rpadovani.com/donations/
+[themes]: https://rpadovani.com/falldown-theme/
+[old]: https://rpadovani.com/how-to-start-to-contribute-to-ubuntu/
