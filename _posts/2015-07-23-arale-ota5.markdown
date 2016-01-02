@@ -52,6 +52,7 @@ your price range).
 
 
 Some of the most interesting I found are:
+
 - [Unity Rotation][rotation]: finally it isn’t weird to use the phone in landscape mode. Though there are still some bugs and the dash doesn't rotate which I hope they fix soon!
 - [New icons][icons]: which look great, awesome job Design Team! they also look much clear and have better in the MX4’s resolution. Kudos!
 - Change reviews: time to update some old feedback I left when the apps where still in development.

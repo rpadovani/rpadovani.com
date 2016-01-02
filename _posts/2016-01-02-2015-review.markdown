@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "A review of my 2015"
+date:   2016-01-02 18:45
+description: "2015 has been an awesome year, and a lot of awesome things happened"
+categories:
+- personal
+permalink: 2015-review
+---
+
+Hello all, and first of all happy 2016 to you all!
+
+I hope it will bring to you all happiness you deserve :-)
+
+2015 has been a great year for me on a personal plan - I had to fight some
+battles, and I had ups and downs, as everyone I suppose. But I'm sure that so
+far has been the most amazing year I had. Even better, it laid the foundations
+for an even better 2016.
+
+## Ubuntu
+
+I think 90% of readers of this blog are interested about Ubuntu, so I think is
+important to highlight how awesome has been this year for the project I was most
+involved in: **Ubuntu Phone**.
+
+The first Ubuntu Phone [hit the market in February][0]. Others two phone
+[arrived in June][1]. And thanks to a lot of updates, [they improve][2] each
+month.
+
+I'm very proud I have helped a little bit this awesome project. And with
+[Mivoligo][3] and [Tyrel][4] we created one of the most loved games for Ubuntu
+Phones: [Falldown][5].
+
+## Donations
+
+In 2015 I received 128.55 euros in donations. This is mind-blowing, when I added
+the paypal [donations form][6] [one year ago][7] I could never imagine a so huge
+support, so thanks you!
+
+Also, for Falldown we received 140 euros of donations. We spent some of them in
+Germany for UbuCon Europe, and we'll see how to spend others to provide a better
+game (or new games) :)
+
+## 2016
+
+2015 has been an amazing year, and it's incredible to look back and see how many
+things changed!
+
+What's the plan for 2016 then? Well, if you followed me you know I have a
+[little job][8] now, and I'm very happy with it and it gives me some [big
+satisfactions][9].
+
+While during summer I was able to do my job and do some opensource
+contributions, unfortunately in September I restared university and I haven't
+found yet a way to do as many contributions as I used to.
+
+So in 2016 I hope to find a way to do all the things I love, I would love to
+release a couple of updates for Falldown and do other things. But the first
+thing to do for me is finding an equilibrium in my time to do all the things I
+care about.
+
+I hope you all will have an awesome 2016!
+
+Ciao,
+R.
+
+[0]: https://rpadovani.com/ubuntu-phone-hardware/
+[1]: https://rpadovani.com/two-new-ubuntu-phones/
+[2]: https://rpadovani.com/arale-ota5/
+[3]: http://mivoligo.com/
+[4]: https://plus.google.com/+TyrelParkerMusic
+[5]: https://rpadovani.com/falldown-010/
+[6]: https://rpadovani.com/donations/
+[7]: https://rpadovani.com/new-blog/
+[8]: https://rpadovani.com/my-first-job/
+[9]: https://rpadovani.com/htc-2015/
