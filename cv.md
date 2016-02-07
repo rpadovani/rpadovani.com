@@ -3,11 +3,12 @@ layout: page
 title: Curriculum Vitae
 ---
 
-# ![avatar][] Riccardo Padovani
+# Riccardo Padovani
 
 ---
 
 > #### Developer
+
 > #####  Italy &emsp; [rpadovani.com][homepage] &emsp; [@rpadovani93][twitter] ![twit][]
 > `C`, `C++`, `Python`, `Javascript`, `FOSS`, `Qt`
 
@@ -24,8 +25,11 @@ title: Curriculum Vitae
 
 
 ---
+
 ## Experience
+
 #### Fullstack Developer  &emsp; <small>*April 2015 - current*</small>
+
 `Python`, `Postgresql`, `NodeJs`, `ROS`, `AMPQ`
 > Archon is a company based in Italy, with offices in USA, specialized in providing automated operations with UAVs. Archon’s team members are all Italians and have a recognized expertise or advanced degrees in physics, business administration, engineering and virtual reality. The combined background of the team members is able to cover the design and management of complex drones operations.
 >
@@ -43,7 +47,9 @@ title: Curriculum Vitae
 >
 
 ---
+
 #### Ubuntu Community Contributor  &emsp; <small>*2013 - current*</small>
+
 `C`, `Javascript`, `Qt`, `Python`
 > As developer for Ubuntu for Phones I'm contributing to build the future of mobile industry.
 >
@@ -60,27 +66,42 @@ title: Curriculum Vitae
 > Moreover, I met a lot of high-skilled and very talented guys, who teached me how opensource works, and some very good approaches to good team work and good software development guidelines.
 
 ---
+
 ## Education
+
 #### Computer Science &emsp; <small>*2013 - 2016*</small>
+
 `C`, `Java`, `MySql`, `Cuda`, `Mathematical Optimization`, `Mips`
 > I'm currently studing Computer Science: it gives me a lot of theorically knowledge that I can then apply to real life thanks to my involvement in the opensource world.
 
 ---
+
 ## Open Source
+
 #### [Falldown](https://uappexplorer.com/app/falldown.rpadovani)
+
 Falldown is a cartoon game where you have to tilt your phone to make ball fall down quickly with rhythmic music. Don’t get squashed!
 
 ---
+
 #### [100balls](https://github.com/rpadovani/100balls)
+
 An open-source clone for Ubuntu for Phones of 100 Balls, based on Bacon2D
 
 ---
+
 ## Favorites
+
 #### Editor
+
 Atom
+
 #### Operating System
+
 Ubuntu
+
 #### Terminal
+
 zsh
 
 ---
