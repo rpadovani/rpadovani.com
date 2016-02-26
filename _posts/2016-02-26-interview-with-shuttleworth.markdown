@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A talk about the future of Ubuntu with Mark Shuttleworth"
-date:   2016-02-26 01:30
+date:   2016-02-26 11:30
 description: "I talked with Mark Shuttleworth, founder of Canonical, about the future of Ubuntu: phones, desktop, iot and cloud, all powered by Snappy"
 categories:
 - ubuntu
