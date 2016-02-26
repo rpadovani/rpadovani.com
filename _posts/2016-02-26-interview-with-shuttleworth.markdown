@@ -20,8 +20,6 @@ Here the interview:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7veT3h8jisM" frameborder="0" allowfullscreen></iframe>
 
-Sorry for my bad accent :/
-
 You can find more about Ubuntu at MWC on [Ubuntu's Twitter profile][2].
 
 In next days I'll try write an article about the week, because it has been very
