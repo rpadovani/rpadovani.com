@@ -15,13 +15,13 @@ DEST="/usr/share/nginx/html/"
 TMP="/tmp/"
 
 # Where to save the downloaded file
-DOWNLOAD_FILE="frontend.zip";
+DOWNLOAD_FILE="site.zip";
 
 cd $TMP;
-wget --header="PRIVATE-TOKEN: $SECRET_TOKEN" "https://gitlab.com/api/v3/projects/774560/builds/artifacts/master/download?job=deploy" -O $DOWNLOAD_FILE;
+wget --header="PRIVATE-TOKEN: $SECRET_TOKEN" "https://gitlab.com/api/v3/projects/774560/builds/artifacts/master/download?job=deploy_site" -O $DOWNLOAD_FILE;
 ls;
 unzip $DOWNLOAD_FILE;
 rm -rf $DEST;
-cp -r dist/ $DEST;
-rm -rf dist/;
+cp -r _site/ $DEST;
+rm -rf _site/;
 rm $DOWNLOAD_FILE;
