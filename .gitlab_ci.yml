@@ -1,0 +1,21 @@
+image: jekyll/jekyll
+
+stages:
+  - deploy
+
+# cache:
+#   paths:
+#     - node_modules/
+#     - bower_components/
+#   key: "$CI_BUILD_REPO"
+
+sample_deploy:
+  stage: deploy
+  only:
+    - master
+    - development
+  script:
+    - jekyll build
+  artifacts:
+    paths:
+      - _site/
