@@ -1,7 +1,7 @@
 <?php
 // Check token
 $security_file = parse_ini_file("../token.ini");
-$gitlab_token = $_SERVER["X-GITLAB-TOKEN"];
+$gitlab_token = $_SERVER["HTTP_X-GITLAB-TOKEN"];
 
 if ($gitlab_token !== $security_file["token"]) {
     echo "error 403";
