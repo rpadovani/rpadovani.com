@@ -16,6 +16,8 @@ At the moment I focus mainly on Ubuntu for Phones, but I contributed to a lot
 When I'm not busy with university or Ubuntu or work, I enjoy a beer with
 friends.
 
+You can find my curriculum [here][cv].
+
 ### My job
 
 I work as developer at [Archon Dronistics][archon]. More information in this
@@ -30,8 +32,7 @@ Balls, based on Bacon2D
 
 ### Ubuntu contributions
 
-It's pretty impossible (and useless) link all projects I contributed to,
-so I just list projects I'm involved on daily basis at the moment.
+These are my mainly contributions in past years:
 
 - [Ubuntu Core Apps][coreapps]: developer, tester and early adopter (mainly
 [Reminders][reminders] and [Calculator][calculator])
@@ -60,3 +61,4 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [falldown]: https://uappexplorer.com/app/falldown.rpadovani
 [instagram]: https://instagram.com/padowan42/
 [twitter]: https://twitter.com/rpadovani93
+[cv]: https://cv.rpadovani.com
