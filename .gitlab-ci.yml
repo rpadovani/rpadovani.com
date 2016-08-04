@@ -15,7 +15,7 @@ sample_deploy:
     - master
   script:
     - bundle install
-    - jekyll build --destination /tmp/build
+    - bundle exec jekyll build --destination /tmp/build
     - htmlproof /tmp/build --empty-alt-ignore
   artifacts:
     paths:
