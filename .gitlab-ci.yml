@@ -1,13 +1,15 @@
-image: jekyll/jekyll:builder
-
+image: ruby:2.3
 stages:
   - deploy
 
-# cache:
-#   paths:
-#     - node_modules/
-#     - bower_components/
-#   key: "$CI_BUILD_REPO"
+cache:
+  paths:
+    - vendor
+    - .bundle
+  key: "$CI_BUILD_REPO"
+
+before_script:
+  - gem install bundler
 
 sample_deploy:
   stage: deploy
