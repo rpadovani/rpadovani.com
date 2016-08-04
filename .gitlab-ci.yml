@@ -14,6 +14,8 @@ sample_deploy:
   only:
     - master
   script:
+    - bundle install
+    - bundle clean --force
     - jekyll build --destination /tmp/build
     - htmlproof /tmp/build --empty-alt-ignore
   artifacts:
