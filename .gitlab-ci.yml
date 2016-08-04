@@ -1,10 +1,7 @@
-image: jekyll/pages
+image: jekyll/builder:pages
 
 stages:
   - deploy
-
-before_script:
-  - gem install pygments.rb
 
 # cache:
 #   paths:
@@ -16,10 +13,9 @@ sample_deploy:
   stage: deploy
   only:
     - master
-    - development
   script:
-    - bundle install
-    - jekyll build
+    - jekyll build --destination
+    - htmlproof /tmp/build --empty-alt-ignore
   artifacts:
     paths:
-      - _site/
+      - /tmp/build
