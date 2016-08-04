@@ -59,7 +59,6 @@ deploy_site:
     - master
   script:
     - bundle install --path=vendor/
-    - rm -rf _site/ # Be sure to be in a clean environment
     - bundle exec jekyll build
   artifacts:
     paths:
