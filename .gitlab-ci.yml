@@ -16,8 +16,8 @@ sample_deploy:
   only:
     - master
   script:
-    - bundle install
-    - bundle exec jekyll build --destination /tmp/build
+    - bundle install --path=vendor/
+    - bundle exec jekyll build
   artifacts:
     paths:
-      - /tmp/build
+      - _site/
