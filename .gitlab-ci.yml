@@ -18,7 +18,6 @@ sample_deploy:
   script:
     - bundle install
     - bundle exec jekyll build --destination /tmp/build
-    - bundle htmlproof /tmp/build --empty-alt-ignore
   artifacts:
     paths:
       - /tmp/build
