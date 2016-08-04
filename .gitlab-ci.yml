@@ -5,13 +5,12 @@ stages:
 cache:
   paths:
     - vendor
-    - .bundle
   key: "$CI_BUILD_REPO"
 
 before_script:
   - gem install bundler
 
-sample_deploy:
+deploy_site:
   stage: deploy
   only:
     - master
