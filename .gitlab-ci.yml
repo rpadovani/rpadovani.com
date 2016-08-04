@@ -15,6 +15,7 @@ sample_deploy:
     - master
     - development
   script:
+    - bundle install
     - jekyll build
   artifacts:
     paths:
