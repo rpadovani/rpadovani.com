@@ -16,7 +16,8 @@ sample_deploy:
     - development
   script:
     - bundle install
-    - jekyll build
+    - bundle exec jekyll build
+    - bundle exec htmlproofer ./_site --disable-external
   artifacts:
     paths:
       - _site/
