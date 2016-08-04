@@ -56,6 +56,7 @@ exclude:
   - .gitignore
   - .sass-cache
   - Gemfile.lock
+  - vendor
 
 # Sass conversion configs
 sass:
