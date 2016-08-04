@@ -3,6 +3,9 @@ image: jekyll/builder
 stages:
   - deploy
 
+before_script:
+  - gem install pygments.rb
+
 # cache:
 #   paths:
 #     - node_modules/
