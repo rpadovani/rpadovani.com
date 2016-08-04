@@ -1,4 +1,4 @@
-image: jekyll/builder:pages
+image: jekyll/builder:builder
 
 stages:
   - deploy
