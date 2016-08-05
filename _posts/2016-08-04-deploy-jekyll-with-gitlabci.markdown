@@ -11,25 +11,24 @@ permalink: jekyll-autodeploy-gitlab-ci
 
 In last three months one of the task I had at [archon.ai][0] was to implement a
 pipeline to autodeploy our services. We use an instance of [Gitlab][1] to host
-our code, so after some proof of concept we chose to use [Gitlab CI][2] to test
+our code, so after some proof of concepts we chose to use [Gitlab CI][2] to test
 and deploy our code.
 
 Gitlab CI is amazing (as Gitlab is), Gitlab team is doing a great work and they
-implement new features every month. So today I choose to move also this blog to
+implement new features every month. So today I chose to move also this blog to
 Gitlab CI.
 
-This blog is based on [Jekyll][3]. It was already hosted on Gitlab but, until
-yesterday, it didn't use Gitlab CI: every time I pushed something, a webhook
-called a script on my server, the server downloaded the source code, compiled it
-and then published it.
+This blog is based on [Jekyll][3]. The source code was already [hosted][3b] on
+Gitlab but, until yesterday, it didn't use Gitlab CI: every time I pushed
+something, a webhook called a script on my server, the server downloaded the
+source code, compiled it and then published it.
 
-The bad in this approach is the same server which runs the website (and other
-services as well), wasted CPU, storage and time doing compilation.
+The bad in this that approach is the same server which runs the website (and
+other services as well) wasted CPU, storage and time doing compilation.
 
-I have others servers at well (but if you do not, don't worry, Gitlab offers
+I have others servers as well (but if you do not, don't worry, Gitlab offers
 free runners for Gitlab CI if you host your project on Gitlab.com), so I
-installed a Gitlab runner as explained [here][4] and set it to run tests via
-docker.
+installed a Gitlab runner as explained [here][4] and set it to use Docker.
 
 ## gitlab-ci.yml
 
@@ -38,7 +37,7 @@ file to explain to the runner how to do its job. The fact Gitlab uses a file to
 configure runners it's a winning choice: developers can have it versioned in the
 source and each branch can have its own rules.
 
-Anyway, at the end my configuration file is this:
+My configuration file is this:
 
 ```
 image: ruby:2.3
@@ -67,19 +66,19 @@ deploy_site:
 
 Quite simple, isn't it?
 
-At the end I need only to deploy the website, I do not have tests, so I have
+In the end I need only to deploy the website, I do not have tests, so I have
 only one stage, the deploy one.
 
 There are however few interesting things to highlight:
 
-- I install gems in `vendor/` instead of the default directory, so I can cache them and reuse in others run, to save time and bandwidth
-- The cache is shared between all the repo (*key: "$CI_BUILD_REPO"*) because, for my use, it is always the same. By default it is shared only between branches
+- I install gems in `vendor/` instead of the default directory, so I can cache them and reuse in others builds, to save time and bandwidth
+- The cache is shared between all the branches in the repo (*key: "$CI_BUILD_REPO"*). By default it is shared only between multiple builds of the same branch
 - The deploy step is executed only when I push to *master* branch
-- The site is build in *_site/* directory, so I need to specify in in the `artifacts` section
+- The site is build in *_site/* directory, so I need to specify it in the `artifacts` section
 
 If you want to see how to tune these settings, or learn about others (there are
-a lot of them, it is a very versatile system), take a look to the official
-[guide][5].
+a lot of them, it is a very versatile system which can do anything), take a look
+to the official [guide][5].
 
 The *Gemfile* for bundler is very basic:
 
@@ -94,7 +93,7 @@ It is important to add *vendor* directory to the *exclude* section in
 
 ## Deploy
 
-Ok, if you push these files on your Gitlab's repo, and if you have done a good
+If you push these files on your Gitlab's repo, and if you have done a good
 job setting up the runner, you will have an artifact in your repo to download.
 
 ![artifact][6]
@@ -103,11 +102,11 @@ Next step is to deploy it to the server. There are tons of different possible
 solutions to do that. I created a *sh script* which is invoked by an hook.
 
 Since I already have PHP-fpm installed on the server due my [Nextcloud][7]
-installation, I choose to invoke the *sh script* through a php script.
+installation, I use it to invoke the *sh script* through a php script.
 
 When you create a webhook in your Gitlab project (*Settings->Webhooks*) you can
 specify for which kind of events you want the hook (in our case, a new build),
-and a secret token so the script can be called only by Gitlab.
+and a secret token so you can verify the script has been called by Gitlab.
 
 ![webhook][8]
 
@@ -120,7 +119,7 @@ Anyway, after a couple of tries, I created this script:
 <?php
 // Check token
 $security_file = parse_ini_file("../token.ini");
-$gitlab_token = $_SERVER["HTTP_X-GITLAB-TOKEN"];
+$gitlab_token = $_SERVER["HTTP_X_GITLAB_TOKEN"];
 
 if ($gitlab_token !== $security_file["token"]) {
     echo "error 403";
@@ -153,10 +152,11 @@ token = supersecrettoken
 ```
 
 In this way the endpoint can be called only by Gitlab itself. The script then
-checks some param of the build, and if everything is ok runs the deploy script.
+checks some parameters of the build, and if everything is ok it runs the deploy
+script.
 
-Also this deploy script is very very basic, but there are a couple of
-interesting things:
+Also the deploy script is very very basic, but there are a couple of interesting
+things:
 
 ```
 #!/bin/bash
@@ -202,29 +202,30 @@ and then remember to reload the file:
 `source /etc/environment`
 
 You can check everything is alright doing `sudo -u www-data echo PERSONAL_TOKEN`
+and verify the token is printed in the terminal.
 
 Now, the other interesting part of the script is where is the artifact. The last
-available of a branch is reachable only through API; [they are working][11] on
-implementing the API in the web interface so you can always download the last
-version from the web.
+available build of a branch is reachable only through API; [they are
+working][11] on implementing the API in the web interface so you can always
+download the last version from the web.
 
 The url of the API is
 
-*https://gitlab.example.com/api/v3/projects/{{projectid}}/builds/artifacts/{{branchname}}/download?job={{jobname}}*
+*https://gitlab.example.com/api/v3/projects/**projectid**/builds/artifacts/**branchname**/download?job=**jobname***
 
-While you can imagine what branchname and jobname are, the project id is a bit
+While you can imagine what branchname and jobname are, the projectid is a bit
 more tricky to find.
 
 It is included in the body of the webhook as *projectid*, but if you do not want
 to intercept the hook, you can go to the settings of your project, section
-**Triggers**, and there examples of APIs calls: you can determine the project id
-from there.
+**Triggers**, and there are examples of APIs calls: you can determine the
+project id from there.
 
 Kudos to the Gitlab team (and others guys who help in their free time) for their
 awesome work!
 
-If you have any question or feedback on this blog post, please drop me an email
-at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) :-)
+If you have any question or feedback about this blog post, please drop me an
+email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) :-)
 
 Bye for now,<br/>
 R.
@@ -241,3 +242,4 @@ R.
 [9]: https://gitlab.com/help/web_hooks/web_hooks
 [10]: https://gitlab.com/profile/personal_access_tokens
 [11]: https://gitlab.com/gitlab-org/gitlab-ce/issues/4255
+[3b]: https://gitlab.com/rpadovani/rpadovani.com
