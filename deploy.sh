@@ -21,6 +21,6 @@ cd $TMP;
 wget --header="PRIVATE-TOKEN: $SECRET_TOKEN" "https://gitlab.com/api/v3/projects/774560/builds/artifacts/master/download?job=deploy_site" -O $DOWNLOAD_FILE;
 ls;
 unzip $DOWNLOAD_FILE;
-cp -r _site/ $DEST/;
+cp -r _site/* $DEST/;
 rm -rf _site/;
 rm $DOWNLOAD_FILE;

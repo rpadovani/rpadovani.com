@@ -4,17 +4,18 @@ title: About me
 permalink: /about/
 ---
 
-I'm Riccardo, student in Computer Science at University of Ferrara, Italy.
+I'm Riccardo, software developer. I love new challenges and to learn new things.
+I'm currently enrolled at Technische Universität München, studying Computer
+Science with a focus on Artificial Intelligence and Data Analysis.
 
-I'm an open source enthusiast, and in my free time I collaborate with Ubuntu
+I’m an open source enthusiast, and in my free time I collaborate with Ubuntu
 Community. I think it is a very important project to spread free software in the
-world, on every type of device.
+world, on every kind of device.
 
-At the moment I focus mainly on Ubuntu for Phones, but I contributed to a lot
-(maybe too many) different projects, with patches and bug reports.
+When I’m not busy with university or Ubuntu or work, I enjoy a beer with friends.
 
-When I'm not busy with university or Ubuntu or work, I enjoy a beer with
-friends.
+In 160 chars: Traveler, dreamer, Springsteen's fan, freedom's fanatic. I enjoy
+what's amazing in the world.
 
 You can find my curriculum [here][cv].
 
@@ -54,8 +55,8 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [reminders]: https://launchpad.net/reminders-app
 [calculator]: https://launchpad.net/ubuntu-calculator-app
 [ubuntuit]: http://www.ubuntu-it.org
-[archon]: http://www.archondronics.com/
-[archonpost]: https://rpadovani.com/my-first-job/
+[archon]: http://www.archon.ai/
+[archonpost]: https://rpadovani.com/my-first-job
 [linkedin]: http://it.linkedin.com/in/riccardopadovani
 [browser]: https://launchpad.net/webbrowser-app
 [falldown]: https://uappexplorer.com/app/falldown.rpadovani
