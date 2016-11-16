@@ -9,7 +9,7 @@ cache:
 
 before_script:
   - gem install bundler
-  - apt update && apt install nodejs
+  - apt update && apt install -y nodejs
 
 deploy_site:
   stage: deploy
