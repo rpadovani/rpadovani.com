@@ -17,12 +17,14 @@ When I’m not busy with university or Ubuntu or work, I enjoy a beer with frien
 In 160 chars: Traveler, dreamer, Springsteen's fan, freedom's fanatic. I enjoy
 what's amazing in the world.
 
-You can find my curriculum [here][cv].
-
 ### My job
 
-I work as developer at [Archon Dronistics][archon]. More information in this
+I work as developer at [Fleetster][fleetster].
+
+Previous I worked as developer at [Archon Dronistics][archon]. More information in this
 [blog post][archonpost].
+
+You can find my curriculum [here][cv].
 
 ### Side projects
 
@@ -63,3 +65,4 @@ Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
 [instagram]: https://instagram.com/padowan42/
 [twitter]: https://twitter.com/rpadovani93
 [cv]: https://cv.rpadovani.com
+[fleetster]: http://www.fleetster.net/
