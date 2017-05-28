@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /about
 ---
 
 I'm Riccardo, software developer. I love new challenges and to learn new things.

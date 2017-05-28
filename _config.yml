@@ -18,8 +18,7 @@ harmony:
   # It will appear in your document head meta (for Google search results) and
   # in your feed.xml site description.
   meta_description: > #
-      Riccardo Padovani - Ubuntu developer, Open Source enthusiast.
-      A blog about Free Software world: development and promotion, mainly about Ubuntu Touch
+      Riccardo Padovani - Open Source enthusiast.
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Riccardo Padovani
@@ -34,7 +33,7 @@ harmony:
     github: rpadovani
     twitter: rpadovani93
     facebook:
-    gplus: +RiccardoPadovani
+    gplus:
     dribble:
     pinterest:
   # Toggle disclaimer in footer

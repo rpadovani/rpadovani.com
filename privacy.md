@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy
-permalink: /privacy/
+permalink: /privacy
 ---
 
 This website respect your privacy, because it loads all of its assets from my

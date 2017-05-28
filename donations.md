@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Donations
+permalink: /donations
 ---
 
 I'm an college student, and I've a part time work (not related to Ubuntu). All
