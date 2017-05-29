@@ -9,7 +9,7 @@
 SECRET_TOKEN=${PERSONAL_TOKEN}
 
 # The path where to put the static files
-DEST="/usr/share/nginx/html/"
+DEST="/var/www/html/"
 
 # The path to use as temporary working directory
 TMP="/tmp/"
