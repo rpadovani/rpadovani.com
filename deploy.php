@@ -20,4 +20,4 @@ if ($data["ref"] !== "master" ||
 }
 
 // Execute the deploy script:
-shell_exec("/usr/share/nginx/html/deploy.sh 2>&1");
+shell_exec("/usr/share/nginx/html/deploy.sh {$security_file["PERSONAL_TOKEN"]} 2>&1");

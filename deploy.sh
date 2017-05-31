@@ -6,7 +6,7 @@
 
 # Secret token to use the Gitlab APIs
 # See 'Authentication' section here: http://docs.gitlab.com/ce/api/
-SECRET_TOKEN=${PERSONAL_TOKEN}
+SECRET_TOKEN=${1}
 
 # The path where to put the static files
 DEST="/var/www/html/"
