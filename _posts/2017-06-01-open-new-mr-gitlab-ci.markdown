@@ -9,7 +9,7 @@ categories:
 permalink: open-mr-gitlab-ci
 ---
 
-At [Fleetster][fleetster] we have our own instance of [Gitlab][gitlab] and we
+At [fleetster][fleetster] we have our own instance of [Gitlab][gitlab] and we
 rely a lot on [Gitlab CI][gitlabci]. How can be otherwise? We are a small team,
 with a lot of different projects (only in last month, we had more than **13.000
 commits** over **25 different projects**, and we are only 10 - and I work part time).
@@ -142,14 +142,14 @@ This was a very small and very simple example about how much powerful the
 Continuous Integration can be. It takes some time to setup everything, but in
 the long run it will save your team a lot of headache.
 
-In Fleetster we use it not only for running tests, but also for having automatic
+In fleetster we use it not only for running tests, but also for having automatic
 versioning of the software and automatic deploys to testing environments. We are
 working to automatize other jobs as well (building apps and publish them on the
 Play Store and so on).
 
 Speaking of which, **do you want to work in a young and dynamically office with
 me and a lot of other amazing guys?** Take a look to the [open positions][jobs]
-at Fleetster!
+at fleetster!
 
 Kudos to the Gitlab team (and others guys who help in their free time) for their
 awesome work!
