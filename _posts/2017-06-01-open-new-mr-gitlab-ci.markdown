@@ -38,6 +38,8 @@ APIs and we learned things we will apply to others scripts as well.
 
 ![automation][automation]
 
+*Image by Randall Munroe, [xkcd.com](https://imgs.xkcd.com/comics/automation.png)*
+
 ## The script
 
 With this script, every time we push a commit, Gitlab CI takes a look if the
