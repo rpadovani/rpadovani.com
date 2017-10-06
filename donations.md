@@ -4,12 +4,13 @@ title: Donations
 permalink: /donations
 ---
 
-I'm an college student, and I've a part time work (not related to Ubuntu). All
-contributions I do are in my spare time, therefore if you value my contributions
-to the open source world, please consider to buy me a beer :-)
+I'm a college student, and I've a part time work (not related to OSS). All
+contributions I do to open source world are in my spare time, 
+therefore if you value them, please consider to buy me a beer :-)
 
-Unfortunately, starting from 2016, I had no enough time to contribute to
-opensource project on daily basis.
+Back in 2015 I was keeping a monthly report of what I was doing - unfortunately
+now my contributions are more spare, so I don't track them anymore. Still, if
+you find them valuable, just drop me an email - a thanks is always welcome!
 
 <style>
   .paypal_btn{
