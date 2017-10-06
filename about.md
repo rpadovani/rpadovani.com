@@ -4,7 +4,7 @@ title: About me
 permalink: /about
 ---
 
-I'm Riccardo, software developer. I love new challenges and to learn new things.
+I'm Riccardo, software developer. I love new challenges and learning new things.
 I'm currently enrolled at Technische Universität München, studying Computer
 Science with a focus on Artificial Intelligence and Data Analysis.
 
