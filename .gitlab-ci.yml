@@ -1,15 +1,10 @@
-image: ruby:2.3
+image: registry.gitlab.com/rpadovani/rpadovani.com:latest
 stages:
   - deploy
 
 cache:
   paths:
     - vendor
-  key: "$CI_BUILD_REPO"
-
-before_script:
-  - gem install bundler
-  - apt update && apt install -y nodejs
 
 deploy_site:
   stage: deploy
