@@ -6,23 +6,24 @@ permalink: /about
 
 I'm Riccardo, software developer. I love new challenges and learning new things.
 I'm currently enrolled at Technische Universität München, studying Computer
-Science with a focus on Artificial Intelligence and Data Analysis.
+Science with a focus on Security Engineering and Language Theory.
 
-I’m an open source enthusiast, and in my free time I collaborate with Ubuntu
-Community. I think it is a very important project to spread free software in the
-world, on every kind of device.
+I’m an open source enthusiast, and in my free time I collaborate with as many
+project I can. I think it is a very important project spreading free software in
+the world, both due ethical and privacy-related reasons.
 
-When I’m not busy with university or Ubuntu or work, I enjoy a beer with friends.
+When I’m not busy with university or free software or work, I enjoy a beer with
+friends.
 
 In 160 chars: Traveler, dreamer, Springsteen's fan, freedom's fanatic. I enjoy
 what's amazing in the world.
 
 ### My job
 
-I work as developer at [Fleetster][fleetster].
+I work as developer at [fleetster][fleetster].
 
-Previous I worked as developer at [Archon Dronistics][archon]. More information in this
-[blog post][archonpost].
+Previous I worked as developer at [Archon Dronistics][archon]. More information
+in this [blog post][archonpost].
 
 You can find my curriculum [here][cv].
 
@@ -44,12 +45,10 @@ These are my mainly contributions in past years:
 
 ### Contact me
 
-Find me on [Google+][google] / [Github][github] / [Launchpad][launchpad] /
-[Linkedin][linkedin] / [Twitter][twitter] / [Instagram][instagram] or just say
-`Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
+Find me on [Github][github] / [Linkedin][linkedin] / [Twitter][twitter] or just
+say `Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 
 [github]: https://github.com/rpadovani
-[google]: https://plus.google.com/+RiccardoPadovani/posts
 [launchpad]: https://launchpad.net/~rpadovani/
 [100balls]: https://github.com/rpadovani/100balls
 [discerningduck]: https://github.com/rpadovani/discerning-duck
