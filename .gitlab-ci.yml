@@ -1,4 +1,4 @@
-image: registry.gitlab.com/rpadovani/rpadovani.com:latest
+image: "registry.gitlab.com/rpadovani/rpadovani.com:latest"
 stages:
   - deploy
 
