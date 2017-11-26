@@ -1,46 +1,37 @@
 ---
 layout: post
-title:  "How to automatically create new MR on Gitlab with Gitlab CI"
-date:   2017-06-01 12:00
-description: "An example of how powerful Gitlab CI is: How to open new MR for every new branch"
+title:  "A generic introduction to Gitlab CI"
+date:   2017-11-15 23:00
+description: "A generic introduction to Gitlab CI and its terms"
 categories:
 - gitlab
 - gitlab ci
-permalink: open-mr-gitlab-ci
+permalink: introduction-gitlab-ci
 ---
 
-At [fleetster][fleetster] we have our own instance of [Gitlab][gitlab] and we
-rely a lot on [Gitlab CI][gitlabci]. How can be otherwise? We are a small team,
-with a lot of different projects (only in last month, we had more than **13.000
-commits** over **25 different projects**, and we are only 10 - and I work part time).
+As someone maybe know, we at [fleetster][fleetster] we have our own instance  of
+[Gitlab][gitlab] and we rely a lot on [Gitlab CI][gitlabci]. Also our designers
+and QA guys use (and love) it.
 
-Automatizing as many development steps as possible (from build to QA to deploy)
-is helping us a lot, but sometimes we write some code and then forget about it.
-This is a disaster! We have some bugfix or some new feature ready, but it is
-forgotten in some branch somewhere.
+Gitlab CI is a very powerful system of Continuous Integration, with a lot of
+different features, and with every new releases, new features land. It has a
+very rich technical documentation, but it lacks a generic introduction for whom
+want to use it in an already existing setup. A designer or a tester doesn't need
+to know how to autoscale it with Kubernetes or the difference between an `image`
+or a `service`.
 
-This is why we have, as policy, to push as soon as possible an to open a new MR,
-mark it as WIP, and assign to ourself; in this way Gitlab will remember to
-ourself we have a MR.
+But still, he needs to know what is a **pipeline**, and how to see a branch
+deployed to an **environment**. In this article therefore I will try to cover as
+many features as possible, highlighting how the end users can enjoy them; in the
+last months I explained such features to some members of our team, also
+developers: not everyone knows what Continuous Integration is or has used Gitlab
+CI in a previous job.
 
-You need to do 3 steps to achieve that:
+If you want to know why Continuous Integration is important I suggest to read
+[this article][why-ci], while for finding the reasons for using Gitlab CI
+specifically, I leave the job to [Gitlab.com][gitlabci] itself.
 
-- Push the code
-- Click on the link that appears on your terminal
-- Fill a form
-
-But we are nerd. We are lazy. So one night, after a couple of beers, [Alberto
-Urbano][alberto] and I spent some hours to automatize a tasks that requires 10
-seconds.
-
-Actually, the experience was quite fun, it was the first time we used Gitlab
-APIs and we learned things we will apply to others scripts as well.
-
-![automation][automation]
-
-*Image by Randall Munroe, [xkcd.com](https://imgs.xkcd.com/comics/automation.png)*
-
-## The script
+## Introduction
 
 With this script, every time we push a commit, Gitlab CI takes a look if the
 branch that commit belongs to has already a opened MR and, if not, it creates
@@ -172,3 +163,4 @@ you mind to help us reaching the Ballmer's peak and [buy us][donation] a beer?
 [secrettoken]: http://docs.gitlab.com/ce/ci/variables/README.html#secret-variables
 [newway]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12729
 [jobs]: https://www.fleetster.net/fleetster-team.html
+[why-ci]: https://about.gitlab.com/2015/02/03/7-reasons-why-you-should-be-using-ci/
