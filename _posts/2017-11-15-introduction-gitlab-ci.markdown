@@ -9,9 +9,9 @@ categories:
 permalink: introduction-gitlab-ci
 ---
 
-As someone maybe know, we at [fleetster][fleetster] we have our own instance  of
-[Gitlab][gitlab] and we rely a lot on [Gitlab CI][gitlabci]. Also our designers
-and QA guys use (and love) it.
+At [fleetster][fleetster] we have our own instance of [Gitlab][gitlab] and we
+rely a lot on [Gitlab CI][gitlabci]. Also our designers and QA guys use (and
+love) it, thanks to its advanced features.
 
 Gitlab CI is a very powerful system of Continuous Integration, with a lot of
 different features, and with every new releases, new features land. It has a
@@ -33,110 +33,105 @@ specifically, I leave the job to [Gitlab.com][gitlabci] itself.
 
 ## Introduction
 
-With this script, every time we push a commit, Gitlab CI takes a look if the
-branch that commit belongs to has already a opened MR and, if not, it creates
-it. It then assigns the MR to you, and put **WIP** in the title to mark it as
-work in progress.
+Every time a developer changes some code he saves his changes in a **commit**.
+He can then push that commit to Gitlab, so other developers can review the code.
 
-In this way you cannot forget about that branch, and when you've finished
-writing code on it, you just need to remove the WIP from the title and assign to
-the right person to review it.
+Gitlab will also start some work on that commit, if the Gitlab CI has been
+configured. This work is executed by a **runner**. A runner is basically a
+server (it can be a lot of different things, also your PC, but we can simplify
+it as a server) that executes instructions listed in the `.gitlab-ci.yml` file,
+and reports the result back to Gitlab itself, which will show it in his
+graphical interface.
 
-In the end, this is the script we came out with (when you add to your project,
-remember to make it executable):
+When a developer has finished implementing a new feature or a bugfix (activity
+that usual requires multiple commits), can open a **merge request**, where other
+member of the team can comment on the code and on the implementation.
 
-```sh
-#!/usr/bin/env bash
-# Extract the host where the server is running, and add the URL to the APIs
-[[ $HOST =~ ^https?://[^/]+ ]] && HOST="${BASH_REMATCH[0]}/api/v4/projects/"
+As we will see, also designers and testers can (and really should!) join this
+process, giving feedbacks and suggesting improvements, especially thanks to two
+features of Gitlab CI: **environments** and **artifacts**.
 
-# Look which is the default branch
-TARGET_BRANCH=`curl --silent "${HOST}${CI_PROJECT_ID}" --header "PRIVATE-TOKEN:${PRIVATE_TOKEN}" | python3 -c "import sys, json; print(json.load(sys.stdin)['default_branch'])"`;
+## Pipelines
 
-# The description of our new MR, we want to remove the branch after the MR has
-# been closed
-BODY="{
-    \"id\": ${CI_PROJECT_ID},
-    \"source_branch\": \"${CI_COMMIT_REF_NAME}\",
-    \"target_branch\": \"${TARGET_BRANCH}\",
-    \"remove_source_branch\": true,
-    \"title\": \"WIP: ${CI_COMMIT_REF_NAME}\",
-    \"assignee_id\":\"${GITLAB_USER_ID}\"
-}";
+Every commit that is pushed to Gitlab generates a **pipeline** attached to that
+commit. If multiple commits are pushed together the pipeline will be created
+only for the last of them. A pipeline is a collection of **jobs** split in
+different **stages**.
 
-# Require a list of all the merge request and take a look if there is already
-# one with the same source branch
-LISTMR=`curl --silent "${HOST}${CI_PROJECT_ID}/merge_requests?state=opened" --header "PRIVATE-TOKEN:${PRIVATE_TOKEN}"`;
-COUNTBRANCHES=`echo ${LISTMR} | grep -o "\"source_branch\":\"${CI_COMMIT_REF_NAME}\"" | wc -l`;
+All the jobs in the same stage run in concurrency (if there are enough runners)
+and the next stage begins only if all the jobs from the previous stage have
+finished with success.
 
-# No MR found, let's create a new one
-if [ ${COUNTBRANCHES} -eq "0" ]; then
-    curl -X POST "${HOST}${CI_PROJECT_ID}/merge_requests" \
-        --header "PRIVATE-TOKEN:${PRIVATE_TOKEN}" \
-        --header "Content-Type: application/json" \
-        --data "${BODY}";
+As soon as a job fails, the entire pipeline fails. There is an exception for
+this, as we will see below: if a job is marked as _manual_, then a failure
+will not make the pipeline fails.
 
-    echo "Opened a new merge request: WIP: ${CI_COMMIT_REF_NAME} and assigned to you";
-    exit;
-fi
+The stages are just a logic division between batches of jobs, where doesn't make
+sense to execute next jobs if the previous failed. We can have a `build` stage,
+where all the jobs to build the application are executed, and a `deploy` stage,
+where the build application is deployed. Doesn't make much sense to deploy
+something that failed to build, does it?
 
-echo "No new merge request opened";
-```
+Every job shouldn't have any dependency with any other job in the same stage,
+while they can expect results by jobs from a previous stage.
 
-## Gitlab CI
+Let's see how Gitlab shows information about stages and stages' status.
 
-The variables used in the script are passed to it by our *.gitlab_ci.yml* file:
+INSERISCI IMMAGINE QUI
 
-```
-stages:
-    - openMr
-    - otherStages
+## Jobs
 
-openMr:
-    before_script: []   # We do not need any setup work, let's remove the global one (if any)
-    stage: openMr
-    only:
-      - /^feature\/*/   # We have a very strict naming convention
-    script:
-        - HOST=${CI_PROJECT_URL} CI_PROJECT_ID=${CI_PROJECT_ID} CI_COMMIT_REF_NAME=${CI_COMMIT_REF_NAME} GITLAB_USER_ID=${GITLAB_USER_ID} PRIVATE_TOKEN=${PRIVATE_TOKEN} ./utils/autoMergeRequest.sh # The name of the script
+A job is a collection of instructions that a runner has to execute. You can see
+in real time what's the output of the job, so developers can understand why a
+job fails.
 
-```
+A job can be automatic, so it starts automatically when a commit is pushed, or
+manual. A manual job has to be triggered by someone manually. Can be useful, for
+example, to automatize a deploy, but still to deploy only when someone manually
+approves it. There is a way to limit who can run a job, so only trustworthy
+people can deploy, to continue the example before.
+
+A job can also build **artifacts** that users can download, like it creates an APK
+you can download and test on your device; in this way both designers and testers
+can download an application and test it without having to ask for help to
+developers.
+
+Other than creating artifacts, a job can deploy an **environment**, usually
+reachable by an URL, where users can test the commit.
+
+## Artifacts
+
+As we said, a job can create an artifact that users can download to test. It can
+be anything, like an application for Windows, an image generated by a PC, or an
+APK for Android.
+
+So you are a designer, and the merge request has been assigned to you: you need
+to validate the implementation of the new design!
+
+But how to do that?
+
+You need to open the merge request, and download the artifact, as shown in the
+figure.
+
+Every pipeline collects all the artifacts from all the jobs, and every job can
+have multiple artifacts. When you click on the download button, it will appear a
+dropdown where you can select which artifact you want. After the review, you can
+leave a comment on the MR.
 
 
-All these environment variables are set by Gitlab itself, but the PRIVATE-TOKEN.
-A master of the project has to create it in its own profile and add to the
-project settings.
-
-To create the personal token you can go to `/profile/personal_access_tokens` on
-your Gitlab instance, and then you add to your pipeline following [this
-guide][secrettoken]
-
-## Way to improve
-
-The script is far from perfect.
-
-First of all, it has 2 APIs calls, one to take the list of MR and one to take
-the default branch, to use it as target. Of course you can hardcode the value
-(in the end it shouldn't change often), but hardcoding is always bad.
-
-Also, it uses python3 to extract the name of the target branch - this is just
-one of many possible solutions, just use what is available on your system.
-Apart from that, the script doesn't have any external dependency.
-
-The other thing is how you need to set up the secret token to call the APIs.
-Luckily, Gitlab's developers are working on a [new way][newway] to manage secret
-token.
+## Environments
 
 ## Conclusion
 
-This was a very small and very simple example about how much powerful the
-Continuous Integration can be. It takes some time to setup everything, but in
-the long run it will save your team a lot of headache.
+This was a small introduction to some of the features of Gitlab CI: it is very
+powerful, and using it in the right way allows all the team to use just one tool
+to go from planning to deploying. A lot of new features are introduced every
+month, so keep an eye on the [Gitlab blog][gitlab-blog].
 
 In fleetster we use it not only for running tests, but also for having automatic
-versioning of the software and automatic deploys to testing environments. We are
-working to automatize other jobs as well (building apps and publish them on the
-Play Store and so on).
+versioning of the software and automatic deploys to testing environments. We
+have automatized other jobs as well (building apps and publish them on the Play
+Store and so on).
 
 Speaking of which, **do you want to work in a young and dynamically office with
 me and a lot of other amazing guys?** Take a look to the [open positions][jobs]
@@ -146,21 +141,21 @@ Kudos to the Gitlab team (and others guys who help in their free time) for their
 awesome work!
 
 If you have any question or feedback about this blog post, please drop me an
-email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) :-)
+email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) :-) Feel free
+to suggest me to add something, or to rephrase paragraphs in a clearer way
+(English is not my mother tongue).
 
 Bye for now,<br/>
-A. & R.
+R.
 
 P.S: if you have found this article helpful and you'd like we write others, do
-you mind to help us reaching the Ballmer's peak and [buy us][donation] a beer?
+you mind to help us reaching the [Ballmer's peak][ballmer] and [buy me][donation] a beer?
 
 [donation]: https://rpadovani.com/donations
 [gitlab]: https://gitlab.com/
 [gitlabci]: https://about.gitlab.com/gitlab-ci/
 [fleetster]: https://www.fleetster.net
-[automation]: https://img.rpadovani.com/posts/automation.png
-[alberto]: https://www.linkedin.com/in/alberto-urbano-047a4b19
-[secrettoken]: http://docs.gitlab.com/ce/ci/variables/README.html#secret-variables
-[newway]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12729
 [jobs]: https://www.fleetster.net/fleetster-team.html
 [why-ci]: https://about.gitlab.com/2015/02/03/7-reasons-why-you-should-be-using-ci/
+[ballmer]: https://www.xkcd.com/323/
+[gitlab-blog]: https://about.gitlab.com/
