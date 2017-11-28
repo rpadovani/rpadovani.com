@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "A generic introduction to Gitlab CI"
-date:   2017-11-15 23:00
-description: "A generic introduction to Gitlab CI and its terms"
+date:   2017-11-28 21:00
+description: "A generic introduction to Gitlab CI and an overview on its features"
 categories:
 - gitlab
 - gitlab ci
@@ -77,7 +77,9 @@ while they can expect results by jobs from a previous stage.
 
 Let's see how Gitlab shows information about stages and stages' status.
 
-INSERISCI IMMAGINE QUI
+![pipeline-overview][pipeline-overview]
+
+![pipeline-status][pipeline-status]
 
 ## Jobs
 
@@ -91,13 +93,18 @@ example, to automatize a deploy, but still to deploy only when someone manually
 approves it. There is a way to limit who can run a job, so only trustworthy
 people can deploy, to continue the example before.
 
-A job can also build **artifacts** that users can download, like it creates an APK
-you can download and test on your device; in this way both designers and testers
-can download an application and test it without having to ask for help to
-developers.
+A job can also build **artifacts** that users can download, like it creates an
+APK you can download and test on your device; in this way both designers and
+testers can download an application and test it without having to ask for help
+to developers.
 
 Other than creating artifacts, a job can deploy an **environment**, usually
 reachable by an URL, where users can test the commit.
+
+Job status are the same as stages status: indeed stages inherit theirs status
+from the jobs.
+
+![running-job][running-job]
 
 ## Artifacts
 
@@ -118,8 +125,30 @@ have multiple artifacts. When you click on the download button, it will appear a
 dropdown where you can select which artifact you want. After the review, you can
 leave a comment on the MR.
 
+You can always download the artifacts also from pipelines that do not have a
+merge request open ;-)
+
+I am focusing on merge request because usually is where testers, designer, and
+shareholder in general enter the workflow.
+
+But merge requests are not linked to pipelines: while they integrate nice one in
+the other, they do not have any relation.
+
+![download-artifacts][download-artifacts]
 
 ## Environments
+
+In a similar way, a job can deploy something to an external server, so you can
+reach it through the merge request itself.
+
+As you can see the environment has a name and a link. Just clicking the link you
+to go to a deployed version of your application (of course, if your team has
+setup it correctly).
+
+You can click also on the name of the environment, because Gitlab has also other
+cool features for environments, like [monitoring][monitoring].
+
+![environment][environment]
 
 ## Conclusion
 
@@ -127,6 +156,9 @@ This was a small introduction to some of the features of Gitlab CI: it is very
 powerful, and using it in the right way allows all the team to use just one tool
 to go from planning to deploying. A lot of new features are introduced every
 month, so keep an eye on the [Gitlab blog][gitlab-blog].
+
+For setting it up, or for more advanced features, take a look to the
+[documentation][documentation-ci].
 
 In fleetster we use it not only for running tests, but also for having automatic
 versioning of the software and automatic deploys to testing environments. We
@@ -141,9 +173,9 @@ Kudos to the Gitlab team (and others guys who help in their free time) for their
 awesome work!
 
 If you have any question or feedback about this blog post, please drop me an
-email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) :-) Feel free
-to suggest me to add something, or to rephrase paragraphs in a clearer way
-(English is not my mother tongue).
+email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) or [tweet me][twitter] :-)
+Feel free to suggest me to add something, or to rephrase paragraphs in a clearer
+way (English is not my mother tongue).
 
 Bye for now,<br/>
 R.
@@ -159,3 +191,11 @@ you mind to help us reaching the [Ballmer's peak][ballmer] and [buy me][donation
 [why-ci]: https://about.gitlab.com/2015/02/03/7-reasons-why-you-should-be-using-ci/
 [ballmer]: https://www.xkcd.com/323/
 [gitlab-blog]: https://about.gitlab.com/
+[documentation-ci]: https://docs.gitlab.com/ee/ci/README.html
+[twitter]: https://twitter.com/rpadovani93
+[pipeline-overview]: https://img.rpadovani.com/posts/pipeline-overview.png
+[pipeline-status]: https://img.rpadovani.com/posts/pipeline-status.png
+[running-job]: https://img.rpadovani.com/posts/running-job.png
+[environment]: https://img.rpadovani.com/posts/environment.png
+[download-artifacts]: https://img.rpadovani.com/posts/download-artifacts.png
+[monitoring]: https://gitlab.com/help/ci/environments.md
