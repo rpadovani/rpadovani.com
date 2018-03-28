@@ -9,21 +9,21 @@ I'm currently enrolled at Technische Universität München, studying Computer
 Science with a focus on Security Engineering and Language Theory.
 
 I’m an open source enthusiast, and in my free time I collaborate with as many
-project I can. I think it is a very important project spreading free software in
-the world, both due ethical and privacy-related reasons.
+projects as I can. I think it is very important spreading free software in the
+world, both due ethical and privacy-related reasons.
 
-When I’m not busy with university or free software or work, I enjoy a beer with
-friends.
+When I’m not busy with university or free software or work, I'm usually drinking
+a beer with friends or traveling around the world.
 
 In 160 chars: Traveler, dreamer, Springsteen's fan, freedom's fanatic. I enjoy
 what's amazing in the world.
 
 ### My job
 
-I work as developer at [fleetster][fleetster].
+I work as Solutions Architect at [nextbit][nextbit].
 
-Previous I worked as developer at [Archon Dronistics][archon]. More information
-in this [blog post][archonpost].
+Previously I've worked as javascript developer at [fleetster][fleetster] and as
+fullstack developer at [Archon Dronistics][archon].
 
 You can find my curriculum [here][cv].
 
@@ -45,9 +45,10 @@ These are my mainly contributions in past years:
 
 ### Contact me
 
-Find me on [Github][github] / [Linkedin][linkedin] / [Twitter][twitter] or just
+Find me on [Gitlab][gitlab] / [Github][github] / [Linkedin][linkedin] / [Twitter][twitter] or just
 say `Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 
+[gitlab]: https://gitlab.com/rpadovani
 [github]: https://github.com/rpadovani
 [launchpad]: https://launchpad.net/~rpadovani/
 [100balls]: https://github.com/rpadovani/100balls
@@ -65,3 +66,4 @@ say `Hello` at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 [twitter]: https://twitter.com/rpadovani93
 [cv]: https://cv.rpadovani.com
 [fleetster]: http://www.fleetster.net/
+[nextbit]: https://nextbit.it
