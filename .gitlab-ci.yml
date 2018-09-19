@@ -1,63 +1,31 @@
-image: "registry.gitlab.com/rpadovani/rpadovani.com:latest"
-stages:
-  - build
-  - deploy
+# This file is a template, and might need editing before it works on your project.
+# Template project: https://gitlab.com/pages/jekyll
+# Docs: https://docs.gitlab.com/ce/pages/
+image: ruby:2.3
 
 variables:
-  AWS_DEFAULT_REGION: eu-central-1
+  JEKYLL_ENV: production
 
-cache:
-  paths:
-    - vendor
+before_script:
+- bundle install
 
-buildJekyll:
-  stage: build
+test:
+  stage: test
   script:
-    - bundle install --path=vendor/
-    - bundle exec jekyll build --future # The server is in another timezone..
+  - bundle exec jekyll build -d test
   artifacts:
     paths:
-      - _site/
+    - test
   except:
-    - master
+  - master
 
-deploy_site:
+pages:
   stage: deploy
+  script:
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
   only:
-    - master
-  script:
-    - bundle install --path=vendor/
-    - bundle exec jekyll build --future # The server is in another timezone..
-  artifacts:
-    paths:
-      - _site/
+  - master
 
-deploys3:
-  image: "python:latest"
-  stage: deploy
-  dependencies:
-    - buildJekyll
-  before_script:
-    - pip install awscli
-  script:
-    - aws s3 cp _site s3://gitlabrunner-s3-static/${CI_COMMIT_REF_SLUG} --recursive
-  environment:
-    name: ${CI_COMMIT_REF_SLUG}
-    url: http://gitlabrunner-s3-static.s3-website.eu-central-1.amazonaws.com/${CI_COMMIT_REF_SLUG}
-    on_stop: clean_s3
-  except:
-    - master
-
-clean_s3:
-  image: "python:latest"
-  stage: deploy
-  before_script:
-    - pip install awscli
-  script:
-    - aws s3 rm s3://gitlabrunner-s3-static/${CI_COMMIT_REF_SLUG} --recursive
-  environment:
-    name: ${CI_COMMIT_REF_SLUG}
-    action: stop
-  when: manual
-  except:
-    - master
