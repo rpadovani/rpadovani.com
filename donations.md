@@ -4,39 +4,16 @@ title: Donations
 permalink: /donations
 ---
 
-I'm a college student, and I've a part time work (not related to OSS). All
-contributions I do to open source world are in my spare time, 
-therefore if you value them, please consider to buy me a beer :-)
+When I started contributing to the F/OSS world I was still an high-school
+student, without any incoming, and for some years I relay on support from my
+parents, so any donation was more than welcome! Luckily, my career has improved
+since then, and now I have more than enough for my own life. So if you find my
+contributes valuable and want to make a donation, please direct it to
+[EFF][eff], which Defend Privacy and Free Speech all around the world!
 
 Back in 2015 I was keeping a monthly report of what I was doing - unfortunately
 now my contributions are more spare, so I don't track them anymore. Still, if
 you find them valuable, just drop me an email - a thanks is always welcome!
-
-<style>
-  .paypal_btn{
-    display: inline-block;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    padding: 10px 14px;
-    margin: 0;
-    background: #DA4945;
-    border: 0;
-    cursor: pointer;
-    outline: none;
-  }
-
-  .paypal_btn:hover{ background: #A23235; }
-</style>
-
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0 auto; width: 92px">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="5E39N8EMZBCA2">
-<input type="submit" value="Add to Cart" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
-</form>
 
 ## My contributions
 
@@ -64,3 +41,5 @@ you find them valuable, just drop me an email - a thanks is always welcome!
 [sep15]: https://rpadovani.com/my-contributions-sep-15/
 [nov15]: https://rpadovani.com/my-contributions-nov-15/
 [dec15]: https://rpadovani.com/2015-review/
+
+[eff]: https://supporters.eff.org/donate
