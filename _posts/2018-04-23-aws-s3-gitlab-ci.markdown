@@ -183,7 +183,7 @@ deploys3:
     - aws s3 cp _site s3://${BUCKET_NAME}/${CI_COMMIT_REF_SLUG} --recursive # Replace example-bucket with your bucket
   environment:
     name: ${CI_COMMIT_REF_SLUG}
-    url: http://${BUCKET_NAME}.s3-website.eu-central-1.amazonaws.com/${CI_COMMIT_REF_SLUG}  # This is the url of the bucket we saved before
+    url: http://${BUCKET_NAME}.s3-website.${AWS_DEFAULT_REGION}.amazonaws.com/${CI_COMMIT_REF_SLUG}  # This is the url of the bucket we saved before
     on_stop: clean_s3 # When the branch is merged, we clean up after ourself
 
 clean_s3:
@@ -246,10 +246,12 @@ way (English is not my mother tongue).
 Bye for now,<br/>
 R.
 
-P.S: if you have found this article helpful and you'd like I write others, do
-you mind to help me reaching the [Ballmer's peak][ballmer] and [buyme][donation]
-a beer?
+## Updates
 
+This post has been last updated on the 19th September 2018 to fix the S3 bucket 
+URL in the `.gitlab-ci.yml` file, thanks to [James Delaney][james]
+
+[james]: https://www.overflowingcubby.com/
 [donation]: https://rpadovani.com/donations
 [gitlab]: https://gitlab.com/
 [gitlabci]: https://about.gitlab.com/gitlab-ci/
