@@ -14,7 +14,7 @@ side (who is an authorized entity? What does authorized mean? And how do we
 identify an entity?) and on a pratical side.
 
 On the pratical side, how we will see, disclose of private data is often a
-unwanted side effect of an usuful feature.
+unwanted side effect of an useful feature.
 
 ## Facebook and Instagram
 
@@ -75,7 +75,7 @@ didn't need a Facebook account at all!
 - **21 August 2018**: Facebook closed the issue saying wasn't a security issue
 - **21 August 2018**: I submitted a new demo with more information
 - **23 August 2018**: Facebook confirmed the issue
-- **30 August 2018**: Facebook deployed a fix and ask for a test
+- **30 August 2018**: Facebook deployed a fix and asked for a test
 - **12 September 2018**: Facebook awarded me a bounty
 
 ## Bounty
