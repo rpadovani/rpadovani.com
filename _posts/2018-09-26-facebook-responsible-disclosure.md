@@ -51,7 +51,7 @@ Facebook accounts but just 800 millions Instagram accounts, it means that at
 least 1 billion and half accounts were vulnerable.
 
 The method was simple: knowing the email address of the target (and an email
-address is all but public), the attacker had just to sign up to Instagram with
+address is all but secret), the attacker had just to sign up to Instagram with
 that email, and then go to the suggestions of people to follow to see victim's
 friends.
 

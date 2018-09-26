@@ -29,3 +29,13 @@ pages:
   only:
   - master
 
+deploy_site:
+  stage: deploy
+  only:
+    - master
+  script:
+    - bundle install --path=vendor/
+    - bundle exec jekyll build --future 
+  artifacts:
+    paths:
+      - _site/
