@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Responsible disclosure: retriving a user's private Facebook friends."
+title:  "Responsible disclosure: retrieving a user's private Facebook friends."
 date:   2018-09-23 09:00
-description: "Responsible disclosure of a but that allowed an attacker to see a victim's private Facebook friends, with only knowledge of the victim's email address."
+description: "Responsible disclosure of a bug that allowed an attacker to see a victim's private Facebook friends, with only knowledge of the victim's email address."
 categories:
 - security
 permalink: facebook-responsible-disclosure
