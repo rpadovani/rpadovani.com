@@ -1,23 +1,13 @@
-# This file is a template, and might need editing before it works on your project.
-# Template project: https://gitlab.com/pages/jekyll
-# Docs: https://docs.gitlab.com/ce/pages/
 image: ruby:2.3
+
+stages:
+  - deploy
 
 variables:
   JEKYLL_ENV: production
 
 before_script:
-- bundle install
-
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
+  - bundle install
 
 pages:
   stage: deploy
@@ -28,14 +18,3 @@ pages:
     - public
   only:
   - master
-
-deploy_site:
-  stage: deploy
-  only:
-    - master
-  script:
-    - bundle install --path=vendor/
-    - bundle exec jekyll build --future 
-  artifacts:
-    paths:
-      - _site/

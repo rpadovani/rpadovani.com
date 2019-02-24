@@ -1,3 +1,7 @@
-source 'https://rubygems.org'
-gem "github-pages"
+source "https://rubygems.org"
+ruby RUBY_VERSION
+
+# This will help ensure the proper Jekyll version is running.
+gem "jekyll", "3.4.0"
+
 gem "pygments.rb"
