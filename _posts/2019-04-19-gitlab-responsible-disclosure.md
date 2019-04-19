@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Responsible disclosure: improper access control in Gitlab private project."
-date:   2019-04-19 19:30
+date:   2019-04-19 18:00
 description: "Responsible disclosure of a bug that allowed an attacker to see a victim's private Facebook friends, with only knowledge of the victim's email address."
 categories:
 - security
@@ -18,7 +18,7 @@ This issue was firstly reported on [HackerOne][1] and was managed on the [Gitlab
 
 ## Summary of the issue
 
-- Rogue user is added to a private group with dozen of projects
+- Rogue user is added to a private group with dozens of projects
 - The user's role in some projects changes
 - Rogue is fired, and removed from the group: they still have access to projects where their role was changed
 
