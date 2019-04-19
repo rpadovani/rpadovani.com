@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Responsible disclosure: improper access control in Gitlab private project."
-date:   20189-04-19 19:30
+date:   2019-04-19 19:30
 description: "Responsible disclosure of a bug that allowed an attacker to see a victim's private Facebook friends, with only knowledge of the victim's email address."
 categories:
 - security
