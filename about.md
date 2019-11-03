@@ -2,10 +2,9 @@
 layout: page
 title: About me
 permalink: /about
+intro: "I'm Riccardo, software developer. I love new challenges and learning new things.
+        I earned a Master's Degree in Computer Science graduating from Technische Universität München, with a focus on Security Engineering and Language Theory."
 ---
-
-I'm Riccardo, software developer. I love new challenges and learning new things.
-I earned a Master's Degree in Computer Science graduating from Technische Universität München, with a focus on Security Engineering and Language Theory.
 
 I’m an open source enthusiast, and in my free time I collaborate with as many
 projects as I can. I think it is very important spreading free software in the

@@ -36,7 +36,7 @@ I strongly suggest therefore to create all the resources in just one region, for
 First of all, we need to create two buckets: one for our raw file, and one for the JSON file with the extracted test.
 We could also use the same bucket, theoretically, but with two buckets we can have better access control.
 
-Since I love [boring solutions][boring-solutions], for this tutorial I will call the two buckets `textract_raw_files` and `textract_json_files`. If necessary, [official documentation explains how to create S3 buckets][create-s3-buckets].
+Since I love [boring solutions][boring-solutions], for this tutorial I will call the two buckets `textract_raw_files` and `textract_json_files`. <small> [Official documentation explains how to create S3 buckets][create-s3-buckets]. </small>
 
 ## Invoke Textract
 
@@ -86,6 +86,7 @@ At least, this is usually the case :-) Unfortunately, while I am writing this po
 We can check which version is currently on Lambda from [this page][lambda-runtime], under `Python Runtimes`: if `boto3` has been updated to a version `>= 1.9.138`, we don't have to do anything more than simply create the Lambda function. 
 Otherwise, we have to include a newer version of `boto3` in our Lambda function.
 But fear not! The official documentation explains [how to create a deployment package][create-lambda-deployment].
+<small>**Update Oct '19**: this is no longer the case, AWS has updated the boto3 package included in the Lambda runtime.</small>
 
 We need also to link an IAM role to our Lambda function, which requires some additional permission:
 - **AmazonTextractFullAccess**: this gives access also to SNS, other than Textract
@@ -105,7 +106,7 @@ AWS Textract is so kind to notify us when it has finished extracting data from P
 
 The Lambda function needs also to support pagination in the results, so the code is a bit longer:
 
-```
+```python
 import json
 import boto3
 
@@ -169,7 +170,7 @@ def handler(event, _):
 
 You can find a copy of this code [hosted over Gitlab][code2].
 
-Again, this code has to be published as a Lambda function. As before, it shouldn't need any special configuration, but since it requires `boto3 >= 1.9.138` we have to create a deployment package, as long as AWS doesn't update their Lambda runtime.
+Again, this code has to be published as a Lambda function. As before, it shouldn't need any special configuration, but since it requires `boto3 >= 1.9.138` we have to create a deployment package, as long as AWS doesn't update the Lambda runtime.
 
 After we have uploaded the Lambda function, from the control panel we set as trigger `SNS`, specifying as `ARN` the `ARN` of the `SNS` topic we created before - in our case, `arn:aws:sns:eu-west-1:123456789012:AmazonTextract`.
 

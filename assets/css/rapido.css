@@ -1,0 +1,757 @@
+/* Based on https://github.com/nextbitlabs/Rapido */
+
+/* all elements */
+
+article.rapido * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* end all elements */
+
+/* address */
+
+article.rapido > header > address {
+    display: block;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* end address */
+
+/* article */
+
+article.rapido {
+    width: 1024px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 40px;
+    font-family: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    color: #353839;
+}
+
+@media (max-width: 1023px) {
+    article.rapido {
+        width: 600px;
+        padding: 0 20px 0 20px;
+    }
+}
+
+/* end article */
+
+/* aside */
+
+article.rapido section > aside {
+    /*width: 600px;*/
+    max-width: 100%;
+    border-top: 2px solid #353839;
+    border-bottom: 2px solid #353839;
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+}
+
+/* end aside */
+
+/* header */
+
+article.rapido > header {
+    width: 100%;
+    margin: 50px 0;
+}
+
+@media (max-width: 1023px) {
+    article.rapido > header {
+        margin: 30px 0;
+    }
+}
+
+/* end header */
+
+/* footer */
+
+article.rapido > footer {
+    border-top: 1px solid #dedede;
+    padding: 10px 0 20px 0;
+    opacity: 0.7;
+}
+
+/* end footer */
+
+/* h1 */
+
+article.rapido section > h1 {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+article.rapido > header > h1 {
+    margin: 0 0 50px 0;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+article.rapido > footer > h1 {
+    margin: 20px 0 10px 0;
+}
+
+article.rapido > footer > h1,
+article.rapido > footer > section > h1 {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > h1 {
+        margin: 0;
+        max-width: 200px;
+        position: absolute;
+        padding-right: 20px;
+    }
+}
+
+article.rapido section figcaption > h1,
+article.rapido > header > figure > figcaption > h1 {
+    display: inline;
+    padding: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+article.rapido > footer figure > figcaption > h1 {
+    display: inline;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    font-weight: bold;
+    text-transform: unset;
+}
+
+@media (max-width: 1023px) {
+    article.rapido > header > h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 499px) {
+    article.rapido section > h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    article.rapido > header > h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+/* end h1 */
+
+/* h2 */
+
+article.rapido section > h2 {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+article.rapido > footer > h2,
+article.rapido > footer > section > h2 {
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > h2 {
+        max-width: calc(100% - 200px);
+        margin-left: 200px;
+    }
+}
+
+/* end h2 */
+
+/* h3 */
+
+article.rapido section > h3 {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+/* end h3 */
+
+/* section */
+
+article.rapido section {
+    width: 100%;
+    padding: 10px 0;
+}
+
+article.rapido > footer > section {
+    padding: 10px 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section {
+        padding: 20px 0;
+    }
+}
+
+/* end section */
+
+/* blockquote */
+
+article.rapido section > blockquote {
+    width: 600px;
+    max-width: 100%;
+    padding: 20px 40px 0 40px;
+}
+
+@media (max-width: 380px) {
+    article.rapido section > blockquote {
+        padding: 20px 20px 0 20px;
+    }
+}
+
+/* end blockquote */
+
+/* div */
+
+article.rapido div {
+    display: block;
+    flex: 0 0 auto;
+    max-width: 100%;
+    margin: 0 20px 0 0;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+article.rapido > section > div {
+    margin: 0 0 20px 0;
+}
+
+article.rapido > footer div,
+article.rapido > header div {
+    width: 100%;
+}
+
+article.rapido > header > div {
+    margin: 0 0 20px 0;
+}
+
+article.rapido > footer > section > div {
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > div {
+        width: calc(100% - 200px);
+        margin: 0 0 10px 200px;
+    }
+}
+
+/* end div */
+
+/* figcaption */
+
+article.rapido figcaption {
+    flex: 1 1;
+    min-width: 140px;
+    max-width: 100%;
+    margin-top: 3px;
+}
+
+/* end figcaption */
+
+/* figure */
+
+article.rapido figure {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+article.rapido > footer figure {
+    margin: 10px 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > figure {
+        margin: 10px 0 10px 200px;
+    }
+}
+
+/* end figure */
+
+/* li */
+
+article.rapido li {
+    /*font-size: 14px;*/
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+
+article.rapido > footer li {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+/* end li */
+
+/* ol, ul */
+
+article.rapido ol,
+article.rapido ul {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    padding-left: 10px;
+    list-style-position: outside;
+}
+
+article.rapido ul {
+    list-style-type: disc;
+}
+
+article.rapido ol {
+    list-style-type: decimal;
+}
+
+article.rapido > footer ul,
+article.rapido > footer ol {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > ol,
+    article.rapido > footer > section > ul {
+        margin: 0 0 10px 200px;
+        width: calc(100% - 200px);
+    }
+}
+
+/* end ol, ul */
+
+/* p */
+
+article.rapido p,
+article.rapido section p {
+    position: relative;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+article.rapido > header > p {
+    width: 100%;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+@media (max-width: 499px) {
+    article.rapido > header > p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+article.rapido > footer p {
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+article.rapido li > p {
+    display: inline;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+article.rapido section figure > p {
+    display: block;
+    flex: 0 0 auto;
+    height: auto;
+    margin: 0 20px 0 0;
+}
+
+article.rapido section > blockquote > p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+article.rapido section > blockquote > p::before {
+    content: '“';
+}
+
+article.rapido section > blockquote > p::after {
+    content: '”';
+}
+
+article.rapido section figcaption > p {
+    display: inline;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+article.rapido section > aside > p {
+    width: 100%;
+    position: relative;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > p {
+        width: calc(100% - 200px);
+        margin: 0 0 10px 200px;
+    }
+}
+
+article.rapido > footer figcaption > p {
+    padding: 0;
+}
+
+article.rapido > header > figure > figcaption > p {
+    display: inline;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* end p */
+
+/* pre */
+
+article.rapido pre {
+    display: block;
+    flex: 0 0 auto;
+    max-width: 100%;
+    padding: 5px 0;
+    margin: 0 20px 0 0;
+    overflow-y: hidden;
+    overflow-x: auto;
+    border-radius: 2px;
+    font-family: "Consolas", "Courier", monospace;
+    background:
+            repeating-linear-gradient(
+                    -45deg,
+                    #f5f5f5,
+                    #f5f5f5 3px,
+                    #f7f7f7 3px,
+                    #f7f7f7 6px
+            );
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+article.rapido > section > pre {
+    margin: 0 0 20px 0;
+}
+
+article.rapido > footer pre {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+article.rapido > header pre {
+    width: 600px;
+}
+
+article.rapido > header > pre {
+    margin: 0 0 20px 0;
+}
+
+article.rapido > footer > section > pre {
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > pre {
+        width: calc(100% - 200px);
+        margin: 0 0 10px 200px;
+    }
+}
+
+/* end pre */
+
+/* a */
+
+article.rapido a {
+    font-size: inherit;
+    line-height: inherit;
+    /*color: inherit;*/
+    /*text-decoration: underline;*/
+}
+
+article.rapido cite > a {
+    text-decoration: none;
+}
+
+article.rapido > header > address > a {
+    margin: 5px 15px 5px 0;
+}
+
+/* end a */
+
+/* cite */
+
+article.rapido cite {
+    font-style: normal;
+}
+
+article.rapido section > cite {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 0 20px 0;
+    text-align: right;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+article.rapido section > cite::before {
+    content: "– ";
+}
+
+/* end cite */
+
+/* code */
+
+article.rapido code {
+    font-family: "Consolas", "Courier", monospace;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+article.rapido pre > code {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+article.rapido > footer code {
+    color: #353830;
+}
+
+article.rapido pre > mark > code {
+    display: inline-block;
+    min-width: 100%;
+    padding: 0 8px;
+    border-left: 2px solid blue;
+    background: rgba(0, 0, 255, 0.05);
+}
+
+article.rapido > footer pre > mark > code {
+    border-left: 2px solid #353839;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* end code */
+
+/* mark */
+
+article.rapido mark {
+    background: rgba(0, 0, 255, 0.1);
+    color: inherit;
+}
+
+article.rapido pre > mark {
+    background: none;
+}
+
+/* end mark */
+
+/* small */
+
+article.rapido small {
+    position: absolute;
+    width: 324px;
+    padding: 3px 0 0 0;
+    top: 0;
+    right: calc(-324px - 20px);
+    float: right;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@media (max-width: 1023px) {
+    article.rapido small {
+        display: block;
+        position: relative;
+        width: 100%;
+        right: 0;
+        float: none;
+        margin: 20px 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1023px) {
+    article.rapido small {
+        overflow: auto;
+    }
+}
+
+/* end small */
+
+/* inline elements */
+
+article.rapido strong {
+    font-style: normal;
+    font-weight: bold;
+}
+
+article.rapido q,
+article.rapido em {
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* end inline elements */
+
+/* img, video */
+
+article.rapido img,
+article.rapido video {
+    display: block;
+    flex: 0 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 20px 0 0;
+    border-radius: 2px;
+}
+
+article.rapido p > img {
+    vertical-align: middle;
+}
+
+article.rapido small > img {
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+@media (min-width: 601px) and (max-width: 1023px) {
+    article.rapido small > img {
+        max-width: 324px;
+        float: right;
+    }
+}
+
+article.rapido > section > img,
+article.rapido > section > video {
+    margin: 0 0 20px 0;
+}
+
+article.rapido > footer img,
+article.rapido > footer video,
+article.rapido > header img,
+article.rapido > header video {
+    width: 100%;
+}
+
+article.rapido > header > img,
+article.rapido > header > video {
+    margin: 0 0 20px 0;
+}
+
+article.rapido > footer > section > img,
+article.rapido > footer > section > video {
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 1024px) {
+    article.rapido > footer > section > img,
+    article.rapido > footer > section > video {
+        width: calc(100% - 200px);
+        margin: 0 0 10px 200px;
+    }
+}
+
+article.rapido > header > address > img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+/* end img, video */
+
+/* table */
+
+article.rapido table {
+    min-width: 600px;
+    padding: 10px;
+    border-collapse: collapse;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    text-align: left;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+article.rapido table thead {
+    background-color: #f4f4f4;
+}
+
+article.rapido table td,
+article.rapido table th {
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+article.rapido table tr {
+    border-bottom: 1px solid #ededed;
+}
+
+article.rapido table th {
+    border-right: 1px solid #e0e0e0;
+}
+
+article.rapido table td,
+article.rapido table th:last-child {
+    border-right: 1px solid #ededed;
+}
+
+/* end table */
+
+/* KaTex */
+
+article.rapido .katex-display {
+    padding: 10px 0 !important;
+}
+
+/* end KaTex */

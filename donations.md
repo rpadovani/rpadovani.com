@@ -2,13 +2,13 @@
 layout: page
 title: Donations
 permalink: /donations
+intro: "When I started contributing to the F/OSS world I was still an high-school
+        student, without any incoming, and for some years I relay on support from my
+        parents, so any donation was more than welcome! Luckily, my career has improved
+        since then, and now I have more than enough for my own life"
 ---
 
-When I started contributing to the F/OSS world I was still an high-school
-student, without any incoming, and for some years I relay on support from my
-parents, so any donation was more than welcome! Luckily, my career has improved
-since then, and now I have more than enough for my own life. So if you find my
-contributes valuable and want to make a donation, please direct it to
+So if you find my contributes valuable and want to make a donation, please direct it to
 [EFF][eff], which Defend Privacy and Free Speech all around the world!
 
 Back in 2015 I was keeping a monthly report of what I was doing - unfortunately

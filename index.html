@@ -1,38 +1,46 @@
 ---
 layout: default
 ---
-<div id="home" class="page-content wc-container">
-	<div class="posts">
-  		{% for post in site.posts limit:10 %}
-  			<div class="post">
-    			<h3 class="post-title">
-			      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-			        {{ post.title }}
-			      </a>
-    			</h3>
+<article class="rapido">
+    <header>
+        <h1>Riccardo Padovani</h1>
+        <p>Hi! In this corner of web you'll find my posts about different topics in the C.S. field: I'm a Solutions Architect with a strong passion for F/OSS and bug bounties!</p>
+    </header>
+    {% for post in site.posts limit:10 %}
+    <section>
+        <h2>
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+                {{ post.title }}
+            </a>
+        </h2>
+        <p>
+            <small>
+                <span class="post-date">
+                {{ post.date | date: "%b %-d, %Y" }}
+                </span><br/>
+                {% if post.categories.size > 0 %}
+                <span class="categories">
+                {{ post.categories | array_to_sentence_string }}
+                </span>
+                {% endif %}
 
-          <p class="post-meta">
-            {% if post.categories.size > 0 %}
-            <span class="categories">
-            {{ post.categories | array_to_sentence_string }}
-            </span> |
-            {% endif %}
-            <span class="post-date">
-            {{ post.date | date: "%b %-d, %Y" }} 
-            </span>
-          </p>          
-    			    			
-  				<p>
-	  				{{ post.excerpt }}	
-  				</p>
-  				<p>
-  					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
-  						Read More
-					</a>
-  				</p>
-  			</div>
-  		{% endfor %}
-	</div>
+            </small>
+        </p>
+
+        <p>
+            {{ post.excerpt }}
+        </p>
+        <p>
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
+                Read More
+            </a>
+        </p>
+    </section>
+    {% endfor %}
+
+</article>
+
+<div>
 	<div class="post-footer">
 		<div class="column-full"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></div>
 	</div>

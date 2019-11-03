@@ -2,9 +2,8 @@
 layout: page
 title: Privacy
 permalink: /privacy
+intro: "I respect your privacy :-)"
 ---
-
-I respect your privacy :-)
 
 This is why I do not use any third party analytics, nor I load any asset from
 any other server.
