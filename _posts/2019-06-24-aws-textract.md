@@ -2,7 +2,7 @@
 layout: post
 title:  "Using AWS Textract in an automatic fashion with AWS Lambda"
 date:   2019-06-24 19:00
-description: "AWS Textract does OCR reading of data: let's see how to automatize its usage with AWS Lambda, S3, ,, Amazon SQS, and Amazon SNS"
+description: "AWS Textract does OCR reading of data: let's see how to automatize its usage with AWS Lambda, S3, Amazon SQS, and Amazon SNS"
 categories:
 - aws
 permalink: aws-textract

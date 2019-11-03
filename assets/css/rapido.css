@@ -318,7 +318,7 @@ article.rapido li {
 article.rapido > footer li {
     width: 100%;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 10px;
     margin-bottom: 10px;
 }
 
