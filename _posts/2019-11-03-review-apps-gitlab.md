@@ -8,7 +8,7 @@ categories:
 permalink: gitlab-visual-reviews
 ---
 
-With version 12.0 Gitlab [has introduced][gitlab-12] a new interesting feature: Visual Reviews! You can know leave comments to Merge Requests directly from the page you are visiting over your stage environment, without having to change tab.
+With version 12.0 Gitlab [has introduced][gitlab-12] a new interesting feature: Visual Reviews! You can now leave comments to Merge Requests directly from the page you are visiting over your stage environment, without having to change tab.
 
 If you already have Continuous Integration and Continuous Delivery enabled for your websites, adding this feature is blazing fast, and will make life of your reviewers easier!
 <small>If you want to start with CI/CD in Gitlab, [I've written about it][past-blog-post] in the past.</small>
@@ -46,7 +46,7 @@ Adding the snippet isn't complicate, you only need some information about the MR
 
 Of course, asking your team to add the HTML snippet, and filling it with the right information isn't feasible. We will instead take advantage of [Gitlab CI/CD][gitlab-ci] to inject the snippet and autocomplete it with the right information for every merge request.
 
-First of all, we need the definition of a Gitlab CI job to build our client:
+First we need the definition of a Gitlab CI job to build our client:
 
 ```yaml
 buildClient:
@@ -104,7 +104,7 @@ Now everything is ready! Your team needs only to generate [personal access token
 
 # Future features
 
-One of the coolest thing in Gitlab is that everything is always a work in progress, and each feature has some new goodies in every release. This is true for the Visual Reviews App as well. There is an [epic][epic] that collects all the improvements they want to do, including [removing the need for an access token][issue-0], and [adding ability to take screenshots][issue-1] that will be inserted in the MR comments as well.
+One of the coolest things in Gitlab is that everything is always a work in progress, and each feature has some new goodies in every release. This is true for the Visual Reviews App as well. There is an [epic][epic] that collects all the improvements they want to do, including [removing the need for an access token][issue-0], and [adding ability to take screenshots][issue-1] that will be inserted in the MR comments as well.
 
 That's all for today, I hope you found this article useful! For any comment, feedback, critic, write to me on Twitter ([@rpadovani93][twitter])
 or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
