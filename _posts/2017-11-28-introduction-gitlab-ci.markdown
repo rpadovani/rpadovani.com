@@ -20,7 +20,7 @@ want to use it in an already existing setup. A designer or a tester doesn't need
 to know how to autoscale it with Kubernetes or the difference between an `image`
 or a `service`.
 
-But still, he needs to know what is a **pipeline**, and how to see a branch
+But still, they need to know what is a **pipeline**, and how to see a branch
 deployed to an **environment**. In this article therefore I will try to cover as
 many features as possible, highlighting how the end users can enjoy them; in the
 last months I explained such features to some members of our team, also
@@ -33,8 +33,8 @@ specifically, I leave the job to [Gitlab.com][gitlabci] itself.
 
 ## Introduction
 
-Every time a developer changes some code he saves his changes in a **commit**.
-He can then push that commit to Gitlab, so other developers can review the code.
+Every time developers change some code they save their changes in a **commit**. 
+They can then push that commit to Gitlab, so other developers can review the code.
 
 Gitlab will also start some work on that commit, if the Gitlab CI has been
 configured. This work is executed by a **runner**. A runner is basically a
@@ -43,7 +43,7 @@ it as a server) that executes instructions listed in the `.gitlab-ci.yml` file,
 and reports the result back to Gitlab itself, which will show it in his
 graphical interface.
 
-When a developer has finished implementing a new feature or a bugfix (activity
+When developers have finished implementing a new feature or a bugfix (activity
 that usual requires multiple commits), can open a **merge request**, where other
 member of the team can comment on the code and on the implementation.
 
