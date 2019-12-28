@@ -9,7 +9,8 @@ permalink: 2019-hackerone
 ---
  
 Last year, totally by chance, I found a [security issue over Facebook][fb] - I reported it, and it was fixed quite fast. In 2018, I also found a [security issue over Gitlab][gitlab-bug], so I signed up to HackerOne, and reported it as well. That first experience with Gitlab was far from ideal, but after that first report I’ve started reporting more, and Gitlab has improved its program a lot.
- 
+
+
 # 2019
  
 Since June 2019, when I opened [my first report of the year][first-report], I reported 27 security vulnerabilities: 4 has been marked as duplicated, 3 as informative, 2 as not applicable, 9 have been resolved, and 9 are currently confirmed and the fix is ongoing. All these 27 vulnerabilities were reported to Gitlab. 
