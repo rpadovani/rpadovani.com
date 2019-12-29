@@ -68,7 +68,7 @@ More than the criminal record, I am a puzzled about these requirements:
 Not only the scope is definitely too wide, but also all these data will be stored and processed outside EU!
 Personal information will be stored in the United States, Canada and Ireland. Personal information will be processed in the United States, Canada, the United Kingdom, India and the Philippines.
 
-As European citizen who wants to protect his privacy, I cannot accept such conditions. I really hope HackerOne will require fewer data in the future, preserving privacy of their researchers.
+As European citizen who wants to protect his privacy, I cannot accept such conditions. I've written to HackerOne asking why such a wide scope of data, and they replied that since it's their partner that actually collects the information, there is nothing they can do. I really hope HackerOne will require fewer data in the future, preserving privacy of their researchers.
 
 # 2020
 
@@ -80,6 +80,10 @@ or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
  
 Ciao,  
 R.
+
+# Updates
+
+- 29th December 2019: added paragrahp about having asked to HackerOne more information on why they need such wide scope of personal data.
  
 [handbook]: https://about.gitlab.com/handbook/engineering/security/
 [hashtag]: https://twitter.com/hashtag/togetherwehitharder?src=hashtag_click
