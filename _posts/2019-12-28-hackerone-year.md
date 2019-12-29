@@ -47,7 +47,7 @@ Congratulations to Gitlab for their first year on HackerOne, and keep up the goo
 
 # HackeOne Clear
 
-HackerOne started a new program, called [HackerOne Clear][clear], only on invitation, where they vet all researchers. I was invited and I thought about accepting the invitation. However, the scope of the data that has to be shared is definitely too wide, and to be honest I am surprised so many people accepted the invitation. HackerOne doesn't perform the check, but delegates to a 3rd party. This company asks a lot of things.
+HackerOne started a new program, called [HackerOne Clear][clear], only on invitation, where they vet all researchers. I was invited and I thought about accepting the invitation. However, the scope of the data that has to be shared to be vetted is definitely too wide, and to be honest I am surprised so many people accepted the invitation. HackerOne doesn't perform the check, but delegates to a 3rd party. This 3rd party company asks a lot of things.
 
 <aside>
 <p>
@@ -55,9 +55,9 @@ T&Cs for joining HackerOne Clear ask to hand over a lot of personal data. I tota
 </p>
 </aside>
 
-I totally understand the need of background checks, and I'd be more than happy to provide my criminal record. It wouldn't be the first time I am vetted, and I am sure it wouldn't be the last
+I totally understand the need of background checks, and I'd be more than happy to provide my criminal record. It wouldn't be the first time I am vetted, and I am quite sure it wouldn't be the last.
 
-I am a bit more puzzled about these requirements:
+More than the criminal record, I am a puzzled about these requirements:
 
 - Financial history, including credit history, bankruptcy and financial judgments;
 - Employment or volunteering history, including fiduciary or directorship responsibilities;
