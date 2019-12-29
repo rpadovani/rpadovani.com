@@ -111,7 +111,7 @@ Go to [IAM][iam] and create a new policy, with the name you prefer:
         {
             "Sid": "VisualEditor1",
             "Effect": "Allow",
-            "Action": "s3:ListObjects",
+            "Action": "s3:ListBucket",
             "Resource": "*"
         }
     ]
@@ -248,10 +248,14 @@ R.
 
 ## Updates
 
-This post has been last updated on the 19th September 2018 to fix the S3 bucket 
-URL in the `.gitlab-ci.yml` file, thanks to [James Delaney][james]
+19th September 2018: fix the S3 bucket URL in the `.gitlab-ci.yml` file, thanks 
+to [James Delaney][james].
+
+29th December 2019: [fix][issue-1] the `s3:ListBucket` permission, thanks to [Grzegorz Wozniak][gregor].
 
 [james]: https://www.overflowingcubby.com/
+[issue-1]: https://gitlab.com/rpadovani/rpadovani.com/issues/1
+[gregor]: https://gitlab.com/gwozniak
 [donation]: https://rpadovani.com/donations
 [gitlab]: https://gitlab.com/
 [gitlabci]: https://about.gitlab.com/gitlab-ci/
