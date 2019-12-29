@@ -83,7 +83,7 @@ R.
 
 # Updates
 
-- 29th December 2019: added paragrahp about having asked to HackerOne more information on why they need such wide scope of personal data.
+- 29th December 2019: added paragraph about having asked to HackerOne more information on why they need such wide scope of personal data.
  
 [handbook]: https://about.gitlab.com/handbook/engineering/security/
 [hashtag]: https://twitter.com/hashtag/togetherwehitharder?src=hashtag_click
