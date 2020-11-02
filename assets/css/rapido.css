@@ -311,7 +311,7 @@ article.rapido > footer figure {
 
 article.rapido li {
     /*font-size: 14px;*/
-    line-height: 21px;
+    /*line-height: 25px;*/
     padding-bottom: 10px;
 }
 
@@ -333,6 +333,8 @@ article.rapido ul {
     margin: 0 0 20px 0;
     padding-left: 10px;
     list-style-position: outside;
+    font-size: 18px !important;
+    line-height: 30px !important;
 }
 
 article.rapido ul {
