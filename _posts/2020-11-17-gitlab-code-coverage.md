@@ -2,7 +2,7 @@
 layout: post
 title:  "Fail a Gitlab pipeline when code coverage decreases"
 date:   2020-11-18 09:00
-description: "Testing is an important step of development - how to enforce a good code coverage through CI/CD?"
+description: "Testing is an important step of software development - how to enforce a good code coverage through CI/CD?"
 categories:
 - gitlab
 permalink: gitlab-code-coverage
