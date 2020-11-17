@@ -8,8 +8,25 @@
           content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}">
+    <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
+    {% if page.cover %}<meta itemprop="image" content="{{page.cover}}">{% endif %}
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://rpadovani.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
+    {% if page.cover %}<meta property="og:image" content="{{page.cover}}">{% endif %}
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
+    {% if page.cover %}<meta name="twitter:image" content="{{page.cover}}">{% endif %}
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
-    <!-- Harmony styles -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/rapido.css">
 

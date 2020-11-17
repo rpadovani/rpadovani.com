@@ -7,6 +7,7 @@ categories:
 - docker
 - pytorch
 permalink: pytorch-docker-image
+cover: "https://img.rpadovani.com/posts/pytorch/michael-dziedzic-nbW-kaz2BlE-unsplash.jpg"
 ---
  
 Given a PyTorch model, how should we put it in a Docker image, with all the related dependencies, ready to be deployed?
