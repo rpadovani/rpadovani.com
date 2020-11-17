@@ -14,7 +14,7 @@
     {% if page.cover %}<meta itemprop="image" content="{{page.cover}}">{% endif %}
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://rpadovani.com">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
