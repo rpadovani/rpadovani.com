@@ -6,6 +6,7 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}</title>
     <meta name="description"
           content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
+    <meta name="author" content="Riccardo Padovani"> 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Google / Search Engine Tags -->
