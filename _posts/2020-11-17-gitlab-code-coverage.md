@@ -84,7 +84,7 @@ R.
 
 [twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
-[introduction-gitlab-ci]: http://localhost:4000/introduction-gitlab-ci
+[introduction-gitlab-ci]: https://rpadovani.com/introduction-gitlab-ci
 [benefits-ci-cd]: https://about.gitlab.com/blog/2019/06/27/positive-outcomes-ci-cd/
 [gitlab-ci-documentation]: https://docs.gitlab.com/ee/ci/README.html
 [pipelines-guide]: https://docs.gitlab.com/ee/ci/pipelines/settings.html#test-coverage-parsing
