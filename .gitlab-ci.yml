@@ -1,6 +1,7 @@
 image: ruby:2.6
 
 stages:
+  - build
   - deploy
 
 variables:
@@ -9,12 +10,34 @@ variables:
 before_script:
   - bundle install
 
+cache:
+  paths:
+    - vendor/ruby
+
+testing:
+  stage: build
+  script:
+    - sed -i 's/rpadovani.com/rpadovani.gitlab.io/g' _config.yml
+    - sed -i 's/#\.html/\.html/g' _config.yml # Gitlab.io doesn't support URLs without extension
+    - sed -i 's/#baseurl/\/-\/rpadovani.com\/-\/jobs\/'${CI_JOB_ID}'\/artifacts\/website/g' _config.yml
+    - bundle exec jekyll build --future -d website
+  artifacts:
+    paths:
+      - website
+  only:
+    - branches
+  except:
+    - master
+  environment:
+    name: review/${CI_COMMIT_REF_NAME}
+    url: https://rpadovani.gitlab.io/-/rpadovani.com/-/jobs/${CI_JOB_ID}/artifacts/website/index.html
+
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build --future -d public
+    - bundle exec jekyll build --future -d public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master

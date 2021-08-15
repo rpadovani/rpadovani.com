@@ -9,7 +9,7 @@ layout: default
     {% for post in site.posts limit:10 %}
     <section>
         <h2>
-            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url | append: site.extension }}">
                 {{ post.title }}
             </a>
         </h2>
@@ -31,7 +31,7 @@ layout: default
             {{ post.excerpt }}
         </p>
         <p>
-            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url | append: site.extension }}" title="{{ post.title}}">
                 Read More
             </a>
         </p>
@@ -42,6 +42,6 @@ layout: default
 
 <div>
 	<div class="post-footer">
-		<div class="column-full"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></div>
+		<div class="column-full"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url | append: site.extension }}">Blog archive</a></div>
 	</div>
 </div>
