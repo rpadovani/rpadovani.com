@@ -1,5 +1,61 @@
+# Harmony Jekyll theme general configurations
+
 # Base URL
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: #baseurl
 
 # Site live URL
-url: http://localhost:4000 # the base hostname & protocol for your site
+url: http://localhost:4000
+
+# Extension for generated URLs. Used by Gitlab Pages since it requires the file extension
+extension: #.html
+
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: Riccardo Padovani
+  # Little description about your site
+  description: Changing the world bit by bit
+  # 'meta_description:' Write an awesome description for your new site here.
+  # It will appear in your document head meta (for Google search results) and
+  # in your feed.xml site description.
+  meta_description: > #
+    Riccardo Padovani - Open Source enthusiast.
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: Riccardo Padovani
+    email: riccardo@rpadovani.com
+    url: https://www.rpadovani.com
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key:
+
+  # Profile links, leave blank to ignore
+  social:
+    github: rpadovani
+    twitter: rpadovani93
+    facebook:
+    gplus:
+    dribble:
+    pinterest:
+  # Toggle disclaimer in footer
+  show_disclaimer: true
+
+# Conversion / Build settings
+markdown:    kramdown
+
+# Permalinks
+permalink:        pretty
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+  - vendor
+
+# Sass conversion configs
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
