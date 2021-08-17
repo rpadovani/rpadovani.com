@@ -5,21 +5,16 @@ permalink: /privacy
 intro: "I respect your privacy :-)"
 ---
 
-This is why I do not use any third party analytics, nor I load any asset from
-any other server.
-
-Obviously I store in my server some informations about your browser and your PC,
-like your IP address and which page you're viewing, but these information are
-only used by the web server to serve you the page.
-
-You can find more about my server configuration [here][vps].
-
-Also, all the connections to this website are encrypted, as explained in [this
-blogpost][crypt].
+There are no analytics on this website. It uses however hyvor.com as a comment system.
 
 ## Cookies
 
-This website doesn't install any cookie.
+This website installs only technical cookies, and only if you comment.
 
-[vps]: https://rpadovani.com/my-vps-configuration/
-[crypt]: https://rpadovani.com/encrypt-the-world/
+## Comments
+
+This website uses [Hyvor Talk][hyvor] service as the commenting platform. The comments and other data exchanged are stored securely within the Hyvor Talk system. Your personal data will be processed and transmitted in accordance with the General Data Protection Regulation (GDPR). For more information, please refer to [their privacy policy][their-policy].
+
+
+[hyvor]: https://talk.hyvor.com/
+[their-policy]: https://talk.hyvor.com/docs/privacy
