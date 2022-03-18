@@ -13,6 +13,8 @@ intro: "A collection of posts I have written since I have opened this blog."
 {% capture year %}{{currentyear}}{% endcapture %} 
 {% endif %}
 
-- [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
+<small>{{post.date | date_to_long_string}}</small>
+
+[{{ post.title }}]({{ post.url | prepend: site.baseurl }})
 
 {% endfor %}
