@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about
 intro: |
-    I'm Riccardo. I love new challenges and learning new things. I'm an incurable optimist who loves implementing tools to enable people working on their goals, and finding solutions to hard problems.
+    I'm Riccardo. I enjoy new challenges and learning new things. I'm an incurable optimist who loves implementing tools to enable people working on their goals, and finding solutions to hard problems.
 
 ---
 
