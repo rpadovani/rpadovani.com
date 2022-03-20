@@ -73,8 +73,6 @@ my-job:
     - cargo build
 ```
 
-Of courese, you need
-
 The `CI_JOB_TOKEN` is a [unique token] valid only for the duration of the GitLab pipeline. In this way, also if a machine got compromised, or logs leaked, the code is still sound and safe.
 
 What do you think about Rust? If you use it, have you integrated it with your CI/CD systems? Share your thoughts in the comments below, reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email].
