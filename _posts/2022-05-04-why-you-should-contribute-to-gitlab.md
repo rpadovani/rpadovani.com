@@ -97,7 +97,6 @@ I hope I  inspired you to contribute to some open-source project (maybe GitLab!)
 
 ## Find something you are passionate about
 
-<small>Launchpad and bazaar instead of GitLab and git — down the memory lane!</small>
 You must find a project you are passionate about, and that you use frequently. Looking forward to a release, knowing that your contributions will be included, it is a **wonderful satisfaction**, and can really push you to do more.
 
 Moreover, if you already know the project you want to contribute to, you probably know already the biggest pain points, and where the project needs some contributions.
@@ -105,6 +104,7 @@ Moreover, if you already know the project you want to contribute to, you probabl
 ## Start small and easy
 You don't need to do gigantic contributions to begin. Find something tiny, so you can get familiar with the project workflows, and how contributions are received.
 
+<small>Launchpad and bazaar instead of GitLab and git — down the memory lane!</small>
 My journey with Ubuntu started [correcting a typo] in a README, and here I am, years later, having contributed to dozens of projects, and having a career in the C.S. field. Back then, I really had no idea of what my future would have held.
 
 For GitLab, you can take  a look at the issues marked as “[good for new contributors]”. They are designed to be addressed quickly, and onboard new people in the community. In this way, you don't have to focus on the difficulties of the task at hand, but you can easily explore how the community works.
