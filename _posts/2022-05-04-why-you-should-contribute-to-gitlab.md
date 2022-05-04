@@ -6,7 +6,7 @@ description: "Contributing to an opensource project is an amazing experience: le
 categories:
 - gitlab
 permalink: contribute-to-gitlab
-cover: https://img.rpadovani.com/posts/gitlab/gitlab-logo-gray-rgb.svg
+cover: https://img.rpadovani.com/posts/gitlab/gitlab-logo-gray-rgb.png
 ---
 
 Contributing to any open-source project is a great way to spend a few hours each month. I started more than 10 years ago, and it has ultimately shaped my career in ways I couldn't have imagined!
