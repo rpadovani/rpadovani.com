@@ -88,7 +88,7 @@ You should test it and see if it goes in timeout.
 
 Following there is the code to perform the task. To read it better, you can find it also on this [Gitlab's snippet][snippet].
 
-```python3
+```python
 from collections import defaultdict
 from datetime import datetime, timezone
 import logging
