@@ -2,7 +2,7 @@
 layout: post
 title:  "Managing Helm CRDs with Terraform"
 date:   2022-08-27
-description: "Introducing a Terraform module to manage Helm Custom Resource Definitions (CRDs) through code."
+description: "Introducing a Terraform module to manage Helm Custom Resource Definitions (CRDs) through code, to being able to manage Kubernetes deployments completely through GitOps."
 categories:
 - terraform
 - helm

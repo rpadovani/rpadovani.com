@@ -13,6 +13,7 @@
     <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}">
     <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
     {% if page.cover %}<meta itemprop="image" content="{{page.cover}}">{% endif %}
+    {% if page.date %}<meta name="publish_date" property="og:publish_date" content="{{page.date}}">{% endif %}
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
