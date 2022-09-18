@@ -7,15 +7,22 @@ intro: |
 
 ---
 
-Currently, I'm working on building the future of finance at [Dock Financial][dock], designing and delivering a top-notch infrastructure using modern and reliable technologies.
+Currently, I'm working on [Google Distributed Cloud Hosted] (GDCH), Google's digital sovereignty vision for Europe, helping our partners to support public-sector customers and commercial entities to address data residency and strict security and privacy requirements. 
+
+<figure>
+    <img src="https://img.rpadovani.com/posts/about_me.png" alt="About me" />
+    <figcaption>
+      <p><span>Illustration by <a href="https://plus.undraw.co/" target="_blank">unDraw+</a>.</span></p>
+    </figcaption>
+</figure>
 
 I earned a Master's Degree in Computer Science, graduating from Technische Universität München, with a focus on Security Engineering and Language Theory.
 
 # My daily job
 
-As a Platform Engineer, I am focusing mainly on designing and building the infrastructure that runs [Dock Financial][dock], working closing with other teams to have fast pipelines, to quickly iterate and improve our products, and a battle-tested observability story, to know in advance any issue we could face.
+As a Cloud Infrastructure Engineer, I am focusing mainly on helping our partners running GDCH, providing custom support, training, and technical expertise.
 
-Previously, I worked as Solutions Architect at [Nextbit], and as JavaScript Developer at [Fleetster], and some other roles. You can find a more precise timeline on my [Linkedin].
+Previously, I worked as Platform Engineer for [Dock Financial][dock], as Solutions Architect at [Nextbit], and as JavaScript Developer at [Fleetster], and some other roles. You can find a more precise timeline on my [LinkedIn].
 
 # Opensource contributions
  
@@ -31,13 +38,14 @@ I like breaking things to understand how they work, and _hacking_ exercises, of 
 
 # The rest of my life
 
-While my online-persona is quite focused on C.S. related stuffs, I am a quite interesting person, with a funny Italian accent, enjoying life with my S.O. in Munich. I am also really private, so if you want to know me better, just drop me an email, and if you are ever in Bavaria, let's have a beer!
+While my online-persona is quite focused on C.S. related stuffs, I have an entire life out of the internet, with a funny Italian accent, enjoying life with my S.O. in Munich. If you want to know me better, just drop me an email, and if you are ever in Bavaria, let's have a beer!
 
 # Contact me
 
 Find me on [GitLab] / [GitHub] / [LinkedIn] / [Twitter] or just
 say `Hello` at [hello@rpadovani.com](mailto:hello@rpadovani.com).
 
+[Google Distributed Cloud Hosted]: https://cloud.google.com/distributed-cloud
 [gitlab]: https://gitlab.com/rpadovani
 [github]: https://github.com/rpadovani
 [launchpad]: https://launchpad.net/~rpadovani/
