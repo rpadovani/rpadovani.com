@@ -74,26 +74,27 @@ The important bit of information here is `only: merge_requests`. When used, Gitl
 The other important bit is the script that actually injects the code: it's a simple bash script, which looks for the `</title>` tag in the HTML, and append the needed snippet:
 
 ```shell
-#!/bin/bash
+#!/bin/sh
 
-quoteSubst() {
-  IFS= read -d '' -r < <(sed -e ':a' -e '$!{N;ba' -e '}' -e 's/[&/\]/\\&/g; s/\n/\\&/g' <<<"$1")
-  printf %s "${REPLY%$'\n'}"
+repl() {
+  PATTERN=$1 REPL=$2 awk '
+    {gsub(ENVIRON["PATTERN"], ENVIRON["REPL"]); print}'
 }
 
 TEXT_TO_INJECT=$(cat <<-HTML
-    <script
-      data-project-id="${CI_PROJECT_ID}"
-      data-merge-request-id="${CI_MERGE_REQUEST_IID}"
-      data-mr-url='https://gitlab.com'
-      data-project-path="${CI_PROJECT_PATH}"
-      id='review-app-toolbar-script'
-      src='https://gitlab.com/assets/webpack/visual_review_toolbar.js'>
-    </script>
+</title>
+<script
+  data-project-id="${CI_PROJECT_ID}"
+  data-merge-request-id="${CI_MERGE_REQUEST_IID}"
+  data-mr-url='${CI_SERVER_URL}'
+  data-project-path="${CI_PROJECT_PATH}"
+  id='review-app-toolbar-script'
+  src='${CI_SERVER_URL}/assets/webpack/visual_review_toolbar.js'>
+</script>
 HTML
 )
 
-sed -i "s~</title>~&$(quoteSubst "${TEXT_TO_INJECT}")~" public/index.html
+repl "</title>" "${TEXT_TO_INJECT}" < public/index.html > tmpfile && mv tmpfile public/index.html
 
 ``` 
 
