@@ -10,6 +10,7 @@ cover: https://img.rpadovani.com/posts/k8s-deployment.png
 ---
 
 To create a Kubernetes deployment, we must specify the `matchLabels` field, even though its value must match the one we specify in the template. But why? Cannot Kubernetes be smart enough to figure it out without us being explicit?
+
 <figure>
     <img src="https://img.rpadovani.com/posts/k8s-deployment.png" alt="A deep dive in K8s deployment matchLabels field" />
     <figcaption>
