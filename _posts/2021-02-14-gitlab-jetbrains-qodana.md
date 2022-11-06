@@ -92,12 +92,11 @@ There are two options I find extremely useful: one is `exclude`, that we can use
 Qodana shows already a lot of potential, also if it only at the first version! I am really looking forward to support for other languages, and to improvements that JetBrains will do in the upcoming releases!
 
 
-Questions, comments, feedback, critics, suggestions on how to improve my English? Reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email].
+Questions, comments, feedback, critics, suggestions on how to improve my English? Leave a comment below, or drop me an email at [riccardo@rpadovani.com][email].
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 [introduction-gitlab-ci]: https://rpadovani.com/introduction-gitlab-ci
 [benefits-ci-cd]: https://about.gitlab.com/blog/2019/06/27/positive-outcomes-ci-cd/

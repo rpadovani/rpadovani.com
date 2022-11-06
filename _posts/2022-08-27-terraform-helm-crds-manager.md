@@ -66,7 +66,7 @@ The source code of the module is [available on GitHub], so you are welcome to ch
 
 I use this module in production, and I am very satisfied with it: it brings under GitOps the last part I missed: the CRDs. Now, my only task when I install a new chart is finding all the CRDs, and build a URL that contains the chart version. Terraform will take care of the rest.
 
-I hope this module can be useful to you as it is to me. If you have any question, or feedback, or if you would like some help, please leave a comment below, tweet me [@rpadovani93][twitter] or write me an email at [hello@rpadovani.com][email].
+I hope this module can be useful to you as it is to me. If you have any question, or feedback, or if you would like some help, please leave a comment below, or write me an email at [hello@rpadovani.com][email].
 
   
 Ciao,  
@@ -79,6 +79,5 @@ R.
 [available on GitHub]: https://github.com/rpadovani/terraform-kubectl-helm-crds
 [Helm provider]: https://registry.terraform.io/providers/hashicorp/helm/latest/docs
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:hello@rpadovani.com
 

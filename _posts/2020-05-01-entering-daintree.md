@@ -87,7 +87,7 @@ What are you waiting? Go to [https://daintree.app][daintree] and enjoy your AWS 
 
 Needless to say, Daintree website is not affiliated to Amazon, or AWS, or any of their subsidiaries. ;-)
 
-For any comment, feedback, critic, suggestion on how to improve my English, reach me on Twitter ([@rpadovani93][twitter])
+For any comment, feedback, critic, suggestion on how to improve my English, leave me a comment below,
 or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
  
 Ciao,  
@@ -95,7 +95,6 @@ R.
 
 [gitlab-ui]: https://gitlab.com/gitlab-org/gitlab-ui
 [daintree]: https://daintree.app
-[twitter]: https://twitter.com/rpadovani93
 [contribute]: https://www.daintree.app/#/contribute
 [undraw]: https://undraw.co/
 [gitlab-daintree]: https://gitlab.com/rpadovani/daintree

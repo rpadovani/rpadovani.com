@@ -57,7 +57,7 @@ There was a total lack of communication by their side, they thought they fixed t
 After that, they deployed the fix and went public, without telling me. I was not interested in the bounty (for which I am grateful), I reported the issue because I care about Gitlab. 
 Nonetheless, my love for Gitlab is still the same! I just hope they will improve this part of communication / contributing to Gitlab: in the last couple of years the [community around the project grew a lot][4], and they are doing amazing with it, maybe the Community team should step in and help also the security community?
 
-For any comment, feedback, critic, write me on Twitter ([@rpadovani93][twitter])
+For any comment, feedback, critic, leave a comment below,
 or drop an email at `riccardo@rpadovani.com`.
 
 Regards,  
@@ -68,5 +68,4 @@ R.
 [2]: https://gitlab.com/gitlab-org/gitlab-ce/issues/42726
 [3]: https://about.gitlab.com/2019/01/31/security-release-gitlab-11-dot-7-dot-3-released/
 [4]: https://about.gitlab.com/2019/04/17/contributor-program-update/
-[twitter]: https://twitter.com/rpadovani93
 [image]: https://img.rpadovani.com/posts/gitlab-disclosure.png

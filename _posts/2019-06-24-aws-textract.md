@@ -204,7 +204,7 @@ It has also some [soft limitations][soft-limitations] that make it unsuitable fo
 
 So, if you need it for anything but testing, you should open a ticket to ask for higher limits, and maybe poking your point of contact in AWS to speed up the process. 
 
-That's all for today, I hope you found this article useful! For any comment, feedback, critic, write to me on Twitter ([@rpadovani93][twitter])
+That's all for today, I hope you found this article useful! For any comment, feedback, critic, leave a comment below,
 or drop an email at `riccardo@rpadovani.com`.
 
 Regards,  
@@ -214,7 +214,6 @@ R.
 [1]: https://aws.amazon.com/textract/
 [textract-img]: https://img.rpadovani.com/posts/textract.png
 [textract-sns-img]: https://img.rpadovani.com/posts/textract-sns.png
-[twitter]: https://twitter.com/rpadovani93
 [s3-lambda]: https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html
 [create-sns]: https://docs.aws.amazon.com/sns/latest/dg/sns-tutorial-create-topic.html
 [create-lambda]: https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html

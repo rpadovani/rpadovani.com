@@ -105,7 +105,7 @@ Shortly after dropping the defaulting behavior, developers also [made the labels
 
 I hope you found this deep dive into the question interesting. I spent some time on it, since I was very curious, and I hope that the next person with the same question can find this article and get an answer quicker than what it took me.
 
-If you have any question, or feedback, please leave a comment below, tweet me [@rpadovani93][Twitter] or write me an email at [hello@rpadovani.com][email].
+If you have any question, or feedback, please leave a comment below, or write me an email at [hello@rpadovani.com][email].
 
   
 Ciao,  
@@ -123,5 +123,4 @@ R.
 [made the labels immutable]: https://github.com/kubernetes/kubernetes/issues/50808
 [Brian Grant]: https://github.com/bgrant0607
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:hello@rpadovani.com

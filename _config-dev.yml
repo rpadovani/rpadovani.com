@@ -1,5 +1,3 @@
-# Harmony Jekyll theme general configurations
-
 # Base URL
 baseurl: #baseurl
 
@@ -12,32 +10,15 @@ extension: #.html
 # Harmony theme configuration. Please change accordingly.
 harmony:
   name: Riccardo Padovani
-  # Little description about your site
-  description: Changing the world bit by bit
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and
-  # in your feed.xml site description.
+  description: I mainly throw fairy dust to clouds, blog boring stuff, and enjoy life.
   meta_description: > #
-    Riccardo Padovani - Open Source enthusiast.
+    I enjoy new challenges and learning new things. I'm an incurable optimist who loves implementing tools to enable people working on their goals, and finding solutions to hard problems. 
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Riccardo Padovani
     email: riccardo@rpadovani.com
     url: https://www.rpadovani.com
 
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key:
-
-  # Profile links, leave blank to ignore
-  social:
-    github: rpadovani
-    twitter: rpadovani93
-    facebook:
-    gplus:
-    dribble:
-    pinterest:
-  # Toggle disclaimer in footer
-  show_disclaimer: true
 
 # Conversion / Build settings
 markdown:    kramdown

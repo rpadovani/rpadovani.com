@@ -59,12 +59,11 @@ It should be as easy as setting `tauri.allowlist.shell.execute` to `true` in you
 
 Tauri is very nice, and I really hope it will conquer the desktops and replace Electron, since it is lighter, faster, and safer!
 
-Questions, comments, feedback, critics, suggestions on how to improve my English? Reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email].
+Questions, comments, feedback, critics, suggestions on how to improve my English? Leave a comment below, or drop me an email at [riccardo@rpadovani.com][email].
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 
 [intro-doc]: https://tauri.studio/en/docs/getting-started/intro

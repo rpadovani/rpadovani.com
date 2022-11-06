@@ -77,12 +77,11 @@ This simple job works both on Gitlab.com and on private Gitlab instances, for it
 
 Gitlab will now block merging merge requests without enough tests! Again, code coverage is not the magic bullet, and you shouldn't strive to have 100% of code coverage: better fewer tests, but with high quality, than more just for increasing the code coverage. In the end, a human is always the best reviewer. However, a small memo to write just one more test is, in my opinion, quite useful ;-)
 
-Questions, comments, feedback, critics, suggestions on how to improve my English? Reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email].
+Questions, comments, feedback, critics, suggestions on how to improve my English? Leave a comment below, or drop me an email at [riccardo@rpadovani.com][email].
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 [introduction-gitlab-ci]: https://rpadovani.com/introduction-gitlab-ci
 [benefits-ci-cd]: https://about.gitlab.com/blog/2019/06/27/positive-outcomes-ci-cd/

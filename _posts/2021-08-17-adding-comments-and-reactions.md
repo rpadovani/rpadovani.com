@@ -40,12 +40,11 @@ Internet can be ugly sometime, and this is why I will keep a strict eye on the c
 
 <aside><p>Be excellent to each other!</p></aside>
 
-Questions, comments, feedback, critics, suggestions on how to improve my English? Reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email]. Or, from today, **leave a comment below**!
+Questions, comments, feedback, critics, suggestions on how to improve my English? Leave a comment below, or drop me an email at [riccardo@rpadovani.com][email]. Or, from today, **leave a comment below**!
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 
 [hyvor-talk]: https://talk.hyvor.com

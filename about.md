@@ -42,7 +42,7 @@ While my online-persona is quite focused on C.S. related stuffs, I have an entir
 
 # Contact me
 
-Find me on [GitLab] / [GitHub] / [LinkedIn] / [Twitter] or just
+Find me on [LinkedIn] or just
 say `Hello` at [hello@rpadovani.com](mailto:hello@rpadovani.com).
 
 [Google Distributed Cloud Hosted]: https://cloud.google.com/distributed-cloud
@@ -60,7 +60,6 @@ say `Hello` at [hello@rpadovani.com](mailto:hello@rpadovani.com).
 [linkedin]: https://www.linkedin.com/in/riccardopadovani
 [browser]: https://launchpad.net/webbrowser-app
 [falldown]: https://uappexplorer.com/app/falldown.rpadovani
-[twitter]: https://twitter.com/rpadovani93
 [cv]: https://cv.rpadovani.com
 [fleetster]: http://www.fleetster.net/
 [nextbit]: https://nextbit.it

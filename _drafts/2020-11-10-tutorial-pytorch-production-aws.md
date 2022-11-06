@@ -28,11 +28,10 @@ The third tutorial is about building a CI/CD system, and being able to have an a
 
 Each tutorial is independent of the others, so if you are interested in just one of the topics, feel free to skip directly to it. 
 
-No approach to a problem is perfect, so I'm eager to discuss with you about possible improvements to the workflow, or if you have a total different strategy, I'd be happy to have a talk with you. Feel free to reach me by email at [riccardo@rpadovani.com][email] or write me on Twitter, at [@rpadovani93][twitter], for any kind of feedback, critic, or suggestion!
+No approach to a problem is perfect, so I'm eager to discuss with you about possible improvements to the workflow, or if you have a total different strategy, I'd be happy to have a talk with you. Feel free to reach me by email at [riccardo@rpadovani.com][email] or leave a comment below, for any kind of feedback, critic, or suggestion!
  
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 

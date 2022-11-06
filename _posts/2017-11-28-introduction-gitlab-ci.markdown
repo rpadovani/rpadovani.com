@@ -173,7 +173,7 @@ Kudos to the Gitlab team (and others guys who help in their free time) for their
 awesome work!
 
 If you have any question or feedback about this blog post, please drop me an
-email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) or [tweet me][twitter] :-)
+email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) or leave a comment below :-)
 Feel free to suggest me to add something, or to rephrase paragraphs in a clearer
 way (English is not my mother tongue).
 
@@ -192,7 +192,6 @@ you mind to help us reaching the [Ballmer's peak][ballmer] and [buy me][donation
 [ballmer]: https://www.xkcd.com/323/
 [gitlab-blog]: https://about.gitlab.com/
 [documentation-ci]: https://docs.gitlab.com/ee/ci/README.html
-[twitter]: https://twitter.com/rpadovani93
 [pipeline-overview]: https://img.rpadovani.com/posts/pipeline-overview.png
 [pipeline-status]: https://img.rpadovani.com/posts/pipeline-status.png
 [running-job]: https://img.rpadovani.com/posts/running-job.png

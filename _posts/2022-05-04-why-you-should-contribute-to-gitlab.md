@@ -126,13 +126,12 @@ Next week (9th-13th May 2022) there is also a [GitLab Hackathon]! It is a real f
 <small>And if I was able to do it with my few contributions, you can as well!</small>
 And in time, if you are consistent in your contributions, you can become a [GitLab Hero]! How cool is that?
 
-I really hope this wall of text made you consider contributing to an open-source project. If you have any question, or feedback, or if you would like some help, please leave a comment below, tweet me [@rpadovani93][twitter] or write me an email at [hello@rpadovani.com][email].
+I really hope this wall of text made you consider contributing to an open-source project. If you have any question, or feedback, or if you would like some help, please leave a comment below, or write me an email at [hello@rpadovani.com][email].
 
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:hello@rpadovani.com
 
 [GitLab]: https://about.gitlab.com/

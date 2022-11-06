@@ -85,12 +85,11 @@ time I was awarded for a [security disclosure for Facebook][whitehat], I am
 quite happy with the result and I applaude Facebook for making all the process
 really straightforward.
 
-For any comment, feedback, critic, write me on Twitter ([@rpadovani93][twitter])
+For any comment, feedback, critic, leave me a comment below
 or drop an email at `riccardo@rpadovani.com`.
 
 Regards,
 R.
 
 [whitehat]: https://www.facebook.com/whitehat
-[twitter]: https://twitter.com/rpadovani93
 [image]: https://img.rpadovani.com/posts/facebook-disclosure.png

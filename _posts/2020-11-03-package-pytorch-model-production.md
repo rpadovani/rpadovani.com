@@ -214,12 +214,11 @@ We have now a full functional Torch Serve Docker image, with our custom model, r
 
 <aside><p>Our PyTorch model is ready to meet the real world and serve traffic.</p></aside>
 
-For any question, comment, feedback, critic, suggestion on how to improve my English, reach me on Twitter ([@rpadovani93][twitter]) or drop an email at [riccardo@rpadovani.com][email].
+For any question, comment, feedback, critic, suggestion on how to improve my English, leave a comment below, or drop an email at [riccardo@rpadovani.com][email].
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 [install-torchserve]: https://github.com/pytorch/serve#install-torchserve
 [pytorch-requirements-github]: https://github.com/pytorch/serve/blob/master/requirements/cpu.txt

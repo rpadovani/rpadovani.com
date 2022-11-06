@@ -75,7 +75,7 @@ As European citizen who wants to protect his privacy, I cannot accept such condi
 In these days I've though a lot about what I want to do in my future about bug bounties, and for the 2020 I will continue as I've done in the last months: assessing Gitlab, dedicating not more than a few hours a month. I don't feel ready to step up my game at the moment. I have a lot of other interests I want to pursue in 2020 (travelling, learning German, improve my cooking skills), so I will not prioritize bug bounties for the time being.
 
 That's all for today, and also for the 2019! It has been a lot of fun, and I wish to you all a great 2020!
-For any comment, feedback, critic, write to me on Twitter ([@rpadovani93][twitter])
+For any comment, feedback, critic, leave a comment below,
 or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
  
 Ciao,  
@@ -96,7 +96,6 @@ R.
 [nextbit]: https://www.nextbit.it/
 [contest]: https://about.gitlab.com/blog/2019/12/12/bugs-bounties-and-cherry-browns/
 [img-keyboard]: https://img.rpadovani.com/posts/2019-hackerone/keyboard.jpg
-[twitter]: https://twitter.com/rpadovani93
  
  
  

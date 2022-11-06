@@ -2,7 +2,7 @@
 layout: page
 title: Blog archive
 permalink: /blog
-intro: "A collection of posts I have written since I have opened this blog."
+intro: "All the posts I have written over the years."
 ---
 {% for post in site.posts %}
 {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}

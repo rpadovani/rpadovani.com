@@ -9,7 +9,14 @@ intro: "When I started contributing to the F/OSS world I was still an high-schoo
 ---
 
 So if you find my contributes valuable and want to make a donation, please direct it to
-[EFF][eff], which Defend Privacy and Free Speech all around the world!
+[NOYB][noyb], which enforces right to privacy in the European Union!
+
+<figure>
+    <img src="https://img.rpadovani.com/posts/donations.png" alt="Gifts" />
+    <figcaption>
+      <p><span>Illustration by <a href="https://plus.undraw.co/" target="_blank">unDraw+</a>.</span></p>
+    </figcaption>
+</figure>
 
 Back in 2015 I was keeping a monthly report of what I was doing - unfortunately
 now my contributions are more spare, so I don't track them anymore. Still, if
@@ -42,4 +49,4 @@ you find them valuable, just drop me an email - a thanks is always welcome!
 [nov15]: https://rpadovani.com/my-contributions-nov-15/
 [dec15]: https://rpadovani.com/2015-review/
 
-[eff]: https://supporters.eff.org/donate
+[noyb]: https://noyb.eu/en

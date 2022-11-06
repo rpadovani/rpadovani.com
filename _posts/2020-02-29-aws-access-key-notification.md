@@ -233,7 +233,7 @@ code, so I wouldn't **really** do it - or maybe yes, it's time developers learn 
 
 And you? How do you check your users rotate their access keys? 
 
-For any comment, feedback, critic, suggestion on how to improve my English, reach me on Twitter ([@rpadovani93][twitter])
+For any comment, feedback, critic, suggestion on how to improve my English, leave a comment below,
 or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
  
 Ciao,  
@@ -243,7 +243,6 @@ R.
 [least-privilege]: https://en.wikipedia.org/wiki/Principle_of_least_privilege
 [img-automation]: https://img.rpadovani.com/posts/automation.png
 [automation]: https://xkcd.com/1319/
-[twitter]: https://twitter.com/rpadovani93
 [iam-create-role]: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html
 [snippet]: https://gitlab.com/snippets/1946017
 [sandbox]: https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html

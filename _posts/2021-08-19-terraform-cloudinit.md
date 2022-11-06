@@ -137,12 +137,11 @@ AWS Session Manager, AWS Run Commands, and the others tools in the AWS Systems M
 > Session Manager provides secure and auditable instance management without the need to open inbound ports, maintain bastion hosts, or manage SSH keys. Session Manager also allows you to comply with corporate policies that require controlled access to instances, strict security practices, and fully auditable logs with instance access details, while still providing end users with simple one-click cross-platform access to your managed instances.
 
 
-DO you have any questions, feedback, critics, request for support? Leave a comment below, reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email].
+DO you have any questions, feedback, critics, request for support? Leave a comment below, or drop me an email at [riccardo@rpadovani.com][email].
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 
 [github-issue]: https://github.com/hashicorp/terraform/issues/4668

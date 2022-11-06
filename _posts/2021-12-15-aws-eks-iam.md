@@ -114,12 +114,11 @@ To add insult to the injury, you have to write the right policy manually because
 
 ![generate-addons-policy]
 
-Do you have some horror story about IAM yourself? I have a lot of them, and I am thinking about a more general post. What do you think? Share your thoughts in the comments below, reach me on Twitter ([@rpadovani93][twitter]) or drop me an email at [riccardo@rpadovani.com][email].
+Do you have some horror story about IAM yourself? I have a lot of them, and I am thinking about a more general post. What do you think? Share your thoughts in the comments below, or drop me an email at [riccardo@rpadovani.com][email].
   
 Ciao,  
 R.
 
-[twitter]: https://twitter.com/rpadovani93
 [email]: mailto:riccardo@rpadovani.com
 
 [EKS]: https://aws.amazon.com/eks/

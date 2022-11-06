@@ -78,7 +78,7 @@ Go is a garbage collected language.
 
 One of the coolest things in Gitlab is that everything is always a work in progress, and each feature has some new goodies in every release. This is true for the Visual Reviews App as well. There is an [epic][epic] that collects all the improvements they want to do, including [removing the need for an access token][issue-0], and [adding ability to take screenshots][issue-1] that will be inserted in the MR comments as well.
 
-That's all for today, I hope you found this article useful! For any comment, feedback, critic, write to me on Twitter ([@rpadovani93][twitter])
+That's all for today, I hope you found this article useful! For any comment, feedback, critic, leave a comment below,
 or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 
 Ciao,  
@@ -86,5 +86,4 @@ R.
 
 [go]: https://golang.org/
 [nextbit]: https://nextbit.it
-[twitter]: https://twitter.com/rpadovani93
 

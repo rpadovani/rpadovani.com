@@ -107,7 +107,7 @@ Now everything is ready! Your team needs only to generate [personal access token
 
 One of the coolest things in Gitlab is that everything is always a work in progress, and each feature has some new goodies in every release. This is true for the Visual Reviews App as well. There is an [epic][epic] that collects all the improvements they want to do, including [removing the need for an access token][issue-0], and [adding ability to take screenshots][issue-1] that will be inserted in the MR comments as well.
 
-That's all for today, I hope you found this article useful! For any comment, feedback, critic, write to me on Twitter ([@rpadovani93][twitter])
+That's all for today, I hope you found this article useful! For any comment, feedback, critic, leave a comment below,
 or drop an email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com).
 
 I have also changed the blog theme to a custom version of [Rapido.css][rapido]. I think it increases the readability, but let me know what you think! 
@@ -127,5 +127,4 @@ R.
 [issue-0]: https://gitlab.com/gitlab-org/gitlab/issues/29067
 [issue-1]: https://gitlab.com/gitlab-org/gitlab/issues/10765
 [rapido]: https://nextbitlabs.github.io/Rapido/
-[twitter]: https://twitter.com/rpadovani93
 

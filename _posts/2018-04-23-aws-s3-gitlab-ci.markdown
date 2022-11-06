@@ -239,7 +239,7 @@ Kudos to the Gitlab team (and others guys who help in their free time) for their
 awesome work!
 
 If you have any question or feedback about this blog post, please drop me an
-email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) or [tweet me][twitter] :-)
+email at [riccardo@rpadovani.com](mailto:riccardo@rpadovani.com) or leave a comment below :-)
 Feel free to suggest me to add something, or to rephrase paragraphs in a clearer
 way (English is not my mother tongue).
 
@@ -265,7 +265,6 @@ to [James Delaney][james].
 [ballmer]: https://www.xkcd.com/323/
 [gitlab-blog]: https://about.gitlab.com/
 [aws-guide]: https://aws.amazon.com/answers/account-management/aws-multi-account-security-strategy/
-[twitter]: https://twitter.com/rpadovani93
 [pipeline-overview]: https://img.rpadovani.com/posts/pipeline-overview.png
 [pipeline-status]: https://img.rpadovani.com/posts/pipeline-status.png
 [s3-bucket-image]: https://img.rpadovani.com/posts/s3-creation.png
